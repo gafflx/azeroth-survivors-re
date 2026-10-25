@@ -14,41 +14,42 @@ The testing checklist every milestone runs is [TESTING.md](TESTING.md).
 ## Status
 
 ### Done
-- *(nothing yet)*
+- **M1, safety net** (b60f004, plus the golden fix a4c4ecf). Done 2026-10-25. Details in
+  [TESTING.md § M1 record](TESTING.md#m1-record) and § First CI run.
+  - **What it adds:**
+    - an explicit run seed (`Run.seed`, `WOW_SURVIVORS_SEED`) and a shared seeded RNG;
+    - survivors unit tests;
+    - the 2 survivors lints fixed, and scoped strict clippy (`scripts/survivors-lint.sh`);
+    - a `survivors` job in `check.yml`.
+  - **Acceptance:**
+    - local tests, lint and native checks pass;
+    - the `survivors` CI job is **green on GitHub** (fork PR #1, a4c4ecf);
+    - a seeded auto run with WoW data plays and logs its seed.
+  - **Not verified:** a frame-exact replay of the same seed (see § Seeded runs for why).
+- **M3, ability data model** (30e0c3b, plus a4c4ecf). Done 2026-10-25. Details in
+  [TESTING.md § M3 record](TESTING.md#m3-record).
+  - **What it adds:**
+    - every ability-name check is replaced by a definition field;
+    - level tables, tags, pierce and an evolution slot exist, all still at their defaults;
+    - `Owned::numbers()` is the one composition the cast and the tooltips share.
+  - **Acceptance:**
+    - the golden tables recorded before the refactor match; the cooldowns match within a 1e-6
+      tolerance across platforms, because `powi` rounds differently on each;
+    - 37 survivors tests pass locally, and the `survivors` CI job is green on GitHub;
+    - a seeded auto run of each of the 9 classes plays with no crash.
+  - **Not seen in play:** `pyroblast`, `exorcism` and `starfire`. Their numbers and cards are
+    pinned by the golden tables.
+
+### Known CI failure (not ours)
+- `check.yml`'s `host-and-ui` job fails at "browser startup and journal regressions"
+  (`node --test web/tests/*.test.mjs`). Upstream's own run on `main` at dd5e330 fails the same
+  way, and M1/M3 never touch `web/`. Not investigated.
 
 ### In progress
 - **Milestone 0, audit and plan.** The audit is finished, and the automated baseline is recorded
   in [TESTING.md](TESTING.md#baseline-record).
-- **M1, safety net: ready for review, not done.** Implemented and verified locally
-  ([TESTING.md § M1 record](TESTING.md#m1-record)):
-  - explicit run seed (`Run.seed`, `WOW_SURVIVORS_SEED`);
-  - 26 survivors unit tests passing;
-  - the 2 survivors lints fixed;
-  - scoped strict clippy (`scripts/survivors-lint.sh`) clean;
-  - a `survivors` job added to `check.yml`;
-  - native builds unchanged.
-
-  Still open before it can be marked done:
-  - the new CI job's first green run on GitHub;
-  - a seeded auto run with WoW data. Done once, on the M3 tree (Mage, Elwynn, seed 1234): the
-    seed is logged and the run plays. Same-seed replay has not been compared.
-- **M3, ability data model: ready for review, not done.** Implemented and verified locally
-  ([TESTING.md § M3 record](TESTING.md#m3-record)):
-  - every name check is replaced by definition fields;
-  - level tables, tags, pierce and an evolution slot are added, all still at their defaults;
-  - both golden tables, recorded before the refactor, match bit for bit;
-  - 36 survivors tests pass, and the lint is clean;
-  - nothing is committed yet.
-
-  Still open before it can be marked done:
-  - CI on GitHub (the only remaining item). The first run (fork PR #1) failed `survivors` on a
-    Windows-vs-Linux `powi` rounding difference in the golden cooldowns. It is fixed in the test
-    and awaits a re-run. `host-and-ui` fails on the base commit too (TESTING.md § First CI run);
-  - one seeded auto run per class with the WoW data, to confirm in game what the golden tables
-    prove in logic. **Done for all 9 classes** (2026-10-25, seed 1234, Elwynn): every class runs
-    with no crash. In-game use of the changed abilities was seen for `aimed_shot`, `magma_totem`,
-    `searing_totem` and `lightning_shield`, but not for `pyroblast`, `exorcism` or `starfire`;
-    their cards and numbers are pinned by the golden tables.
+- Nothing else is in progress. **M2** (stress harness and performance) is next once approved. The
+  game now runs, so measurements can be collected.
 
 ### Blocked
 - **Local wasm check:** needs wasi-sdk 27, which `scripts/web-setup.sh` installs on Linux/macOS
@@ -58,7 +59,7 @@ The testing checklist every milestone runs is [TESTING.md](TESTING.md).
   M3 record). No human playtest yet. M2 measurements can now start whenever M2 is approved.
 
 ### Planned
-Milestones 1 to 10 below, in order.
+Milestones 2 and 4 to 10 below, in order (M1 and M3 are done).
 
 ---
 

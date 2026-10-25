@@ -217,6 +217,13 @@ passed, lint clean. The fix has not been re-run on CI yet. Removing `powi` from 
 formula would make the platforms agree exactly, but it changes game values on one platform. That
 is left as a possible follow-up, relevant only if cross-platform replay must be exact.
 
+**Re-run on a4c4ecf (the tolerance fix):**
+- `survivors` **passes** (25 min): rustfmt, strict clippy, and the survivors tests including both
+  golden tables;
+- `wasm` passes (1 min), and `client-carries` passes (2 min);
+- `host-and-ui` still fails at the same pre-existing step;
+- `CI / gates` is skipped.
+
 **Notes from the first launch** (observations, not measurements; M2 does the measuring):
 - **Frame hitches:** 340–1357 ms hitches happen behind both loading screens. Five more, of 410–430 ms, happened during play, a minute or more apart. Their cause has not been investigated.
 - **Audio:** one "zone music stream starved" warning right after the Elwynn loading screen.
