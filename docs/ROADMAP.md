@@ -41,7 +41,9 @@ The testing checklist every milestone runs is [TESTING.md](TESTING.md).
   - nothing is committed yet.
 
   Still open before it can be marked done:
-  - CI on GitHub (the only remaining item);
+  - CI on GitHub (the only remaining item). The first run (fork PR #1) failed `survivors` on a
+    Windows-vs-Linux `powi` rounding difference in the golden cooldowns. It is fixed in the test
+    and awaits a re-run. `host-and-ui` fails on the base commit too (TESTING.md § First CI run);
   - one seeded auto run per class with the WoW data, to confirm in game what the golden tables
     prove in logic. **Done for all 9 classes** (2026-10-25, seed 1234, Elwynn): every class runs
     with no crash. In-game use of the changed abilities was seen for `aimed_shot`, `magma_totem`,

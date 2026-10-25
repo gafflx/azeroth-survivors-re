@@ -461,13 +461,57 @@ fn check_golden(name: &str, got: &str, want: &str) {
         panic!("blessed {path}; review git diff");
     }
     for (i, (g, w)) in got.lines().zip(want.lines()).enumerate() {
-        assert_eq!(g, w, "{name} line {}", i + 1);
+        assert!(
+            same_line(g, w),
+            "{name} line {}\n  got: {g}\n want: {w}",
+            i + 1
+        );
     }
     assert_eq!(
         got.lines().count(),
         want.lines().count(),
         "{name} line count"
     );
+}
+
+/// Two golden lines agree when every word is identical, except a `cd=` word, whose cooldowns
+/// may differ in the last bits: they come from `f32::powi`, which rounds differently from one
+/// platform to the next (the Windows and Linux builds disagree by an ulp or two). Every other
+/// number is plain `*` and `+`, the same bits everywhere, and is held exact.
+fn same_line(got: &str, want: &str) -> bool {
+    if got == want {
+        return true;
+    }
+    let (g, w): (Vec<_>, Vec<_>) = (got.split(' ').collect(), want.split(' ').collect());
+    g.len() == w.len()
+        && g.iter().zip(&w).all(|(a, b)| {
+            a == b
+                || match (a.strip_prefix("cd="), b.strip_prefix("cd=")) {
+                    (Some(a), Some(b)) => {
+                        let (a, b): (Vec<_>, Vec<_>) =
+                            (a.split('/').collect(), b.split('/').collect());
+                        a.len() == b.len()
+                            && a.iter().zip(&b).all(|(x, y)| {
+                                match (x.parse::<f32>(), y.parse::<f32>()) {
+                                    (Ok(x), Ok(y)) => (x - y).abs() <= 1e-6 * x.abs().max(y.abs()),
+                                    _ => false,
+                                }
+                            })
+                    }
+                    _ => false,
+                }
+        })
+}
+
+#[test]
+fn golden_lines_forgive_only_the_cooldown_bits() {
+    let want = "  L5 mult=2.2 dmg=26.400002/34.32 cd=0.97246766/0.5834806/0.34036368 radius=0.0";
+    // The Linux build's cooldowns for the same line.
+    let linux = "  L5 mult=2.2 dmg=26.400002/34.32 cd=0.97246754/0.58348054/0.34036362 radius=0.0";
+    assert!(same_line(linux, want));
+    assert!(!same_line(&linux.replace("26.400002", "26.400003"), want));
+    assert!(!same_line(&linux.replace("0.97246754", "0.9725"), want));
+    assert!(!same_line(&linux.replace("mult=2.2", "mult=2.5"), want));
 }
 
 #[test]

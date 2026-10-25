@@ -191,6 +191,32 @@ is present, but the game has not been launched).
 
 | 2026-10-25 | seeded auto run for each of the other 8 classes: the same binary and command with `WOW_SURVIVORS_AUTO=<class>`, Elwynn, seed 1234, `timeout 150` | **all 8 run**: no panic or error, and each log's "run begins as …" names the requested class. Run time reached 112–132 s. Ended at: Warrior lv 17 (409 kills), Hunter lv 14 (380), Priest lv 9, Shaman lv 9, Druid lv 7, Paladin lv 5, Rogue lv 5, Warlock lv 5 (hp 28). Abilities M3 touched that came up in play: Hunter's `aimed_shot` (toughest target), Shaman's `magma_totem` (pulse), `searing_totem` (no pulse) and `lightning_shield` (hero visual, impact 403). `pyroblast`, `exorcism` and `starfire` were not picked in any run. 2–6 frame-hitch warnings per run, mostly behind the loading screen |
 
+## First CI run (GitHub, 2026-10-25)
+
+[gafflx/azeroth-survivors-re#1](https://github.com/gafflx/azeroth-survivors-re/pull/1) (head
+30e0c3b, base `gafflx:main` = dd5e330), `check.yml` on `ubuntu-latest`:
+
+| Job | Result | Cause |
+|---|---|---|
+| `wasm` | pass (5 min) | first wasm check of the M1/M3 code |
+| `client-carries` | pass (15 min) | |
+| `host-and-ui` | **fail** at "browser startup and journal regressions" (`node --test web/tests/*.test.mjs`), exit 1 | **pre-existing**: upstream's own `check` run on `main` at dd5e330 fails at the same step. M1/M3 never touch `web/`. Not investigated |
+| `survivors` | **fail** at "survivors unit tests" (rustfmt and strict clippy passed): 35 passed, 1 failed | `ability_numbers_match_the_golden_table` line 6: Frostbolt rank 5. Every column matched except the cooldowns, which differed in the last bits: Linux `0.97246754/0.58348054/0.34036362` vs the Windows-recorded `0.97246766/0.5834806/0.34036368` |
+| `CI / gates` | skipped | `ci.yml` runs only for PRs from another repository |
+
+**Why the cooldowns differ:** `Owned::cooldown` uses `0.93f32.powi(level - 1)`. `f32::powi` does
+not promise the same rounding on every platform, so Windows and Linux disagree by an ulp or two.
+Every other golden number is plain `*` and `+`, which IEEE floating point keeps bit-identical
+everywhere, and all of those matched. This is a property of the game (about 1e-7 s of cooldown
+between platforms, possibly the browser build too), not an M3 change.
+
+**The fix is test-only:** `same_line` in `tests.rs` holds every golden word exact, except the
+`cd=` values, which match within a 1e-6 relative tolerance (about 8 ulps). The recorded file is
+unchanged, and `golden_lines_forgive_only_the_cooldown_bits` pins the tolerance. Locally: 37
+passed, lint clean. The fix has not been re-run on CI yet. Removing `powi` from the cooldown
+formula would make the platforms agree exactly, but it changes game values on one platform. That
+is left as a possible follow-up, relevant only if cross-platform replay must be exact.
+
 **Notes from the first launch** (observations, not measurements; M2 does the measuring):
 - **Frame hitches:** 340–1357 ms hitches happen behind both loading screens. Five more, of 410–430 ms, happened during play, a minute or more apart. Their cause has not been investigated.
 - **Audio:** one "zone music stream starved" warning right after the Elwynn loading screen.
