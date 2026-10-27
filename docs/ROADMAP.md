@@ -48,8 +48,51 @@ The testing checklist every milestone runs is [TESTING.md](TESTING.md).
 ### In progress
 - **Milestone 0, audit and plan.** The audit is finished, and the automated baseline is recorded
   in [TESTING.md](TESTING.md#baseline-record).
-- Nothing else is in progress. **M2** (stress harness and performance) is next once approved. The
-  game now runs, so measurements can be collected.
+- **M2, benchmark and performance: in progress.** Uncommitted.
+  - **Done:**
+    - the repeatable benchmark (`scripts/survivors-bench.sh`, plus the env-gated per-frame logger
+      in `auto.rs`);
+    - the reference baseline, in [performance/M2_BASELINE.md](performance/M2_BASELINE.md). Mage
+      `:late`, fixed step, 3 runs: median 13.77 ms, p95 19.57 ms, p99 25.79 ms, main thread
+      12.2 ms, GPU 2.1 ms, 2–4% spread between runs.
+  - **Findings so far:**
+    - frame time is CPU-bound on the main thread;
+    - real-step runs vary with how many XP gems pile up (about 18,000 extra entities, +2–4 ms);
+    - normal mode shows unexplained 300–800 ms hitches during play.
+  - **Phase 4 (profiling) done:** [performance/M2_PROFILE.md](performance/M2_PROFILE.md).
+    Ranked:
+    1. the minimap recomposite every frame (2.8 ms traced);
+    2. combat-text load (2.3 ms traced);
+    3. XP-gem visual weight (+2–4 ms in the high-gem state, correlation only).
+
+    Survivors gameplay systems (separation, targeting, splash) are under 0.1 ms each, so they
+    are not pursued. Normal-mode hitches were not reproducible, so they are not ranked.
+  - **Phase 5, #1 done:** the minimap redraws at 20 Hz instead of every frame (visual only).
+    Measured ([performance/M2_RESULTS.md](performance/M2_RESULTS.md)): median frame −13%, p95
+    −11%, p99 −16%, main thread −15% at the baseline's load; −1.5 to −2.7 ms at every load
+    level. 38 survivors tests pass.
+  - **Method finding:** even with a fixed step, runs can drift into a high-gem state or end
+    early, so results are compared both per run (matching loads only) and per entity-load bin
+    (`scripts/survivors-bench.sh bins`).
+  - **Phase 5, #2 tried and reverted:** a cap of 64 enemy damage numbers on screen. It engaged
+    (live numbers −2/3) but the median frame did not improve at any load
+    ([performance/M2_RESULTS.md](performance/M2_RESULTS.md)). The code is kept as a patch in
+    `docs/performance/patches/`, not applied.
+  - **Phase 5, #3 experiment done:** the same runs with and without the gem wisp model
+    (a temporary switch, since removed), compared by gem count. The models are the
+    cost: at 300+ gems they add 2.7–3.9 ms per frame at the median; below 100 gems, nothing
+    measurable ([performance/M2_RESULTS.md](performance/M2_RESULTS.md)). No fix is applied yet.
+  - **Phase 5, #3 crystal looks measured:** two sets of WoW crystal models (Maraudon,
+    Un'Goro), made non-solid by `unblock_gems`. At 300+ gems they are 4.3–5.0 ms per frame faster
+    than the wisp at the median (−27 to −30%); below 100 gems, no difference. The first attempt
+    was void because the crystals collided (see M2_RESULTS.md #3b).
+  - **#3 adopted:** XP gems are now Un'Goro crystals (blue, green, red by tier, scale 0.5),
+    non-solid via `unblock_gems`; the experiment switch is removed.
+  - **Phase 7 (verification) done locally** ([TESTING.md](TESTING.md#m2-record-phase-7-verification)):
+    rustfmt, lint, dev and player checks, 38 survivors tests, 33 CI-filter tests, the `play`
+    build, and seeded smoke runs of all 9 classes pass. The wasm check is still blocked locally
+    and not yet run in CI.
+  - **Next:** your review of M2. M2 is not complete; nothing is committed.
 
 ### Blocked
 - **Local wasm check:** needs wasi-sdk 27, which `scripts/web-setup.sh` installs on Linux/macOS

@@ -710,6 +710,33 @@ fn a_rank_that_adds_a_target_is_epic() {
     }
 }
 
+// --- the minimap's redraw rate ---
+
+#[test]
+fn the_minimap_redraws_at_its_rate_whatever_the_frame_rate() {
+    use super::minimap::{redraw_due, REDRAW_HZ};
+    for fps in [30.0f32, 60.0, 144.0, 500.0] {
+        let mut since = 1.0 / REDRAW_HZ; // as the map comes into view
+        let mut draws = 0;
+        for frame in 0..(fps as usize * 10) {
+            if redraw_due(&mut since, 1.0 / fps) {
+                draws += 1;
+            }
+            // It draws on the very first frame it shows.
+            if frame == 0 {
+                assert_eq!(draws, 1, "{fps} fps");
+            }
+        }
+        // Ten seconds at most REDRAW_HZ a second, and never fewer than a frame-rate cap allows.
+        let most = (REDRAW_HZ * 10.0) as i32 + 1;
+        let least = ((fps.min(REDRAW_HZ) * 10.0) as i32 * 2) / 3;
+        assert!(
+            (least..=most).contains(&draws),
+            "{fps} fps: {draws} redraws"
+        );
+    }
+}
+
 // --- pacing curves ---
 
 #[test]

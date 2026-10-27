@@ -1,0 +1,98 @@
+diff --git a/crates/benilla-app/src/survivors/abilities.rs b/crates/benilla-app/src/survivors/abilities.rs
+index fceee6b..9842205 100644
+--- a/crates/benilla-app/src/survivors/abilities.rs
++++ b/crates/benilla-app/src/survivors/abilities.rs
+@@ -746,7 +746,7 @@ pub(super) fn apply_hits(
+         if dmg > 0.0 {
+             en.hp -= dmg;
+             run.damage_done += f64::from(dmg);
+-            fx.number(e, dmg, h.crit, h.color);
++            fx.damage_number(e, dmg, h.crit, h.color);
+             if let Effect::Drain(frac) = h.effect {
+                 let max = run.stats().max_hp;
+                 run.hp = (run.hp + dmg * frac).min(max);
+@@ -807,7 +807,7 @@ pub(super) fn apply_hits(
+         if dealt > 0.0 {
+             en.hp -= dealt;
+             run.damage_done += f64::from(dealt);
+-            fx.number(e, dealt, false, COLOR_SPELL);
++            fx.damage_number(e, dealt, false, COLOR_SPELL);
+             if en.hp <= 0.0 {
+                 kill(&mut commands, &mut run, e, tf.translation, &mut en);
+                 units::kill_unit(&mut store);
+diff --git a/crates/benilla-app/src/survivors/mod.rs b/crates/benilla-app/src/survivors/mod.rs
+index 5b15bc0..1ee9411 100644
+--- a/crates/benilla-app/src/survivors/mod.rs
++++ b/crates/benilla-app/src/survivors/mod.rs
+@@ -48,6 +48,7 @@ impl Plugin for SurvivorsPlugin {
+             .init_resource::<hero::CamRig>()
+             .init_resource::<hero::AimPoint>()
+             .init_resource::<abilities::PendingHits>()
++            .init_resource::<units::NumberBudget>()
+             .init_resource::<enemies::Spawner>()
+             .init_resource::<hud::Offer>()
+             .init_resource::<cards::PendingPick>()
+diff --git a/crates/benilla-app/src/survivors/units.rs b/crates/benilla-app/src/survivors/units.rs
+index 3d5c1ee..e3c4102 100644
+--- a/crates/benilla-app/src/survivors/units.rs
++++ b/crates/benilla-app/src/survivors/units.rs
+@@ -296,6 +296,34 @@ impl Marks {
+     }
+ }
+ 
++/// The most enemy damage numbers kept on screen at once. Each costs a text layout and an overlap
++/// solve every frame, and a late-run crowd sends ~80 a second (~125 alive at once, up to ~360);
++/// past this, plain hits go unshown. Crits, the hero's own numbers and heals always show.
++/// See docs/performance/M2_RESULTS.md.
++pub(super) const MAX_DAMAGE_NUMBERS: usize = 64;
++
++/// How long a number floats: the engine's combat-text duration (`combat_text` categories 0 and 2).
++const NUMBER_SECS: f64 = 1.5;
++
++/// When each enemy damage number still on screen was shown, for [`MAX_DAMAGE_NUMBERS`].
++#[derive(Resource, Default)]
++pub(super) struct NumberBudget(std::collections::VecDeque<f64>);
++
++impl NumberBudget {
++    /// Whether a number shown at `now` (the game clock the engine ages numbers by) fits: a crit
++    /// always does, a plain hit only below the cap. An admitted number is counted either way.
++    pub fn admit(&mut self, now: f64, crit: bool) -> bool {
++        while self.0.front().is_some_and(|&t| now - t >= NUMBER_SECS) {
++            self.0.pop_front();
++        }
++        if !crit && self.0.len() >= MAX_DAMAGE_NUMBERS {
++            return false;
++        }
++        self.0.push_back(now);
++        true
++    }
++}
++
+ /// The messages that make a local cast look like a server's.
+ #[derive(SystemParam)]
+ pub(super) struct Fx<'w> {
+@@ -304,6 +332,8 @@ pub(super) struct Fx<'w> {
+     gos: MessageWriter<'w, SpellGoTargets>,
+     swings: MessageWriter<'w, SwingMessage>,
+     text: MessageWriter<'w, CombatTextSpawn>,
++    budget: ResMut<'w, NumberBudget>,
++    time: Res<'w, Time>,
+ }
+ 
+ /// More impacts than this per cast only cost frames.
+@@ -357,7 +387,14 @@ impl Fx<'_> {
+         });
+     }
+ 
+-    /// A floating number over `anchor`, 0xAARRGGBB.
++    /// A damage number over an enemy, within [`MAX_DAMAGE_NUMBERS`].
++    pub fn damage_number(&mut self, anchor: Entity, amount: f32, crit: bool, color: u32) {
++        if self.budget.admit(self.time.elapsed_secs_f64(), crit) {
++            self.number(anchor, amount, crit, color);
++        }
++    }
++
++    /// A floating number over `anchor`, 0xAARRGGBB, always shown.
+     pub fn number(&mut self, anchor: Entity, amount: f32, crit: bool, color: u32) {
+         let shown = amount.round().max(1.0) as i64;
+         self.text.write(CombatTextSpawn {

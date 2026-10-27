@@ -244,6 +244,59 @@ ability's numbers at every rank, and every level-up card's text and rarity. `.gi
   `SURVIVORS_BLESS=1 cargo test -p benilla-app --lib survivors`. It rewrites the files and then
   fails on purpose, so review `git diff -- '*/testdata/*'`. It refuses to run when `CI` is set.
 
+## Performance benchmark (M2)
+
+Method, settings and the baseline are in
+[performance/M2_BASELINE.md](performance/M2_BASELINE.md).
+
+```bash
+cargo build --profile play -p warcraft-survivors
+FIXED_DT=16.667 scripts/survivors-bench.sh run <label> late 3 300   # the reference workload
+scripts/survivors-bench.sh summary <label>
+```
+
+- **Settings:** Mage `:late` in Elwynn, seed 1234, a fixed simulation step, vsync off, a 1600×900
+  foreground window, a fresh `BENILLA_HOME` per run.
+- **Outputs:** `target/survivors-bench/<label>/run-N/` (git-ignored).
+- **Leave the machine idle** while it runs.
+- **Compare like with like:** use the same settings, at least three runs per side, and compare
+  the medians of each run's median, p95 and p99 frame time, **only between runs at the same
+  load**. Check each summary's alive and units columns: fixed-step runs can still drift into a
+  high-gem state (500+ units) or end in an early GameOver.
+- **Mixed loads:** `scripts/survivors-bench.sh bins <label>...` compares frames at matched
+  entity counts instead. `BY=gems` groups them by the frame's gem count (the `gems` column of
+  the per-frame CSV), for changes that alter the entity count itself.
+- **Check that a change engaged** before judging a null result. For example, count combat-text
+  spawns with `RUST_LOG="info,wgpu=error,naga=warn,benilla_app::combat_text=debug"` on a separate
+  run, and never use that run's frame times, since the logging adds overhead.
+- **Keep the display awake:** a sleeping or locked display crashes the run at startup ("Couldn't
+  get swap chain texture").
+- **Instruments:**
+  - `WOW_SURVIVORS_FRAMES=<csv>` (the auto driver) records every frame's real duration.
+  - Pair any `WOW_FPS_*` with `WOW_BG=0`; otherwise the run becomes a small unfocused background
+    window that sleeps about 1 s per frame.
+
+## M2 record (Phase 7 verification)
+
+Automated, local only (Windows 11, rustc 1.98.1, MSVC), on `docs/megabonk-roadmap` with all M2
+changes uncommitted on top of 479636f. In effect: the minimap at 20 Hz (#1), the Un'Goro crystal
+gems with `unblock_gems` (#3), the per-frame logger, and the benchmark script. The #2 number cap
+was reverted. Not run on GitHub CI, and no manual playtest.
+
+| Date | Check | Result |
+|---|---|---|
+| 2026-10-27 | survivors rustfmt check | pass |
+| 2026-10-27 | `scripts/survivors-lint.sh` | clean |
+| 2026-10-27 | `cargo check -p warcraft-survivors` (dev) | pass |
+| 2026-10-27 | `cargo check -p warcraft-survivors --no-default-features` (player) | pass; the same 4 upstream warnings as before (unused imports in `entities.rs`, `loading_screen.rs`, `net.rs`; files M2 does not touch) |
+| 2026-10-27 | `cargo test -p benilla-app --lib survivors` | **38 passed**, 0 failed: the 37 tests at 479636f, golden tables unchanged, plus the new minimap redraw-rate test |
+| 2026-10-27 | CI-filter tests (`rig_anim::compose` 7, `web_budget` 2, `wenilla-host` 12, `script::tests::events` 10, `wenilla_listener` 2) | 33 passed |
+| 2026-10-27 | `cargo build --profile play -p warcraft-survivors` | pass |
+| 2026-10-27 | seeded auto run for **all 9 classes**: `CLASS=<class> scripts/survivors-bench.sh run smoke-<class> normal 1 150` (Elwynn, seed 1234, real step) | **all 9 run** to the time limit: no panic, no `ERROR`, no "no usable model" line; each log's "run begins as …" names the requested class. 1–2 frame-hitch warnings each. `gem_bodies` 0 in every frame, with up to 26–183 gems on the ground. Ended at: Mage lv 4 (140 kills), Warrior 17 (373), Hunter 12 (226), Priest 5 (175), Shaman 7 (245), Druid 7 (243), Paladin 15 (441), Rogue 4 (119), Warlock 6 (222). Real-step runs differ from run to run, so these levels are not compared with the M3 record's |
+| 2026-10-27 | wasm check | still blocked locally: no wasi-sdk on Windows (`tools/wasi-sdk` absent; `web-setup.sh` supports Linux/macOS). Not run. CI's `wasm` job would cover it on the next push |
+| 2026-10-27 | manual scan of the M2 diff for wasm-unsafe APIs | the frame logger uses `bevy::platform::time::Instant`. One new `std::env::var_os("WOW_SURVIVORS_FRAMES")` in `auto.rs` follows that file's existing `std::env` reads (`WOW_SURVIVORS_AUTO`, `_MAP`, `_SHOTS`). The driver never starts on wasm, so the line is not reached there, but it is a literal exception to the checklist rule below |
+| 2026-10-27 | `node --test web/tests/*.test.mjs` (`host-and-ui`) | not run; the known upstream failure, untouched by M2 (no `web/` changes) |
+
 ## Per-change checklist
 
 ### Automated (every PR)

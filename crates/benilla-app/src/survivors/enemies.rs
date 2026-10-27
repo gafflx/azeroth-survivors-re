@@ -3,6 +3,7 @@
 
 use std::collections::HashMap;
 
+use avian3d::prelude::{Collider, RigidBody};
 use benilla_world::rig_anim::GlobalSeqDrive;
 use benilla_world::world_point::WorldPoint;
 use bevy::prelude::*;
@@ -73,18 +74,20 @@ pub(super) struct Gem {
     speed: f32,
 }
 
-/// The `GameObjectDisplayInfo` row and scale a pickup wears: a wisp per experience tier, the
-/// bigger tiers rarer, and a turkey leg for health.
+/// The `GameObjectDisplayInfo` row and scale a pickup wears: an Un'Goro crystal per experience
+/// tier, the bigger tiers rarer, and a turkey leg for health. The crystals stand about 2 yd tall at
+/// scale 1. They replaced the Blackfathom wisps, which cost ~65 entities each (rig, five emitters,
+/// ribbons): ~4–5 ms a frame with 300+ gems down (docs/performance/M2_RESULTS.md, #3).
 fn look_for(kind: GemKind) -> (u32, f32) {
     match kind {
         // `TurkeyLeg.mdx`.
         GemKind::Heal(_) => (114, 2.5),
-        // `BFD_WispSmallPurple.mdx`.
-        GemKind::Xp(xp) if xp >= 20 => (1307, 1.0),
-        // `BFD_WispSmallGreen.mdx`.
-        GemKind::Xp(xp) if xp >= 5 => (1267, 1.0),
-        // `BFD_WispSmall.mdx`.
-        GemKind::Xp(_) => (426, 1.0),
+        // `UngoroCrystal_Red01.mdx`.
+        GemKind::Xp(xp) if xp >= 20 => (2973, 0.5),
+        // `UngoroCrystal_Green01.mdx`.
+        GemKind::Xp(xp) if xp >= 5 => (2972, 0.5),
+        // `UngoroCrystal_Blue01.mdx`.
+        GemKind::Xp(_) => (2971, 0.5),
     }
 }
 
@@ -499,8 +502,8 @@ pub(super) fn collect_gems(
     }
 }
 
-/// Pickups hang still: a wisp's own loop (its circling motes and their trails) stops on its first
-/// frame, clip and global sequences alike, as soon as the model attaches.
+/// Pickups hang still: a model's own loop stops on its first frame, clip and global sequences
+/// alike, as soon as the model attaches.
 pub(super) fn still_gems(
     mut players: Query<&mut AnimationPlayer, (With<Gem>, Added<AnimationPlayer>)>,
     mut drives: Query<&mut GlobalSeqDrive, (With<Gem>, Added<GlobalSeqDrive>)>,
@@ -512,5 +515,16 @@ pub(super) fn still_gems(
     }
     for mut drive in &mut drives {
         drive.set_paused(true);
+    }
+}
+
+/// Pickups never block. The crystals carry a collision hull, and the engine makes any GameObject
+/// with one a static body, so a gem drops it as it attaches.
+pub(super) fn unblock_gems(
+    mut commands: Commands,
+    bodies: Query<Entity, (With<Gem>, Added<RigidBody>)>,
+) {
+    for e in &bodies {
+        commands.entity(e).remove::<(RigidBody, Collider)>();
     }
 }

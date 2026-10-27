@@ -88,7 +88,12 @@ impl Plugin for SurvivorsPlugin {
             )
             .add_systems(
                 Update,
-                (enemies::reap_dead, enemies::still_gems).after(WorldStage::Input),
+                (
+                    enemies::reap_dead,
+                    enemies::still_gems,
+                    enemies::unblock_gems,
+                )
+                    .after(WorldStage::Input),
             )
             .add_systems(
                 Update,
