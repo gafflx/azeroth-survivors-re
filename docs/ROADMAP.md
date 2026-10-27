@@ -48,7 +48,8 @@ The testing checklist every milestone runs is [TESTING.md](TESTING.md).
 ### In progress
 - **Milestone 0, audit and plan.** The audit is finished, and the automated baseline is recorded
   in [TESTING.md](TESTING.md#baseline-record).
-- **M2, benchmark and performance: in progress.** Uncommitted.
+- **M2, benchmark and performance: reviewed, committed (cf7e8a6), awaiting CI.** Not pushed
+  yet; the `wasm` and `survivors` CI jobs have not run on it.
   - **Done:**
     - the repeatable benchmark (`scripts/survivors-bench.sh`, plus the env-gated per-frame logger
       in `auto.rs`);
@@ -92,7 +93,9 @@ The testing checklist every milestone runs is [TESTING.md](TESTING.md).
     rustfmt, lint, dev and player checks, 38 survivors tests, 33 CI-filter tests, the `play`
     build, and seeded smoke runs of all 9 classes pass. The wasm check is still blocked locally
     and not yet run in CI.
-  - **Next:** your review of M2. M2 is not complete; nothing is committed.
+  - **Reviewed** 2026-10-27 and committed as cf7e8a6.
+  - **Next:** push and let CI run (`wasm` is the one check not run locally). M2 moves to Done
+    once CI is green.
 
 ### Blocked
 - **Local wasm check:** needs wasi-sdk 27, which `scripts/web-setup.sh` installs on Linux/macOS
