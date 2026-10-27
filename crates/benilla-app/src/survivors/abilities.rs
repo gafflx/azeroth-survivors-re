@@ -3,7 +3,7 @@
 
 use bevy::prelude::*;
 
-use super::data::{AbilityDef, Effect, Kind};
+use super::data::{AbilityDef, Effect, Kind, Target};
 use super::enemies::{self, Enemy, Loot};
 use super::hero::{self, Hero};
 use super::units::{self, flat, Fx, Marks, UnitSpec, COLOR_HEAL, COLOR_MELEE, COLOR_SPELL};
@@ -91,6 +91,15 @@ struct Params {
     radius: f32,
     duration: f32,
     cooldown: f32,
+}
+
+/// The spell whose impact plays on an enemy the ability hits.
+pub(super) fn impact_of(def: &AbilityDef) -> u32 {
+    if def.impact != 0 {
+        def.impact
+    } else {
+        def.spell
+    }
 }
 
 fn mark_secs(def: &AbilityDef, duration: f32) -> f32 {
@@ -239,14 +248,14 @@ pub(super) fn cast_abilities(
         }
         let o = &run.abilities[i];
         let def = o.def;
-        let mult = o.damage_mult() * stats.might;
+        let n = o.numbers(&stats);
         let p = Params {
-            dmg: def.damage * mult,
-            dot: def.dot * mult,
-            count: o.count() as usize,
-            radius: o.radius(&stats),
-            duration: o.duration(),
-            cooldown: o.cooldown(&stats),
+            dmg: n.dmg,
+            dot: n.dot,
+            count: n.count as usize,
+            radius: n.radius,
+            duration: n.duration,
+            cooldown: n.cooldown,
         };
         let speed = speed_of(def.spell);
         let fired = match def.kind {
@@ -256,13 +265,9 @@ pub(super) fn cast_abilities(
                 } else {
                     def.range
                 };
-                let targets = if matches!(
-                    def.key,
-                    "pyroblast" | "aimed_shot" | "exorcism" | "starfire"
-                ) {
-                    toughest(&foes, reach, p.count)
-                } else {
-                    nearest(&foes, reach, p.count)
+                let targets = match def.target {
+                    Target::Toughest => toughest(&foes, reach, p.count),
+                    Target::Nearest => nearest(&foes, reach, p.count),
                 };
                 if targets.is_empty() {
                     false
@@ -445,7 +450,7 @@ pub(super) fn cast_abilities(
                     false
                 } else {
                     for f in &targets {
-                        fx.impact(f.e, 403);
+                        fx.impact(f.e, impact_of(def));
                         let (dmg, crit) = roll(&mut rng, stats.crit, p.dmg);
                         hits.write(hit_for(def, &p, f.e, dmg, crit));
                     }
@@ -520,7 +525,7 @@ pub(super) fn cast_abilities(
                         radius: p.radius,
                         left: p.duration,
                         tick: 0.3,
-                        pulse: def.key == "magma_totem",
+                        pulse: def.pulse,
                     });
                     true
                 } else {

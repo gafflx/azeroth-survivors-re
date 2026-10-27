@@ -2,11 +2,11 @@
 //! on the border's top strip, the 140-unit map in its ring with the zoom buttons, the minimize
 //! button, and `GameTime.xml`'s day clock.
 //!
-//! Bevy UI clips only to rectangles, so the round map is composited here each frame: the ADT tiles
-//! through `md5translate.trs` (north up, 533.33 yd per 256-px tile), masked by `MinimapMask.blp`,
-//! then the player arrow, then the red `ObjectIcons` cell per live enemy, the dot the reference
-//! draws for a tracked creature. Sizes are the engine minimap's ([`crate::minimap`]), measured
-//! against its 140.8-px blip basis.
+//! Bevy UI clips only to rectangles, so the round map is composited here, [`REDRAW_HZ`] times a
+//! second: the ADT tiles through `md5translate.trs` (north up, 533.33 yd per 256-px tile), masked
+//! by `MinimapMask.blp`, then the player arrow, then the red `ObjectIcons` cell per live enemy, the
+//! dot the reference draws for a tracked creature. Sizes are the engine minimap's
+//! ([`crate::minimap`]), measured against its 140.8-px blip basis.
 
 use std::collections::HashMap;
 
@@ -34,6 +34,22 @@ const CHUNK_YARDS: f32 = TILE_YARDS / 16.0;
 const ZOOM_CHUNKS: [f32; 6] = [14.0, 12.0, 10.0, 8.0, 6.0, 4.0];
 /// Fully in: the packs that matter close in from ~30 yd, which the wider zooms crowd to the middle.
 const START_ZOOM: usize = 5;
+
+/// How often the map is recomposited. Every frame cost ~2.8 ms of main thread at a late-run crowd
+/// (docs/performance/M2_PROFILE.md); at 20 Hz the dots and arrow still move smoothly enough to read.
+pub(super) const REDRAW_HZ: f32 = 20.0;
+
+/// Whether a redraw is due, `since` being the real seconds since the last one. The remainder
+/// carries over, so the rate holds at any frame rate, but never more than one period of it.
+pub(super) fn redraw_due(since: &mut f32, dt: f32) -> bool {
+    let period = 1.0 / REDRAW_HZ;
+    *since += dt;
+    if *since < period {
+        return false;
+    }
+    *since = (*since - period).min(period);
+    true
+}
 
 /// The engine minimap's blip basis: the stock widget at 140.8 px on the 1024×768 screen.
 const BLIP_BASIS_PX: f32 = 140.8;
@@ -352,7 +368,8 @@ pub(super) fn zone_text(
     }
 }
 
-/// Recomposite the map around the hero: tiles, mask, arrow, then the enemy dots.
+/// Recomposite the map around the hero: tiles, mask, arrow, then the enemy dots; [`REDRAW_HZ`]
+/// times a second, and at once when the map comes back into view.
 #[allow(clippy::too_many_arguments)]
 pub(super) fn compose(
     mut map: ResMut<MiniMap>,
@@ -360,11 +377,18 @@ pub(super) fn compose(
     catalog: Option<Res<MapCatalogRes>>,
     current: Option<Res<CurrentMap>>,
     phase: Res<State<super::Phase>>,
+    time: Res<Time<Real>>,
+    mut since: Local<f32>,
     hero: Query<&Transform, With<Hero>>,
     enemies: Query<(&Transform, &Enemy)>,
     mut images: ResMut<Assets<Image>>,
 ) {
     if *phase.get() == super::Phase::Menu || !map.shown {
+        // So the first frame it shows again draws straight away.
+        *since = 1.0 / REDRAW_HZ;
+        return;
+    }
+    if !redraw_due(&mut since, time.delta_secs()) {
         return;
     }
     let (Some(mut assets), Some(catalog), Some(current)) = (assets, catalog, current) else {

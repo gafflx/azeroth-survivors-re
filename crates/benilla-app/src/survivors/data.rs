@@ -73,6 +73,53 @@ pub(crate) enum Effect {
     Execute(f32),
 }
 
+/// Which enemies a Bolt, Strike or Melee picks among those in reach.
+#[derive(Clone, Copy, PartialEq, Debug)]
+pub(crate) enum Target {
+    Nearest,
+    /// The most health first, for the slow heavy hitters.
+    Toughest,
+}
+
+/// What an ability is, for the synergies that will key on it. Nothing reads tags yet.
+#[allow(dead_code)]
+#[derive(Clone, Copy, PartialEq, Debug)]
+pub(crate) enum Tag {
+    Physical,
+    Fire,
+    Frost,
+    Arcane,
+    Nature,
+    Shadow,
+    Holy,
+    Projectile,
+    Area,
+    OverTime,
+    Defensive,
+}
+
+/// One rank of an ability's own level table (rank 1 is the first row), over its base numbers:
+/// `damage` multiplies both the hit and the over-time part, `cooldown`, `radius` and `duration`
+/// multiply theirs, and `count` is targets added.
+#[derive(Clone, Copy, PartialEq, Debug)]
+pub(crate) struct LevelBonus {
+    pub damage: f32,
+    pub cooldown: f32,
+    pub count: u32,
+    pub radius: f32,
+    pub duration: f32,
+}
+
+/// What an ability becomes, and what it needs. Nothing evolves yet.
+#[allow(dead_code)]
+#[derive(Clone, Copy, PartialEq, Debug)]
+pub(crate) struct Evolution {
+    /// The passive the hero must hold.
+    pub passive: &'static str,
+    /// The ability it turns into.
+    pub into: &'static str,
+}
+
 pub(crate) struct AbilityDef {
     pub key: &'static str,
     pub spell: u32,
@@ -95,6 +142,26 @@ pub(crate) struct AbilityDef {
     /// The area's own visual hangs overhead and would hide the field from the camera, so the
     /// area plays the spell's impact on whatever it hits instead.
     pub overhead: bool,
+    /// Bolt, Strike and Melee: which enemies in reach it picks.
+    pub target: Target,
+    /// Totem: hit everything around it every 2 sec instead of one enemy in range every second.
+    pub pulse: bool,
+    /// Owned, the spell's state visual stays on the hero.
+    pub state_visual: bool,
+    /// The spell whose impact plays on each enemy hit, 0 for the ability's own.
+    pub impact: u32,
+    /// Nothing reads tags yet; every ability has none.
+    #[allow(dead_code)]
+    pub tags: &'static [Tag],
+    /// Enemies a missile passes through. Nothing reads it yet: every missile stops at its target.
+    #[allow(dead_code)]
+    pub pierce: u32,
+    /// The ability's own ranks: empty for the shared curve in [`super::Owned`], else one row for
+    /// every rank up to [`MAX_ABILITY_LEVEL`], so a table never hands over to the curve midway.
+    pub levels: &'static [LevelBonus],
+    /// Nothing evolves yet; every ability has `None`.
+    #[allow(dead_code)]
+    pub evolves: Option<Evolution>,
 }
 
 const fn ab(key: &'static str, spell: u32, kind: Kind) -> AbilityDef {
@@ -113,6 +180,28 @@ const fn ab(key: &'static str, spell: u32, kind: Kind) -> AbilityDef {
         mark: 0,
         totem: (0, 0),
         overhead: false,
+        target: Target::Nearest,
+        pulse: false,
+        state_visual: false,
+        impact: 0,
+        tags: &[],
+        pierce: 0,
+        levels: &[],
+        evolves: None,
+    }
+}
+
+/// A made-up ability with every number set, for tests that need a definition of their own.
+#[cfg(test)]
+pub(crate) const fn test_ability() -> AbilityDef {
+    AbilityDef {
+        damage: 10.0,
+        dot: 2.0,
+        cooldown: 4.0,
+        radius: 5.0,
+        count: 2,
+        duration: 6.0,
+        ..ab("test", 0, Kind::Bolt)
     }
 }
 
@@ -236,7 +325,8 @@ pub(crate) static ABILITIES: &[AbilityDef] = &[
             dot: 6.0,
             duration: 6.0,
             cooldown: 6.0,
-            range: 30.0
+            range: 30.0,
+            target: Target::Toughest
         }
     ),
     // --- Warrior ---
@@ -626,7 +716,8 @@ pub(crate) static ABILITIES: &[AbilityDef] = &[
         Bolt {
             damage: 48.0,
             cooldown: 4.0,
-            range: 32.0
+            range: 32.0,
+            target: Target::Toughest
         }
     ),
     // --- Shaman ---
@@ -700,7 +791,8 @@ pub(crate) static ABILITIES: &[AbilityDef] = &[
             cooldown: 16.0,
             radius: 7.0,
             duration: 14.0,
-            totem: (4683, 8349)
+            totem: (4683, 8349),
+            pulse: true
         }
     ),
     ability!(
@@ -709,7 +801,10 @@ pub(crate) static ABILITIES: &[AbilityDef] = &[
         Orbit {
             damage: 12.0,
             cooldown: 0.9,
-            radius: 4.0
+            radius: 4.0,
+            state_visual: true,
+            // Each zap plays Lightning Bolt's impact.
+            impact: 403
         }
     ),
     // --- Paladin ---
@@ -747,7 +842,8 @@ pub(crate) static ABILITIES: &[AbilityDef] = &[
         Strike {
             damage: 36.0,
             cooldown: 5.0,
-            range: 22.0
+            range: 22.0,
+            target: Target::Toughest
         }
     ),
     ability!(
@@ -817,7 +913,8 @@ pub(crate) static ABILITIES: &[AbilityDef] = &[
         Strike {
             damage: 40.0,
             cooldown: 4.0,
-            range: 24.0
+            range: 24.0,
+            target: Target::Toughest
         }
     ),
     ability!(

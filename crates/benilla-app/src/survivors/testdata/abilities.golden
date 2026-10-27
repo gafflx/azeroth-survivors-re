@@ -1,0 +1,657 @@
+frostbolt spell=116 kind=Bolt damage=12.0 dot=0.0 cooldown=1.3 range=24.0 radius=0.0 count=1 duration=0.0 effect=Slow(0.5, 2.5) mark=116 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=12.0/15.599999 dot=0.0/0.0 count=1 duration=0.0 cd=1.3/0.78000003/0.45499998 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=15.599999/20.279999 dot=0.0/0.0 count=1 duration=0.0 cd=1.209/0.72540003/0.42315 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=19.2/24.96 dot=0.0/0.0 count=2 duration=0.0 cd=1.12437/0.674622/0.39352947 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=22.800001/29.64 dot=0.0/0.0 count=2 duration=0.0 cd=1.0456641/0.6273985/0.3659824 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=26.400002/34.32 dot=0.0/0.0 count=3 duration=0.0 cd=0.97246766/0.5834806/0.34036368 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=30.0/39.0 dot=0.0/0.0 count=3 duration=0.0 cd=0.90439487/0.54263693/0.31653818 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=33.600002/43.68 dot=0.0/0.0 count=4 duration=0.0 cd=0.8410873/0.5046524/0.29438055 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=37.2/48.36 dot=0.0/0.0 count=4 duration=0.0 cd=0.7822111/0.4693267/0.27377388 radius=0.0/0.0/0.0
+fireball spell=133 kind=Bolt damage=20.0 dot=0.0 cooldown=2.4 range=26.0 radius=3.5 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=20.0/26.0 dot=0.0/0.0 count=1 duration=0.0 cd=2.4/1.44/0.84000003 radius=3.5/5.25/7.875
+  L2 mult=1.3 dmg=26.0/33.799995 dot=0.0/0.0 count=1 duration=0.0 cd=2.232/1.3392001/0.78120005 radius=3.7800002/5.67/8.505
+  L3 mult=1.6 dmg=32.0/41.6 dot=0.0/0.0 count=2 duration=0.0 cd=2.0757601/1.2454561/0.726516 radius=4.06/6.09/9.135
+  L4 mult=1.9000001 dmg=38.0/49.4 dot=0.0/0.0 count=2 duration=0.0 cd=1.9304569/1.1582742/0.6756599 radius=4.34/6.51/9.765
+  L5 mult=2.2 dmg=44.0/57.199997 dot=0.0/0.0 count=3 duration=0.0 cd=1.795325/1.077195/0.6283637 radius=4.62/6.93/10.3949995
+  L6 mult=2.5 dmg=50.0/65.0 dot=0.0/0.0 count=3 duration=0.0 cd=1.6696521/1.0017914/0.58437824 radius=4.9/7.3500004/11.025001
+  L7 mult=2.8000002 dmg=56.000004/72.8 dot=0.0/0.0 count=4 duration=0.0 cd=1.5527767/0.9316661/0.5434718 radius=5.1800003/7.7700005/11.655001
+  L8 mult=3.1000001 dmg=62.000004/80.600006 dot=0.0/0.0 count=4 duration=0.0 cd=1.4440823/0.8664494/0.5054288 radius=5.46/8.190001/12.285
+arcane_missiles spell=7268 kind=Bolt damage=6.0 dot=0.0 cooldown=1.9 range=22.0 radius=0.0 count=3 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=6.0/7.7999997 dot=0.0/0.0 count=3 duration=0.0 cd=1.9/1.14/0.66499996 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=7.7999997/10.139999 dot=0.0/0.0 count=3 duration=0.0 cd=1.767/1.0602/0.61845 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=9.6/12.48 dot=0.0/0.0 count=4 duration=0.0 cd=1.64331/0.985986/0.5751585 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=11.400001/14.82 dot=0.0/0.0 count=4 duration=0.0 cd=1.5282782/0.916967/0.5348974 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=13.200001/17.16 dot=0.0/0.0 count=5 duration=0.0 cd=1.4212989/0.8527793/0.49745458 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=15.0/19.5 dot=0.0/0.0 count=5 duration=0.0 cd=1.3218079/0.79308474/0.46263275 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=16.800001/21.84 dot=0.0/0.0 count=6 duration=0.0 cd=1.2292814/0.73756886/0.4302485 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=18.6/24.18 dot=0.0/0.0 count=6 duration=0.0 cd=1.1432317/0.6859391/0.4001311 radius=0.0/0.0/0.0
+frost_nova spell=122 kind=Nova damage=8.0 dot=0.0 cooldown=7.0 range=20.0 radius=9.0 count=1 duration=0.0 effect=Root(2.5) mark=122 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=8.0/10.4 dot=0.0/0.0 count=1 duration=0.0 cd=7.0/4.2000003/2.45 radius=9.0/13.5/20.25
+  L2 mult=1.3 dmg=10.4/13.519999 dot=0.0/0.0 count=1 duration=0.0 cd=6.51/3.9060004/2.2785 radius=9.72/14.58/21.87
+  L3 mult=1.6 dmg=12.8/16.64 dot=0.0/0.0 count=2 duration=0.0 cd=6.0543/3.63258/2.119005 radius=10.44/15.66/23.49
+  L4 mult=1.9000001 dmg=15.200001/19.76 dot=0.0/0.0 count=2 duration=0.0 cd=5.630499/3.3782995/1.9706746 radius=11.16/16.74/25.11
+  L5 mult=2.2 dmg=17.6/22.88 dot=0.0/0.0 count=3 duration=0.0 cd=5.2363644/3.1418188/1.8327276 radius=11.879999/17.82/26.729998
+  L6 mult=2.5 dmg=20.0/26.0 dot=0.0/0.0 count=3 duration=0.0 cd=4.8698187/2.9218912/1.7044365 radius=12.599999/18.9/28.349998
+  L7 mult=2.8000002 dmg=22.400002/29.12 dot=0.0/0.0 count=4 duration=0.0 cd=4.5289316/2.717359/1.585126 radius=13.32/19.98/29.97
+  L8 mult=3.1000001 dmg=24.800001/32.24 dot=0.0/0.0 count=4 duration=0.0 cd=4.2119064/2.527144/1.4741672 radius=14.039999/21.059998/31.589998
+arcane_explosion spell=1449 kind=Nova damage=10.0 dot=0.0 cooldown=2.8 range=20.0 radius=7.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=10.0/13.0 dot=0.0/0.0 count=1 duration=0.0 cd=2.8/1.6800001/0.97999996 radius=7.0/10.5/15.75
+  L2 mult=1.3 dmg=13.0/16.899998 dot=0.0/0.0 count=1 duration=0.0 cd=2.604/1.5624001/0.9114 radius=7.5600004/11.34/17.01
+  L3 mult=1.6 dmg=16.0/20.8 dot=0.0/0.0 count=2 duration=0.0 cd=2.42172/1.453032/0.847602 radius=8.12/12.18/18.27
+  L4 mult=1.9000001 dmg=19.0/24.7 dot=0.0/0.0 count=2 duration=0.0 cd=2.2521996/1.3513198/0.7882699 radius=8.68/13.02/19.53
+  L5 mult=2.2 dmg=22.0/28.599998 dot=0.0/0.0 count=3 duration=0.0 cd=2.0945458/1.2567276/0.73309106 radius=9.24/13.86/20.789999
+  L6 mult=2.5 dmg=25.0/32.5 dot=0.0/0.0 count=3 duration=0.0 cd=1.9479274/1.1687565/0.68177456 radius=9.8/14.700001/22.050001
+  L7 mult=2.8000002 dmg=28.000002/36.4 dot=0.0/0.0 count=4 duration=0.0 cd=1.8115727/1.0869436/0.6340504 radius=10.360001/15.540001/23.310001
+  L8 mult=3.1000001 dmg=31.000002/40.300003 dot=0.0/0.0 count=4 duration=0.0 cd=1.6847625/1.0108576/0.58966684 radius=10.92/16.380001/24.57
+blizzard spell=10 kind=Ground damage=7.0 dot=0.0 cooldown=9.0 range=20.0 radius=7.0 count=1 duration=6.0 effect=Slow(0.6, 1.5) mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=7.0/9.099999 dot=0.0/0.0 count=1 duration=6.0 cd=9.0/5.4/3.1499999 radius=7.0/10.5/15.75
+  L2 mult=1.3 dmg=9.099999/11.829999 dot=0.0/0.0 count=1 duration=6.6000004 cd=8.37/5.0220003/2.9294999 radius=7.5600004/11.34/17.01
+  L3 mult=1.6 dmg=11.2/14.559999 dot=0.0/0.0 count=2 duration=7.2000003 cd=7.7841/4.67046/2.724435 radius=8.12/12.18/18.27
+  L4 mult=1.9000001 dmg=13.300001/17.29 dot=0.0/0.0 count=2 duration=7.7999997 cd=7.239213/4.343528/2.5337245 radius=8.68/13.02/19.53
+  L5 mult=2.2 dmg=15.400001/20.019999 dot=0.0/0.0 count=3 duration=8.4 cd=6.7324686/4.039481/2.356364 radius=9.24/13.86/20.789999
+  L6 mult=2.5 dmg=17.5/22.75 dot=0.0/0.0 count=3 duration=9.0 cd=6.261195/3.7567172/2.1914182 radius=9.8/14.700001/22.050001
+  L7 mult=2.8000002 dmg=19.600002/25.480001 dot=0.0/0.0 count=4 duration=9.6 cd=5.822912/3.4937475/2.0380192 radius=10.360001/15.540001/23.310001
+  L8 mult=3.1000001 dmg=21.7/28.210001 dot=0.0/0.0 count=4 duration=10.200001 cd=5.415308/3.2491848/1.8953577 radius=10.92/16.380001/24.57
+flamestrike spell=2120 kind=Ground damage=14.0 dot=0.0 cooldown=8.0 range=20.0 radius=5.0 count=1 duration=4.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=14.0/18.199999 dot=0.0/0.0 count=1 duration=4.0 cd=8.0/4.8/2.8 radius=5.0/7.5/11.25
+  L2 mult=1.3 dmg=18.199999/23.659998 dot=0.0/0.0 count=1 duration=4.4 cd=7.44/4.464/2.604 radius=5.4/8.1/12.150001
+  L3 mult=1.6 dmg=22.4/29.119999 dot=0.0/0.0 count=2 duration=4.8 cd=6.9192/4.1515203/2.42172 radius=5.7999997/8.7/13.049999
+  L4 mult=1.9000001 dmg=26.600002/34.58 dot=0.0/0.0 count=2 duration=5.2 cd=6.434856/3.8609138/2.2521996 radius=6.2/9.299999/13.95
+  L5 mult=2.2 dmg=30.800001/40.039997 dot=0.0/0.0 count=3 duration=5.6 cd=5.9844165/3.59065/2.0945458 radius=6.5999994/9.9/14.849998
+  L6 mult=2.5 dmg=35.0/45.5 dot=0.0/0.0 count=3 duration=6.0 cd=5.565507/3.3393042/1.9479274 radius=7.0/10.5/15.75
+  L7 mult=2.8000002 dmg=39.200005/50.960003 dot=0.0/0.0 count=4 duration=6.4 cd=5.175922/3.1055534/1.8115727 radius=7.4/11.1/16.65
+  L8 mult=3.1000001 dmg=43.4/56.420002 dot=0.0/0.0 count=4 duration=6.8 cd=4.813607/2.8881645/1.6847625 radius=7.7999997/11.7/17.55
+fire_blast spell=2136 kind=Strike damage=26.0 dot=0.0 cooldown=3.5 range=18.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=26.0/33.8 dot=0.0/0.0 count=1 duration=0.0 cd=3.5/2.1000001/1.225 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=33.8/43.939995 dot=0.0/0.0 count=1 duration=0.0 cd=3.255/1.9530002/1.13925 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=41.600002/54.079998 dot=0.0/0.0 count=2 duration=0.0 cd=3.02715/1.81629/1.0595025 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=49.4/64.22 dot=0.0/0.0 count=2 duration=0.0 cd=2.8152494/1.6891497/0.9853373 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=57.2/74.36 dot=0.0/0.0 count=3 duration=0.0 cd=2.6181822/1.5709094/0.9163638 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=65.0/84.5 dot=0.0/0.0 count=3 duration=0.0 cd=2.4349093/1.4609456/0.8522183 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=72.8/94.64 dot=0.0/0.0 count=4 duration=0.0 cd=2.2644658/1.3586795/0.792563 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=80.600006/104.78001 dot=0.0/0.0 count=4 duration=0.0 cd=2.1059532/1.263572/0.7370836 radius=0.0/0.0/0.0
+cone_of_cold spell=120 kind=Cone damage=14.0 dot=0.0 cooldown=4.5 range=20.0 radius=11.0 count=1 duration=0.0 effect=Slow(0.5, 3.0) mark=120 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=14.0/18.199999 dot=0.0/0.0 count=1 duration=0.0 cd=4.5/2.7/1.5749999 radius=11.0/16.5/24.75
+  L2 mult=1.3 dmg=18.199999/23.659998 dot=0.0/0.0 count=1 duration=0.0 cd=4.185/2.5110002/1.4647499 radius=11.88/17.82/26.73
+  L3 mult=1.6 dmg=22.4/29.119999 dot=0.0/0.0 count=2 duration=0.0 cd=3.89205/2.33523/1.3622175 radius=12.759999/19.14/28.71
+  L4 mult=1.9000001 dmg=26.600002/34.58 dot=0.0/0.0 count=2 duration=0.0 cd=3.6196065/2.171764/1.2668623 radius=13.64/20.460001/30.69
+  L5 mult=2.2 dmg=30.800001/40.039997 dot=0.0/0.0 count=3 duration=0.0 cd=3.3662343/2.0197406/1.178182 radius=14.5199995/21.779999/32.67
+  L6 mult=2.5 dmg=35.0/45.5 dot=0.0/0.0 count=3 duration=0.0 cd=3.1305976/1.8783586/1.0957091 radius=15.4/23.099998/34.649998
+  L7 mult=2.8000002 dmg=39.200005/50.960003 dot=0.0/0.0 count=4 duration=0.0 cd=2.911456/1.7468737/1.0190096 radius=16.28/24.420002/36.63
+  L8 mult=3.1000001 dmg=43.4/56.420002 dot=0.0/0.0 count=4 duration=0.0 cd=2.707654/1.6245924/0.94767886 radius=17.16/25.74/38.61
+blast_wave spell=11113 kind=Nova damage=18.0 dot=0.0 cooldown=6.5 range=20.0 radius=8.0 count=1 duration=0.0 effect=Slow(0.6, 2.0) mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=18.0/23.4 dot=0.0/0.0 count=1 duration=0.0 cd=6.5/3.9/2.2749999 radius=8.0/12.0/18.0
+  L2 mult=1.3 dmg=23.4/30.419996 dot=0.0/0.0 count=1 duration=0.0 cd=6.045/3.627/2.11575 radius=8.64/12.960001/19.44
+  L3 mult=1.6 dmg=28.800001/37.44 dot=0.0/0.0 count=2 duration=0.0 cd=5.62185/3.37311/1.9676474 radius=9.28/13.92/20.88
+  L4 mult=1.9000001 dmg=34.2/44.46 dot=0.0/0.0 count=2 duration=0.0 cd=5.2283206/3.1369925/1.8299122 radius=9.92/14.88/22.32
+  L5 mult=2.2 dmg=39.600002/51.48 dot=0.0/0.0 count=3 duration=0.0 cd=4.8623385/2.9174032/1.7018185 radius=10.559999/15.839999/23.759998
+  L6 mult=2.5 dmg=45.0/58.5 dot=0.0/0.0 count=3 duration=0.0 cd=4.5219746/2.7131848/1.5826911 radius=11.2/16.8/25.199999
+  L7 mult=2.8000002 dmg=50.4/65.520004 dot=0.0/0.0 count=4 duration=0.0 cd=4.2054367/2.523262/1.4719028 radius=11.84/17.76/26.64
+  L8 mult=3.1000001 dmg=55.800003/72.54 dot=0.0/0.0 count=4 duration=0.0 cd=3.9110558/2.3466337/1.3688695 radius=12.48/18.72/28.079998
+pyroblast spell=11366 kind=Bolt damage=70.0 dot=6.0 cooldown=6.0 range=30.0 radius=0.0 count=1 duration=6.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=70.0/91.0 dot=6.0/7.7999997 count=1 duration=6.0 cd=6.0/3.6000001/2.1 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=91.0/118.29999 dot=7.7999997/10.139999 count=1 duration=6.6000004 cd=5.58/3.348/1.953 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=112.0/145.59999 dot=9.6/12.48 count=2 duration=7.2000003 cd=5.1893997/3.11364/1.8162899 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=133.0/172.90001 dot=11.400001/14.82 count=2 duration=7.7999997 cd=4.826142/2.8956852/1.6891496 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=154.0/200.2 dot=13.200001/17.16 count=3 duration=8.4 cd=4.4883122/2.6929874/1.5709093 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=175.0/227.5 dot=15.0/19.5 count=3 duration=9.0 cd=4.1741304/2.5044785/1.4609456 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=196.00002/254.8 dot=16.800001/21.84 count=4 duration=9.6 cd=3.8819413/2.329165/1.3586794 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=217.00002/282.1 dot=18.6/24.18 count=4 duration=10.200001 cd=3.6102054/2.1661234/1.2635719 radius=0.0/0.0/0.0
+cleave spell=845 kind=Melee damage=14.0 dot=0.0 cooldown=1.1 range=5.5 radius=0.0 count=3 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=14.0/18.199999 dot=0.0/0.0 count=3 duration=0.0 cd=1.1/0.66/0.385 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=18.199999/23.659998 dot=0.0/0.0 count=3 duration=0.0 cd=1.023/0.61380005/0.35805 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=22.4/29.119999 dot=0.0/0.0 count=4 duration=0.0 cd=0.95139/0.57083404/0.3329865 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=26.600002/34.58 dot=0.0/0.0 count=4 duration=0.0 cd=0.8847927/0.5308756/0.30967742 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=30.800001/40.039997 dot=0.0/0.0 count=5 duration=0.0 cd=0.82285726/0.49371436/0.28800005 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=35.0/45.5 dot=0.0/0.0 count=5 duration=0.0 cd=0.76525724/0.45915437/0.26784003 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=39.200005/50.960003 dot=0.0/0.0 count=6 duration=0.0 cd=0.7116893/0.4270136/0.24909125 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=43.4/56.420002 dot=0.0/0.0 count=6 duration=0.0 cd=0.661871/0.39712262/0.23165485 radius=0.0/0.0/0.0
+heroic_strike spell=78 kind=Melee damage=28.0 dot=0.0 cooldown=1.6 range=5.5 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=28.0/36.399998 dot=0.0/0.0 count=1 duration=0.0 cd=1.6/0.96000004/0.56 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=36.399998/47.319996 dot=0.0/0.0 count=1 duration=0.0 cd=1.488/0.89280003/0.5208 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=44.8/58.239998 dot=0.0/0.0 count=2 duration=0.0 cd=1.38384/0.830304/0.48434398 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=53.200005/69.16 dot=0.0/0.0 count=2 duration=0.0 cd=1.2869712/0.77218276/0.45043993 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=61.600002/80.079994 dot=0.0/0.0 count=3 duration=0.0 cd=1.1968833/0.71813/0.41890916 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=70.0/91.0 dot=0.0/0.0 count=3 duration=0.0 cd=1.1131014/0.66786087/0.38958547 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=78.40001/101.920006 dot=0.0/0.0 count=4 duration=0.0 cd=1.0351844/0.6211107/0.36231452 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=86.8/112.840004 dot=0.0/0.0 count=4 duration=0.0 cd=0.96272147/0.5776329/0.3369525 radius=0.0/0.0/0.0
+whirlwind spell=1680 kind=Nova damage=16.0 dot=0.0 cooldown=4.0 range=20.0 radius=7.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=16.0/20.8 dot=0.0/0.0 count=1 duration=0.0 cd=4.0/2.4/1.4 radius=7.0/10.5/15.75
+  L2 mult=1.3 dmg=20.8/27.039997 dot=0.0/0.0 count=1 duration=0.0 cd=3.72/2.232/1.302 radius=7.5600004/11.34/17.01
+  L3 mult=1.6 dmg=25.6/33.28 dot=0.0/0.0 count=2 duration=0.0 cd=3.4596/2.0757601/1.21086 radius=8.12/12.18/18.27
+  L4 mult=1.9000001 dmg=30.400002/39.52 dot=0.0/0.0 count=2 duration=0.0 cd=3.217428/1.9304569/1.1260998 radius=8.68/13.02/19.53
+  L5 mult=2.2 dmg=35.2/45.76 dot=0.0/0.0 count=3 duration=0.0 cd=2.9922082/1.795325/1.0472729 radius=9.24/13.86/20.789999
+  L6 mult=2.5 dmg=40.0/52.0 dot=0.0/0.0 count=3 duration=0.0 cd=2.7827535/1.6696521/0.9739637 radius=9.8/14.700001/22.050001
+  L7 mult=2.8000002 dmg=44.800003/58.24 dot=0.0/0.0 count=4 duration=0.0 cd=2.587961/1.5527767/0.90578634 radius=10.360001/15.540001/23.310001
+  L8 mult=3.1000001 dmg=49.600002/64.48 dot=0.0/0.0 count=4 duration=0.0 cd=2.4068036/1.4440823/0.84238124 radius=10.92/16.380001/24.57
+thunder_clap spell=6343 kind=Nova damage=10.0 dot=0.0 cooldown=5.0 range=20.0 radius=8.0 count=1 duration=0.0 effect=Slow(0.5, 3.0) mark=6343 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=10.0/13.0 dot=0.0/0.0 count=1 duration=0.0 cd=5.0/3.0/1.75 radius=8.0/12.0/18.0
+  L2 mult=1.3 dmg=13.0/16.899998 dot=0.0/0.0 count=1 duration=0.0 cd=4.65/2.7900002/1.6275 radius=8.64/12.960001/19.44
+  L3 mult=1.6 dmg=16.0/20.8 dot=0.0/0.0 count=2 duration=0.0 cd=4.3245/2.5947/1.513575 radius=9.28/13.92/20.88
+  L4 mult=1.9000001 dmg=19.0/24.7 dot=0.0/0.0 count=2 duration=0.0 cd=4.021785/2.413071/1.4076246 radius=9.92/14.88/22.32
+  L5 mult=2.2 dmg=22.0/28.599998 dot=0.0/0.0 count=3 duration=0.0 cd=3.7402604/2.2441564/1.3090911 radius=10.559999/15.839999/23.759998
+  L6 mult=2.5 dmg=25.0/32.5 dot=0.0/0.0 count=3 duration=0.0 cd=3.4784417/2.0870652/1.2174546 radius=11.2/16.8/25.199999
+  L7 mult=2.8000002 dmg=28.000002/36.4 dot=0.0/0.0 count=4 duration=0.0 cd=3.2349513/1.9409708/1.1322329 radius=11.84/17.76/26.64
+  L8 mult=3.1000001 dmg=31.000002/40.300003 dot=0.0/0.0 count=4 duration=0.0 cd=3.0085044/1.8051027/1.0529765 radius=12.48/18.72/28.079998
+sweeping_strikes spell=12292 kind=Aura damage=6.0 dot=0.0 cooldown=0.6 range=20.0 radius=5.5 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=6.0/7.7999997 dot=0.0/0.0 count=1 duration=0.0 cd=0.6/0.36/0.21000001 radius=5.5/8.25/12.375
+  L2 mult=1.3 dmg=7.7999997/10.139999 dot=0.0/0.0 count=1 duration=0.0 cd=0.558/0.33480003/0.2 radius=5.94/8.91/13.365
+  L3 mult=1.6 dmg=9.6/12.48 dot=0.0/0.0 count=2 duration=0.0 cd=0.51894003/0.31136402/0.2 radius=6.3799996/9.57/14.355
+  L4 mult=1.9000001 dmg=11.400001/14.82 dot=0.0/0.0 count=2 duration=0.0 cd=0.48261422/0.28956854/0.2 radius=6.82/10.2300005/15.345
+  L5 mult=2.2 dmg=13.200001/17.16 dot=0.0/0.0 count=3 duration=0.0 cd=0.44883126/0.26929876/0.2 radius=7.2599998/10.889999/16.335
+  L6 mult=2.5 dmg=15.0/19.5 dot=0.0/0.0 count=3 duration=0.0 cd=0.41741303/0.25044784/0.2 radius=7.7/11.549999/17.324999
+  L7 mult=2.8000002 dmg=16.800001/21.84 dot=0.0/0.0 count=4 duration=0.0 cd=0.38819417/0.23291652/0.2 radius=8.14/12.210001/18.315
+  L8 mult=3.1000001 dmg=18.6/24.18 dot=0.0/0.0 count=4 duration=0.0 cd=0.36102057/0.21661235/0.2 radius=8.58/12.87/19.305
+demoralizing_shout spell=1160 kind=Nova damage=4.0 dot=0.0 cooldown=8.0 range=20.0 radius=11.0 count=1 duration=0.0 effect=Weaken(0.5, 5.0) mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=4.0/5.2 dot=0.0/0.0 count=1 duration=0.0 cd=8.0/4.8/2.8 radius=11.0/16.5/24.75
+  L2 mult=1.3 dmg=5.2/6.7599993 dot=0.0/0.0 count=1 duration=0.0 cd=7.44/4.464/2.604 radius=11.88/17.82/26.73
+  L3 mult=1.6 dmg=6.4/8.32 dot=0.0/0.0 count=2 duration=0.0 cd=6.9192/4.1515203/2.42172 radius=12.759999/19.14/28.71
+  L4 mult=1.9000001 dmg=7.6000004/9.88 dot=0.0/0.0 count=2 duration=0.0 cd=6.434856/3.8609138/2.2521996 radius=13.64/20.460001/30.69
+  L5 mult=2.2 dmg=8.8/11.44 dot=0.0/0.0 count=3 duration=0.0 cd=5.9844165/3.59065/2.0945458 radius=14.5199995/21.779999/32.67
+  L6 mult=2.5 dmg=10.0/13.0 dot=0.0/0.0 count=3 duration=0.0 cd=5.565507/3.3393042/1.9479274 radius=15.4/23.099998/34.649998
+  L7 mult=2.8000002 dmg=11.200001/14.56 dot=0.0/0.0 count=4 duration=0.0 cd=5.175922/3.1055534/1.8115727 radius=16.28/24.420002/36.63
+  L8 mult=3.1000001 dmg=12.400001/16.12 dot=0.0/0.0 count=4 duration=0.0 cd=4.813607/2.8881645/1.6847625 radius=17.16/25.74/38.61
+execute spell=5308 kind=Strike damage=40.0 dot=0.0 cooldown=2.0 range=8.0 radius=0.0 count=2 duration=0.0 effect=Execute(0.3) mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=40.0/52.0 dot=0.0/0.0 count=2 duration=0.0 cd=2.0/1.2/0.7 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=52.0/67.59999 dot=0.0/0.0 count=2 duration=0.0 cd=1.86/1.116/0.651 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=64.0/83.2 dot=0.0/0.0 count=3 duration=0.0 cd=1.7298/1.0378801/0.60543 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=76.0/98.8 dot=0.0/0.0 count=3 duration=0.0 cd=1.608714/0.96522844/0.5630499 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=88.0/114.399994 dot=0.0/0.0 count=4 duration=0.0 cd=1.4961041/0.8976625/0.52363646 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=100.0/130.0 dot=0.0/0.0 count=4 duration=0.0 cd=1.3913767/0.83482605/0.48698184 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=112.00001/145.6 dot=0.0/0.0 count=5 duration=0.0 cd=1.2939805/0.77638835/0.45289317 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=124.00001/161.20001 dot=0.0/0.0 count=5 duration=0.0 cd=1.2034018/0.72204113/0.42119062 radius=0.0/0.0/0.0
+mortal_strike spell=12294 kind=Melee damage=48.0 dot=0.0 cooldown=3.0 range=6.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=48.0/62.399998 dot=0.0/0.0 count=1 duration=0.0 cd=3.0/1.8000001/1.05 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=62.399998/81.119995 dot=0.0/0.0 count=1 duration=0.0 cd=2.79/1.674/0.9765 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=76.8/99.84 dot=0.0/0.0 count=2 duration=0.0 cd=2.5946999/1.55682/0.90814495 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=91.200005/118.56 dot=0.0/0.0 count=2 duration=0.0 cd=2.413071/1.4478426/0.8445748 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=105.600006/137.28 dot=0.0/0.0 count=3 duration=0.0 cd=2.2441561/1.3464937/0.78545463 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=120.0/156.0 dot=0.0/0.0 count=3 duration=0.0 cd=2.0870652/1.2522392/0.7304728 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=134.40001/174.72 dot=0.0/0.0 count=4 duration=0.0 cd=1.9409707/1.1645825/0.6793397 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=148.8/193.44 dot=0.0/0.0 count=4 duration=0.0 cd=1.8051027/1.0830617/0.6317859 radius=0.0/0.0/0.0
+retaliation spell=20230 kind=Thorns damage=14.0 dot=0.0 cooldown=18.0 range=20.0 radius=0.0 count=1 duration=8.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=14.0/18.199999 dot=0.0/0.0 count=1 duration=8.0 cd=18.0/10.8/6.2999997 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=18.199999/23.659998 dot=0.0/0.0 count=1 duration=8.8 cd=16.74/10.044001/5.8589997 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=22.4/29.119999 dot=0.0/0.0 count=2 duration=9.6 cd=15.5682/9.34092/5.44887 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=26.600002/34.58 dot=0.0/0.0 count=2 duration=10.4 cd=14.478426/8.687056/5.067449 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=30.800001/40.039997 dot=0.0/0.0 count=3 duration=11.2 cd=13.464937/8.078962/4.712728 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=35.0/45.5 dot=0.0/0.0 count=3 duration=12.0 cd=12.52239/7.5134344/4.3828363 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=39.200005/50.960003 dot=0.0/0.0 count=4 duration=12.8 cd=11.645824/6.987495/4.0760384 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=43.4/56.420002 dot=0.0/0.0 count=4 duration=13.6 cd=10.830616/6.4983697/3.7907155 radius=0.0/0.0/0.0
+sinister_strike spell=1752 kind=Melee damage=15.0 dot=0.0 cooldown=0.85 range=5.5 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=15.0/19.5 dot=0.0/0.0 count=1 duration=0.0 cd=0.85/0.51000005/0.2975 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=19.5/25.349997 dot=0.0/0.0 count=1 duration=0.0 cd=0.79050004/0.47430006/0.27667502 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=24.0/31.199999 dot=0.0/0.0 count=2 duration=0.0 cd=0.735165/0.44109902/0.25730774 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=28.500002/37.05 dot=0.0/0.0 count=2 duration=0.0 cd=0.6837035/0.4102221/0.23929621 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=33.0/42.899998 dot=0.0/0.0 count=3 duration=0.0 cd=0.6358443/0.3815066/0.2225455 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=37.5/48.75 dot=0.0/0.0 count=3 duration=0.0 cd=0.5913351/0.3548011/0.2069673 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=42.000004/54.600002 dot=0.0/0.0 count=4 duration=0.0 cd=0.5499417/0.32996505/0.2 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=46.500004/60.450005 dot=0.0/0.0 count=4 duration=0.0 cd=0.51144576/0.30686748/0.2 radius=0.0/0.0/0.0
+eviscerate spell=2098 kind=Melee damage=42.0 dot=0.0 cooldown=2.8 range=5.5 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=42.0/54.6 dot=0.0/0.0 count=1 duration=0.0 cd=2.8/1.6800001/0.97999996 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=54.6/70.979996 dot=0.0/0.0 count=1 duration=0.0 cd=2.604/1.5624001/0.9114 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=67.200005/87.36 dot=0.0/0.0 count=2 duration=0.0 cd=2.42172/1.453032/0.847602 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=79.8/103.74 dot=0.0/0.0 count=2 duration=0.0 cd=2.2521996/1.3513198/0.7882699 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=92.4/120.119995 dot=0.0/0.0 count=3 duration=0.0 cd=2.0945458/1.2567276/0.73309106 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=105.0/136.5 dot=0.0/0.0 count=3 duration=0.0 cd=1.9479274/1.1687565/0.68177456 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=117.600006/152.88 dot=0.0/0.0 count=4 duration=0.0 cd=1.8115727/1.0869436/0.6340504 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=130.20001/169.26001 dot=0.0/0.0 count=4 duration=0.0 cd=1.6847625/1.0108576/0.58966684 radius=0.0/0.0/0.0
+blade_flurry spell=13877 kind=Nova damage=11.0 dot=0.0 cooldown=3.0 range=20.0 radius=6.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=11.0/14.299999 dot=0.0/0.0 count=1 duration=0.0 cd=3.0/1.8000001/1.05 radius=6.0/9.0/13.5
+  L2 mult=1.3 dmg=14.299999/18.589998 dot=0.0/0.0 count=1 duration=0.0 cd=2.79/1.674/0.9765 radius=6.4800005/9.720001/14.580001
+  L3 mult=1.6 dmg=17.6/22.88 dot=0.0/0.0 count=2 duration=0.0 cd=2.5946999/1.55682/0.90814495 radius=6.96/10.440001/15.66
+  L4 mult=1.9000001 dmg=20.900002/27.17 dot=0.0/0.0 count=2 duration=0.0 cd=2.413071/1.4478426/0.8445748 radius=7.44/11.16/16.74
+  L5 mult=2.2 dmg=24.2/31.46 dot=0.0/0.0 count=3 duration=0.0 cd=2.2441561/1.3464937/0.78545463 radius=7.9199996/11.879999/17.82
+  L6 mult=2.5 dmg=27.5/35.75 dot=0.0/0.0 count=3 duration=0.0 cd=2.0870652/1.2522392/0.7304728 radius=8.4/12.599999/18.9
+  L7 mult=2.8000002 dmg=30.800003/40.04 dot=0.0/0.0 count=4 duration=0.0 cd=1.9409707/1.1645825/0.6793397 radius=8.88/13.32/19.98
+  L8 mult=3.1000001 dmg=34.100002/44.33 dot=0.0/0.0 count=4 duration=0.0 cd=1.8051027/1.0830617/0.6317859 radius=9.36/14.039999/21.06
+rupture spell=1943 kind=Dot damage=0.0 dot=5.0 cooldown=3.5 range=10.0 radius=0.0 count=3 duration=6.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=0.0/0.0 dot=5.0/6.5 count=3 duration=6.0 cd=3.5/2.1000001/1.225 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=0.0/0.0 dot=6.5/8.449999 count=3 duration=6.6000004 cd=3.255/1.9530002/1.13925 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=0.0/0.0 dot=8.0/10.4 count=4 duration=7.2000003 cd=3.02715/1.81629/1.0595025 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=0.0/0.0 dot=9.5/12.35 count=4 duration=7.7999997 cd=2.8152494/1.6891497/0.9853373 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=0.0/0.0 dot=11.0/14.299999 count=5 duration=8.4 cd=2.6181822/1.5709094/0.9163638 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=0.0/0.0 dot=12.5/16.25 count=5 duration=9.0 cd=2.4349093/1.4609456/0.8522183 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=0.0/0.0 dot=14.000001/18.2 count=6 duration=9.6 cd=2.2644658/1.3586795/0.792563 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=0.0/0.0 dot=15.500001/20.150002 count=6 duration=10.200001 cd=2.1059532/1.263572/0.7370836 radius=0.0/0.0/0.0
+gouge spell=1776 kind=Melee damage=8.0 dot=0.0 cooldown=4.0 range=6.0 radius=0.0 count=2 duration=0.0 effect=Stun(2.0) mark=1776 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=8.0/10.4 dot=0.0/0.0 count=2 duration=0.0 cd=4.0/2.4/1.4 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=10.4/13.519999 dot=0.0/0.0 count=2 duration=0.0 cd=3.72/2.232/1.302 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=12.8/16.64 dot=0.0/0.0 count=3 duration=0.0 cd=3.4596/2.0757601/1.21086 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=15.200001/19.76 dot=0.0/0.0 count=3 duration=0.0 cd=3.217428/1.9304569/1.1260998 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=17.6/22.88 dot=0.0/0.0 count=4 duration=0.0 cd=2.9922082/1.795325/1.0472729 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=20.0/26.0 dot=0.0/0.0 count=4 duration=0.0 cd=2.7827535/1.6696521/0.9739637 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=22.400002/29.12 dot=0.0/0.0 count=5 duration=0.0 cd=2.587961/1.5527767/0.90578634 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=24.800001/32.24 dot=0.0/0.0 count=5 duration=0.0 cd=2.4068036/1.4440823/0.84238124 radius=0.0/0.0/0.0
+kidney_shot spell=408 kind=Melee damage=12.0 dot=0.0 cooldown=6.0 range=6.0 radius=0.0 count=1 duration=0.0 effect=Stun(3.5) mark=408 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=12.0/15.599999 dot=0.0/0.0 count=1 duration=0.0 cd=6.0/3.6000001/2.1 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=15.599999/20.279999 dot=0.0/0.0 count=1 duration=0.0 cd=5.58/3.348/1.953 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=19.2/24.96 dot=0.0/0.0 count=2 duration=0.0 cd=5.1893997/3.11364/1.8162899 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=22.800001/29.64 dot=0.0/0.0 count=2 duration=0.0 cd=4.826142/2.8956852/1.6891496 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=26.400002/34.32 dot=0.0/0.0 count=3 duration=0.0 cd=4.4883122/2.6929874/1.5709093 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=30.0/39.0 dot=0.0/0.0 count=3 duration=0.0 cd=4.1741304/2.5044785/1.4609456 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=33.600002/43.68 dot=0.0/0.0 count=4 duration=0.0 cd=3.8819413/2.329165/1.3586794 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=37.2/48.36 dot=0.0/0.0 count=4 duration=0.0 cd=3.6102054/2.1661234/1.2635719 radius=0.0/0.0/0.0
+smite spell=585 kind=Strike damage=14.0 dot=0.0 cooldown=1.2 range=20.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=14.0/18.199999 dot=0.0/0.0 count=1 duration=0.0 cd=1.2/0.72/0.42000002 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=18.199999/23.659998 dot=0.0/0.0 count=1 duration=0.0 cd=1.116/0.66960007/0.39060003 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=22.4/29.119999 dot=0.0/0.0 count=2 duration=0.0 cd=1.0378801/0.62272805/0.363258 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=26.600002/34.58 dot=0.0/0.0 count=2 duration=0.0 cd=0.96522844/0.5791371/0.33782995 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=30.800001/40.039997 dot=0.0/0.0 count=3 duration=0.0 cd=0.8976625/0.5385975/0.31418186 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=35.0/45.5 dot=0.0/0.0 count=3 duration=0.0 cd=0.83482605/0.5008957/0.29218912 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=39.200005/50.960003 dot=0.0/0.0 count=4 duration=0.0 cd=0.77638835/0.46583304/0.2717359 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=43.4/56.420002 dot=0.0/0.0 count=4 duration=0.0 cd=0.72204113/0.4332247/0.2527144 radius=0.0/0.0/0.0
+shadow_word_pain spell=589 kind=Dot damage=0.0 dot=4.0 cooldown=3.0 range=18.0 radius=0.0 count=3 duration=9.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=0.0/0.0 dot=4.0/5.2 count=3 duration=9.0 cd=3.0/1.8000001/1.05 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=0.0/0.0 dot=5.2/6.7599993 count=3 duration=9.900001 cd=2.79/1.674/0.9765 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=0.0/0.0 dot=6.4/8.32 count=4 duration=10.8 cd=2.5946999/1.55682/0.90814495 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=0.0/0.0 dot=7.6000004/9.88 count=4 duration=11.7 cd=2.413071/1.4478426/0.8445748 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=0.0/0.0 dot=8.8/11.44 count=5 duration=12.599999 cd=2.2441561/1.3464937/0.78545463 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=0.0/0.0 dot=10.0/13.0 count=5 duration=13.5 cd=2.0870652/1.2522392/0.7304728 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=0.0/0.0 dot=11.200001/14.56 count=6 duration=14.400001 cd=1.9409707/1.1645825/0.6793397 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=0.0/0.0 dot=12.400001/16.12 count=6 duration=15.3 cd=1.8051027/1.0830617/0.6317859 radius=0.0/0.0/0.0
+holy_fire spell=14914 kind=Strike damage=22.0 dot=3.0 cooldown=3.5 range=20.0 radius=0.0 count=1 duration=6.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=22.0/28.599998 dot=3.0/3.8999999 count=1 duration=6.0 cd=3.5/2.1000001/1.225 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=28.599998/37.179996 dot=3.8999999/5.0699997 count=1 duration=6.6000004 cd=3.255/1.9530002/1.13925 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=35.2/45.76 dot=4.8/6.24 count=2 duration=7.2000003 cd=3.02715/1.81629/1.0595025 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=41.800003/54.34 dot=5.7000003/7.41 count=2 duration=7.7999997 cd=2.8152494/1.6891497/0.9853373 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=48.4/62.92 dot=6.6000004/8.58 count=3 duration=8.4 cd=2.6181822/1.5709094/0.9163638 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=55.0/71.5 dot=7.5/9.75 count=3 duration=9.0 cd=2.4349093/1.4609456/0.8522183 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=61.600006/80.08 dot=8.400001/10.92 count=4 duration=9.6 cd=2.2644658/1.3586795/0.792563 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=68.200005/88.66 dot=9.3/12.09 count=4 duration=10.200001 cd=2.1059532/1.263572/0.7370836 radius=0.0/0.0/0.0
+mind_blast spell=8092 kind=Strike damage=32.0 dot=0.0 cooldown=3.5 range=22.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=32.0/41.6 dot=0.0/0.0 count=1 duration=0.0 cd=3.5/2.1000001/1.225 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=41.6/54.079994 dot=0.0/0.0 count=1 duration=0.0 cd=3.255/1.9530002/1.13925 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=51.2/66.56 dot=0.0/0.0 count=2 duration=0.0 cd=3.02715/1.81629/1.0595025 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=60.800003/79.04 dot=0.0/0.0 count=2 duration=0.0 cd=2.8152494/1.6891497/0.9853373 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=70.4/91.52 dot=0.0/0.0 count=3 duration=0.0 cd=2.6181822/1.5709094/0.9163638 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=80.0/104.0 dot=0.0/0.0 count=3 duration=0.0 cd=2.4349093/1.4609456/0.8522183 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=89.600006/116.48 dot=0.0/0.0 count=4 duration=0.0 cd=2.2644658/1.3586795/0.792563 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=99.200005/128.96 dot=0.0/0.0 count=4 duration=0.0 cd=2.1059532/1.263572/0.7370836 radius=0.0/0.0/0.0
+holy_nova spell=15237 kind=Nova damage=11.0 dot=0.0 cooldown=3.2 range=20.0 radius=9.0 count=1 duration=0.0 effect=Drain(0.1) mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=11.0/14.299999 dot=0.0/0.0 count=1 duration=0.0 cd=3.2/1.9200001/1.12 radius=9.0/13.5/20.25
+  L2 mult=1.3 dmg=14.299999/18.589998 dot=0.0/0.0 count=1 duration=0.0 cd=2.976/1.7856001/1.0416 radius=9.72/14.58/21.87
+  L3 mult=1.6 dmg=17.6/22.88 dot=0.0/0.0 count=2 duration=0.0 cd=2.76768/1.660608/0.96868795 radius=10.44/15.66/23.49
+  L4 mult=1.9000001 dmg=20.900002/27.17 dot=0.0/0.0 count=2 duration=0.0 cd=2.5739424/1.5443655/0.90087986 radius=11.16/16.74/25.11
+  L5 mult=2.2 dmg=24.2/31.46 dot=0.0/0.0 count=3 duration=0.0 cd=2.3937666/1.43626/0.8378183 radius=11.879999/17.82/26.729998
+  L6 mult=2.5 dmg=27.5/35.75 dot=0.0/0.0 count=3 duration=0.0 cd=2.2262027/1.3357217/0.77917093 radius=12.599999/18.9/28.349998
+  L7 mult=2.8000002 dmg=30.800003/40.04 dot=0.0/0.0 count=4 duration=0.0 cd=2.0703688/1.2422214/0.72462904 radius=13.32/19.98/29.97
+  L8 mult=3.1000001 dmg=34.100002/44.33 dot=0.0/0.0 count=4 duration=0.0 cd=1.9254429/1.1552658/0.673905 radius=14.039999/21.059998/31.589998
+psychic_scream spell=8122 kind=Nova damage=2.0 dot=0.0 cooldown=12.0 range=20.0 radius=8.0 count=1 duration=0.0 effect=Fear(3.5) mark=8122 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=2.0/2.6 dot=0.0/0.0 count=1 duration=0.0 cd=12.0/7.2000003/4.2 radius=8.0/12.0/18.0
+  L2 mult=1.3 dmg=2.6/3.3799996 dot=0.0/0.0 count=1 duration=0.0 cd=11.16/6.696/3.906 radius=8.64/12.960001/19.44
+  L3 mult=1.6 dmg=3.2/4.16 dot=0.0/0.0 count=2 duration=0.0 cd=10.378799/6.22728/3.6325798 radius=9.28/13.92/20.88
+  L4 mult=1.9000001 dmg=3.8000002/4.94 dot=0.0/0.0 count=2 duration=0.0 cd=9.652284/5.7913704/3.3782992 radius=9.92/14.88/22.32
+  L5 mult=2.2 dmg=4.4/5.72 dot=0.0/0.0 count=3 duration=0.0 cd=8.9766245/5.385975/3.1418185 radius=10.559999/15.839999/23.759998
+  L6 mult=2.5 dmg=5.0/6.5 dot=0.0/0.0 count=3 duration=0.0 cd=8.348261/5.008957/2.9218912 radius=11.2/16.8/25.199999
+  L7 mult=2.8000002 dmg=5.6000004/7.28 dot=0.0/0.0 count=4 duration=0.0 cd=7.7638826/4.65833/2.7173588 radius=11.84/17.76/26.64
+  L8 mult=3.1000001 dmg=6.2000003/8.06 dot=0.0/0.0 count=4 duration=0.0 cd=7.220411/4.332247/2.5271437 radius=12.48/18.72/28.079998
+power_word_shield spell=17 kind=Shield damage=30.0 dot=0.0 cooldown=14.0 range=20.0 radius=0.0 count=1 duration=10.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=30.0/39.0 dot=0.0/0.0 count=1 duration=10.0 cd=14.0/8.400001/4.9 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=39.0/50.699993 dot=0.0/0.0 count=1 duration=11.0 cd=13.02/7.8120008/4.557 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=48.0/62.399998 dot=0.0/0.0 count=2 duration=12.0 cd=12.1086/7.26516/4.23801 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=57.000004/74.1 dot=0.0/0.0 count=2 duration=13.0 cd=11.260998/6.756599/3.9413493 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=66.0/85.799995 dot=0.0/0.0 count=3 duration=14.0 cd=10.472729/6.2836375/3.665455 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=75.0/97.5 dot=0.0/0.0 count=3 duration=15.0 cd=9.739637/5.8437824/3.408873 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=84.00001/109.200005 dot=0.0/0.0 count=4 duration=16.0 cd=9.057863/5.434718/3.170252 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=93.00001/120.90001 dot=0.0/0.0 count=4 duration=17.0 cd=8.423813/5.054288/2.9483345 radius=0.0/0.0/0.0
+shadow_bolt spell=686 kind=Bolt damage=15.0 dot=0.0 cooldown=1.4 range=24.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=15.0/19.5 dot=0.0/0.0 count=1 duration=0.0 cd=1.4/0.84000003/0.48999998 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=19.5/25.349997 dot=0.0/0.0 count=1 duration=0.0 cd=1.302/0.78120005/0.4557 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=24.0/31.199999 dot=0.0/0.0 count=2 duration=0.0 cd=1.21086/0.726516/0.423801 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=28.500002/37.05 dot=0.0/0.0 count=2 duration=0.0 cd=1.1260998/0.6756599/0.39413494 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=33.0/42.899998 dot=0.0/0.0 count=3 duration=0.0 cd=1.0472729/0.6283638/0.36654553 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=37.5/48.75 dot=0.0/0.0 count=3 duration=0.0 cd=0.9739637/0.58437824/0.34088728 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=42.000004/54.600002 dot=0.0/0.0 count=4 duration=0.0 cd=0.90578634/0.5434718/0.3170252 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=46.500004/60.450005 dot=0.0/0.0 count=4 duration=0.0 cd=0.84238124/0.5054288/0.29483342 radius=0.0/0.0/0.0
+corruption spell=172 kind=Dot damage=0.0 dot=4.0 cooldown=3.0 range=20.0 radius=0.0 count=3 duration=10.0 effect=None mark=172 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=0.0/0.0 dot=4.0/5.2 count=3 duration=10.0 cd=3.0/1.8000001/1.05 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=0.0/0.0 dot=5.2/6.7599993 count=3 duration=11.0 cd=2.79/1.674/0.9765 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=0.0/0.0 dot=6.4/8.32 count=4 duration=12.0 cd=2.5946999/1.55682/0.90814495 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=0.0/0.0 dot=7.6000004/9.88 count=4 duration=13.0 cd=2.413071/1.4478426/0.8445748 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=0.0/0.0 dot=8.8/11.44 count=5 duration=14.0 cd=2.2441561/1.3464937/0.78545463 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=0.0/0.0 dot=10.0/13.0 count=5 duration=15.0 cd=2.0870652/1.2522392/0.7304728 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=0.0/0.0 dot=11.200001/14.56 count=6 duration=16.0 cd=1.9409707/1.1645825/0.6793397 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=0.0/0.0 dot=12.400001/16.12 count=6 duration=17.0 cd=1.8051027/1.0830617/0.6317859 radius=0.0/0.0/0.0
+curse_of_agony spell=980 kind=Dot damage=0.0 dot=3.5 cooldown=2.5 range=20.0 radius=0.0 count=4 duration=12.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=0.0/0.0 dot=3.5/4.5499997 count=4 duration=12.0 cd=2.5/1.5/0.875 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=0.0/0.0 dot=4.5499997/5.9149995 count=4 duration=13.200001 cd=2.325/1.3950001/0.81375 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=0.0/0.0 dot=5.6/7.2799997 count=5 duration=14.400001 cd=2.16225/1.29735/0.7567875 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=0.0/0.0 dot=6.6500006/8.645 count=5 duration=15.599999 cd=2.0108924/1.2065355/0.7038123 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=0.0/0.0 dot=7.7000003/10.009999 count=6 duration=16.8 cd=1.8701302/1.1220782/0.65454555 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=0.0/0.0 dot=8.75/11.375 count=6 duration=18.0 cd=1.7392209/1.0435326/0.6087273 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=0.0/0.0 dot=9.800001/12.740001 count=7 duration=19.2 cd=1.6174756/0.9704854/0.56611645 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=0.0/0.0 dot=10.85/14.1050005 count=7 duration=20.400002 cd=1.5042522/0.90255135/0.52648824 radius=0.0/0.0/0.0
+immolate spell=348 kind=Strike damage=12.0 dot=4.0 cooldown=2.4 range=20.0 radius=0.0 count=2 duration=9.0 effect=None mark=348 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=12.0/15.599999 dot=4.0/5.2 count=2 duration=9.0 cd=2.4/1.44/0.84000003 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=15.599999/20.279999 dot=5.2/6.7599993 count=2 duration=9.900001 cd=2.232/1.3392001/0.78120005 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=19.2/24.96 dot=6.4/8.32 count=3 duration=10.8 cd=2.0757601/1.2454561/0.726516 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=22.800001/29.64 dot=7.6000004/9.88 count=3 duration=11.7 cd=1.9304569/1.1582742/0.6756599 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=26.400002/34.32 dot=8.8/11.44 count=4 duration=12.599999 cd=1.795325/1.077195/0.6283637 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=30.0/39.0 dot=10.0/13.0 count=4 duration=13.5 cd=1.6696521/1.0017914/0.58437824 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=33.600002/43.68 dot=11.200001/14.56 count=5 duration=14.400001 cd=1.5527767/0.9316661/0.5434718 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=37.2/48.36 dot=12.400001/16.12 count=5 duration=15.3 cd=1.4440823/0.8664494/0.5054288 radius=0.0/0.0/0.0
+rain_of_fire spell=5740 kind=Ground damage=8.0 dot=0.0 cooldown=9.0 range=20.0 radius=7.0 count=1 duration=6.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=8.0/10.4 dot=0.0/0.0 count=1 duration=6.0 cd=9.0/5.4/3.1499999 radius=7.0/10.5/15.75
+  L2 mult=1.3 dmg=10.4/13.519999 dot=0.0/0.0 count=1 duration=6.6000004 cd=8.37/5.0220003/2.9294999 radius=7.5600004/11.34/17.01
+  L3 mult=1.6 dmg=12.8/16.64 dot=0.0/0.0 count=2 duration=7.2000003 cd=7.7841/4.67046/2.724435 radius=8.12/12.18/18.27
+  L4 mult=1.9000001 dmg=15.200001/19.76 dot=0.0/0.0 count=2 duration=7.7999997 cd=7.239213/4.343528/2.5337245 radius=8.68/13.02/19.53
+  L5 mult=2.2 dmg=17.6/22.88 dot=0.0/0.0 count=3 duration=8.4 cd=6.7324686/4.039481/2.356364 radius=9.24/13.86/20.789999
+  L6 mult=2.5 dmg=20.0/26.0 dot=0.0/0.0 count=3 duration=9.0 cd=6.261195/3.7567172/2.1914182 radius=9.8/14.700001/22.050001
+  L7 mult=2.8000002 dmg=22.400002/29.12 dot=0.0/0.0 count=4 duration=9.6 cd=5.822912/3.4937475/2.0380192 radius=10.360001/15.540001/23.310001
+  L8 mult=3.1000001 dmg=24.800001/32.24 dot=0.0/0.0 count=4 duration=10.200001 cd=5.415308/3.2491848/1.8953577 radius=10.92/16.380001/24.57
+hellfire spell=5857 kind=Aura damage=6.0 dot=0.0 cooldown=1.0 range=20.0 radius=7.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=6.0/7.7999997 dot=0.0/0.0 count=1 duration=0.0 cd=1.0/0.6/0.35 radius=7.0/10.5/15.75
+  L2 mult=1.3 dmg=7.7999997/10.139999 dot=0.0/0.0 count=1 duration=0.0 cd=0.93/0.558/0.3255 radius=7.5600004/11.34/17.01
+  L3 mult=1.6 dmg=9.6/12.48 dot=0.0/0.0 count=2 duration=0.0 cd=0.8649/0.51894003/0.302715 radius=8.12/12.18/18.27
+  L4 mult=1.9000001 dmg=11.400001/14.82 dot=0.0/0.0 count=2 duration=0.0 cd=0.804357/0.48261422/0.28152496 radius=8.68/13.02/19.53
+  L5 mult=2.2 dmg=13.200001/17.16 dot=0.0/0.0 count=3 duration=0.0 cd=0.74805206/0.44883126/0.26181823 radius=9.24/13.86/20.789999
+  L6 mult=2.5 dmg=15.0/19.5 dot=0.0/0.0 count=3 duration=0.0 cd=0.69568837/0.41741303/0.24349092 radius=9.8/14.700001/22.050001
+  L7 mult=2.8000002 dmg=16.800001/21.84 dot=0.0/0.0 count=4 duration=0.0 cd=0.64699024/0.38819417/0.22644658 radius=10.360001/15.540001/23.310001
+  L8 mult=3.1000001 dmg=18.6/24.18 dot=0.0/0.0 count=4 duration=0.0 cd=0.6017009/0.36102057/0.21059531 radius=10.92/16.380001/24.57
+death_coil spell=6789 kind=Bolt damage=26.0 dot=0.0 cooldown=5.0 range=22.0 radius=0.0 count=1 duration=0.0 effect=Drain(0.5) mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=26.0/33.8 dot=0.0/0.0 count=1 duration=0.0 cd=5.0/3.0/1.75 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=33.8/43.939995 dot=0.0/0.0 count=1 duration=0.0 cd=4.65/2.7900002/1.6275 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=41.600002/54.079998 dot=0.0/0.0 count=2 duration=0.0 cd=4.3245/2.5947/1.513575 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=49.4/64.22 dot=0.0/0.0 count=2 duration=0.0 cd=4.021785/2.413071/1.4076246 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=57.2/74.36 dot=0.0/0.0 count=3 duration=0.0 cd=3.7402604/2.2441564/1.3090911 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=65.0/84.5 dot=0.0/0.0 count=3 duration=0.0 cd=3.4784417/2.0870652/1.2174546 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=72.8/94.64 dot=0.0/0.0 count=4 duration=0.0 cd=3.2349513/1.9409708/1.1322329 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=80.600006/104.78001 dot=0.0/0.0 count=4 duration=0.0 cd=3.0085044/1.8051027/1.0529765 radius=0.0/0.0/0.0
+searing_pain spell=5676 kind=Strike damage=18.0 dot=0.0 cooldown=1.8 range=20.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=18.0/23.4 dot=0.0/0.0 count=1 duration=0.0 cd=1.8/1.08/0.63 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=23.4/30.419996 dot=0.0/0.0 count=1 duration=0.0 cd=1.674/1.0044/0.5859 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=28.800001/37.44 dot=0.0/0.0 count=2 duration=0.0 cd=1.5568199/0.934092/0.54488695 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=34.2/44.46 dot=0.0/0.0 count=2 duration=0.0 cd=1.4478426/0.8687056/0.5067449 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=39.600002/51.48 dot=0.0/0.0 count=3 duration=0.0 cd=1.3464937/0.80789626/0.4712728 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=45.0/58.5 dot=0.0/0.0 count=3 duration=0.0 cd=1.252239/0.7513434/0.43828365 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=50.4/65.520004 dot=0.0/0.0 count=4 duration=0.0 cd=1.1645824/0.6987494/0.40760383 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=55.800003/72.54 dot=0.0/0.0 count=4 duration=0.0 cd=1.0830616/0.64983696/0.37907153 radius=0.0/0.0/0.0
+shadowburn spell=17877 kind=Strike damage=46.0 dot=0.0 cooldown=5.0 range=20.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=46.0/59.8 dot=0.0/0.0 count=1 duration=0.0 cd=5.0/3.0/1.75 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=59.8/77.73999 dot=0.0/0.0 count=1 duration=0.0 cd=4.65/2.7900002/1.6275 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=73.6/95.67999 dot=0.0/0.0 count=2 duration=0.0 cd=4.3245/2.5947/1.513575 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=87.4/113.62 dot=0.0/0.0 count=2 duration=0.0 cd=4.021785/2.413071/1.4076246 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=101.200005/131.56 dot=0.0/0.0 count=3 duration=0.0 cd=3.7402604/2.2441564/1.3090911 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=115.0/149.5 dot=0.0/0.0 count=3 duration=0.0 cd=3.4784417/2.0870652/1.2174546 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=128.8/167.44 dot=0.0/0.0 count=4 duration=0.0 cd=3.2349513/1.9409708/1.1322329 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=142.6/185.38 dot=0.0/0.0 count=4 duration=0.0 cd=3.0085044/1.8051027/1.0529765 radius=0.0/0.0/0.0
+arcane_shot spell=3044 kind=Bolt damage=13.0 dot=0.0 cooldown=1.0 range=28.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=13.0/16.9 dot=0.0/0.0 count=1 duration=0.0 cd=1.0/0.6/0.35 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=16.9/21.969997 dot=0.0/0.0 count=1 duration=0.0 cd=0.93/0.558/0.3255 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=20.800001/27.039999 dot=0.0/0.0 count=2 duration=0.0 cd=0.8649/0.51894003/0.302715 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=24.7/32.11 dot=0.0/0.0 count=2 duration=0.0 cd=0.804357/0.48261422/0.28152496 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=28.6/37.18 dot=0.0/0.0 count=3 duration=0.0 cd=0.74805206/0.44883126/0.26181823 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=32.5/42.25 dot=0.0/0.0 count=3 duration=0.0 cd=0.69568837/0.41741303/0.24349092 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=36.4/47.32 dot=0.0/0.0 count=4 duration=0.0 cd=0.64699024/0.38819417/0.22644658 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=40.300003/52.390003 dot=0.0/0.0 count=4 duration=0.0 cd=0.6017009/0.36102057/0.21059531 radius=0.0/0.0/0.0
+multi_shot spell=2643 kind=Bolt damage=10.0 dot=0.0 cooldown=2.0 range=26.0 radius=0.0 count=3 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=10.0/13.0 dot=0.0/0.0 count=3 duration=0.0 cd=2.0/1.2/0.7 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=13.0/16.899998 dot=0.0/0.0 count=3 duration=0.0 cd=1.86/1.116/0.651 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=16.0/20.8 dot=0.0/0.0 count=4 duration=0.0 cd=1.7298/1.0378801/0.60543 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=19.0/24.7 dot=0.0/0.0 count=4 duration=0.0 cd=1.608714/0.96522844/0.5630499 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=22.0/28.599998 dot=0.0/0.0 count=5 duration=0.0 cd=1.4961041/0.8976625/0.52363646 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=25.0/32.5 dot=0.0/0.0 count=5 duration=0.0 cd=1.3913767/0.83482605/0.48698184 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=28.000002/36.4 dot=0.0/0.0 count=6 duration=0.0 cd=1.2939805/0.77638835/0.45289317 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=31.000002/40.300003 dot=0.0/0.0 count=6 duration=0.0 cd=1.2034018/0.72204113/0.42119062 radius=0.0/0.0/0.0
+serpent_sting spell=1978 kind=Bolt damage=2.0 dot=4.0 cooldown=2.6 range=26.0 radius=0.0 count=2 duration=9.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=2.0/2.6 dot=4.0/5.2 count=2 duration=9.0 cd=2.6/1.5600001/0.90999997 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=2.6/3.3799996 dot=5.2/6.7599993 count=2 duration=9.900001 cd=2.418/1.4508001/0.8463 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=3.2/4.16 dot=6.4/8.32 count=3 duration=10.8 cd=2.24874/1.349244/0.78705895 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=3.8000002/4.94 dot=7.6000004/9.88 count=3 duration=11.7 cd=2.0913281/1.254797/0.7319648 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=4.4/5.72 dot=8.8/11.44 count=4 duration=12.599999 cd=1.9449353/1.1669612/0.68072736 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=5.0/6.5 dot=10.0/13.0 count=4 duration=13.5 cd=1.8087897/1.0852739/0.63307637 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=5.6000004/7.28 dot=11.200001/14.56 count=5 duration=14.400001 cd=1.6821746/1.0093048/0.5887611 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=6.2000003/8.06 dot=12.400001/16.12 count=5 duration=15.3 cd=1.5644222/0.9386534/0.54754776 radius=0.0/0.0/0.0
+volley spell=1510 kind=Ground damage=8.0 dot=0.0 cooldown=9.0 range=24.0 radius=7.0 count=1 duration=5.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=8.0/10.4 dot=0.0/0.0 count=1 duration=5.0 cd=9.0/5.4/3.1499999 radius=7.0/10.5/15.75
+  L2 mult=1.3 dmg=10.4/13.519999 dot=0.0/0.0 count=1 duration=5.5 cd=8.37/5.0220003/2.9294999 radius=7.5600004/11.34/17.01
+  L3 mult=1.6 dmg=12.8/16.64 dot=0.0/0.0 count=2 duration=6.0 cd=7.7841/4.67046/2.724435 radius=8.12/12.18/18.27
+  L4 mult=1.9000001 dmg=15.200001/19.76 dot=0.0/0.0 count=2 duration=6.5 cd=7.239213/4.343528/2.5337245 radius=8.68/13.02/19.53
+  L5 mult=2.2 dmg=17.6/22.88 dot=0.0/0.0 count=3 duration=7.0 cd=6.7324686/4.039481/2.356364 radius=9.24/13.86/20.789999
+  L6 mult=2.5 dmg=20.0/26.0 dot=0.0/0.0 count=3 duration=7.5 cd=6.261195/3.7567172/2.1914182 radius=9.8/14.700001/22.050001
+  L7 mult=2.8000002 dmg=22.400002/29.12 dot=0.0/0.0 count=4 duration=8.0 cd=5.822912/3.4937475/2.0380192 radius=10.360001/15.540001/23.310001
+  L8 mult=3.1000001 dmg=24.800001/32.24 dot=0.0/0.0 count=4 duration=8.5 cd=5.415308/3.2491848/1.8953577 radius=10.92/16.380001/24.57
+explosive_trap spell=13812 kind=Ground damage=22.0 dot=4.0 cooldown=8.0 range=14.0 radius=5.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=22.0/28.599998 dot=4.0/5.2 count=1 duration=0.0 cd=8.0/4.8/2.8 radius=5.0/7.5/11.25
+  L2 mult=1.3 dmg=28.599998/37.179996 dot=5.2/6.7599993 count=1 duration=0.0 cd=7.44/4.464/2.604 radius=5.4/8.1/12.150001
+  L3 mult=1.6 dmg=35.2/45.76 dot=6.4/8.32 count=2 duration=0.0 cd=6.9192/4.1515203/2.42172 radius=5.7999997/8.7/13.049999
+  L4 mult=1.9000001 dmg=41.800003/54.34 dot=7.6000004/9.88 count=2 duration=0.0 cd=6.434856/3.8609138/2.2521996 radius=6.2/9.299999/13.95
+  L5 mult=2.2 dmg=48.4/62.92 dot=8.8/11.44 count=3 duration=0.0 cd=5.9844165/3.59065/2.0945458 radius=6.5999994/9.9/14.849998
+  L6 mult=2.5 dmg=55.0/71.5 dot=10.0/13.0 count=3 duration=0.0 cd=5.565507/3.3393042/1.9479274 radius=7.0/10.5/15.75
+  L7 mult=2.8000002 dmg=61.600006/80.08 dot=11.200001/14.56 count=4 duration=0.0 cd=5.175922/3.1055534/1.8115727 radius=7.4/11.1/16.65
+  L8 mult=3.1000001 dmg=68.200005/88.66 dot=12.400001/16.12 count=4 duration=0.0 cd=4.813607/2.8881645/1.6847625 radius=7.7999997/11.7/17.55
+concussive_shot spell=5116 kind=Bolt damage=8.0 dot=0.0 cooldown=3.0 range=28.0 radius=0.0 count=1 duration=0.0 effect=Slow(0.5, 4.0) mark=5116 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=8.0/10.4 dot=0.0/0.0 count=1 duration=0.0 cd=3.0/1.8000001/1.05 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=10.4/13.519999 dot=0.0/0.0 count=1 duration=0.0 cd=2.79/1.674/0.9765 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=12.8/16.64 dot=0.0/0.0 count=2 duration=0.0 cd=2.5946999/1.55682/0.90814495 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=15.200001/19.76 dot=0.0/0.0 count=2 duration=0.0 cd=2.413071/1.4478426/0.8445748 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=17.6/22.88 dot=0.0/0.0 count=3 duration=0.0 cd=2.2441561/1.3464937/0.78545463 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=20.0/26.0 dot=0.0/0.0 count=3 duration=0.0 cd=2.0870652/1.2522392/0.7304728 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=22.400002/29.12 dot=0.0/0.0 count=4 duration=0.0 cd=1.9409707/1.1645825/0.6793397 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=24.800001/32.24 dot=0.0/0.0 count=4 duration=0.0 cd=1.8051027/1.0830617/0.6317859 radius=0.0/0.0/0.0
+aimed_shot spell=19434 kind=Bolt damage=48.0 dot=0.0 cooldown=4.0 range=32.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=48.0/62.399998 dot=0.0/0.0 count=1 duration=0.0 cd=4.0/2.4/1.4 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=62.399998/81.119995 dot=0.0/0.0 count=1 duration=0.0 cd=3.72/2.232/1.302 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=76.8/99.84 dot=0.0/0.0 count=2 duration=0.0 cd=3.4596/2.0757601/1.21086 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=91.200005/118.56 dot=0.0/0.0 count=2 duration=0.0 cd=3.217428/1.9304569/1.1260998 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=105.600006/137.28 dot=0.0/0.0 count=3 duration=0.0 cd=2.9922082/1.795325/1.0472729 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=120.0/156.0 dot=0.0/0.0 count=3 duration=0.0 cd=2.7827535/1.6696521/0.9739637 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=134.40001/174.72 dot=0.0/0.0 count=4 duration=0.0 cd=2.587961/1.5527767/0.90578634 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=148.8/193.44 dot=0.0/0.0 count=4 duration=0.0 cd=2.4068036/1.4440823/0.84238124 radius=0.0/0.0/0.0
+lightning_bolt spell=403 kind=Bolt damage=15.0 dot=0.0 cooldown=1.3 range=24.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=15.0/19.5 dot=0.0/0.0 count=1 duration=0.0 cd=1.3/0.78000003/0.45499998 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=19.5/25.349997 dot=0.0/0.0 count=1 duration=0.0 cd=1.209/0.72540003/0.42315 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=24.0/31.199999 dot=0.0/0.0 count=2 duration=0.0 cd=1.12437/0.674622/0.39352947 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=28.500002/37.05 dot=0.0/0.0 count=2 duration=0.0 cd=1.0456641/0.6273985/0.3659824 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=33.0/42.899998 dot=0.0/0.0 count=3 duration=0.0 cd=0.97246766/0.5834806/0.34036368 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=37.5/48.75 dot=0.0/0.0 count=3 duration=0.0 cd=0.90439487/0.54263693/0.31653818 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=42.000004/54.600002 dot=0.0/0.0 count=4 duration=0.0 cd=0.8410873/0.5046524/0.29438055 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=46.500004/60.450005 dot=0.0/0.0 count=4 duration=0.0 cd=0.7822111/0.4693267/0.27377388 radius=0.0/0.0/0.0
+chain_lightning spell=421 kind=Chain damage=18.0 dot=0.0 cooldown=3.0 range=20.0 radius=9.0 count=3 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=18.0/23.4 dot=0.0/0.0 count=3 duration=0.0 cd=3.0/1.8000001/1.05 radius=9.0/13.5/20.25
+  L2 mult=1.3 dmg=23.4/30.419996 dot=0.0/0.0 count=3 duration=0.0 cd=2.79/1.674/0.9765 radius=9.72/14.58/21.87
+  L3 mult=1.6 dmg=28.800001/37.44 dot=0.0/0.0 count=4 duration=0.0 cd=2.5946999/1.55682/0.90814495 radius=10.44/15.66/23.49
+  L4 mult=1.9000001 dmg=34.2/44.46 dot=0.0/0.0 count=4 duration=0.0 cd=2.413071/1.4478426/0.8445748 radius=11.16/16.74/25.11
+  L5 mult=2.2 dmg=39.600002/51.48 dot=0.0/0.0 count=5 duration=0.0 cd=2.2441561/1.3464937/0.78545463 radius=11.879999/17.82/26.729998
+  L6 mult=2.5 dmg=45.0/58.5 dot=0.0/0.0 count=5 duration=0.0 cd=2.0870652/1.2522392/0.7304728 radius=12.599999/18.9/28.349998
+  L7 mult=2.8000002 dmg=50.4/65.520004 dot=0.0/0.0 count=6 duration=0.0 cd=1.9409707/1.1645825/0.6793397 radius=13.32/19.98/29.97
+  L8 mult=3.1000001 dmg=55.800003/72.54 dot=0.0/0.0 count=6 duration=0.0 cd=1.8051027/1.0830617/0.6317859 radius=14.039999/21.059998/31.589998
+earth_shock spell=8042 kind=Strike damage=22.0 dot=0.0 cooldown=2.5 range=20.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=22.0/28.599998 dot=0.0/0.0 count=1 duration=0.0 cd=2.5/1.5/0.875 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=28.599998/37.179996 dot=0.0/0.0 count=1 duration=0.0 cd=2.325/1.3950001/0.81375 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=35.2/45.76 dot=0.0/0.0 count=2 duration=0.0 cd=2.16225/1.29735/0.7567875 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=41.800003/54.34 dot=0.0/0.0 count=2 duration=0.0 cd=2.0108924/1.2065355/0.7038123 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=48.4/62.92 dot=0.0/0.0 count=3 duration=0.0 cd=1.8701302/1.1220782/0.65454555 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=55.0/71.5 dot=0.0/0.0 count=3 duration=0.0 cd=1.7392209/1.0435326/0.6087273 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=61.600006/80.08 dot=0.0/0.0 count=4 duration=0.0 cd=1.6174756/0.9704854/0.56611645 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=68.200005/88.66 dot=0.0/0.0 count=4 duration=0.0 cd=1.5042522/0.90255135/0.52648824 radius=0.0/0.0/0.0
+flame_shock spell=8050 kind=Strike damage=10.0 dot=4.0 cooldown=3.0 range=20.0 radius=0.0 count=2 duration=9.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=10.0/13.0 dot=4.0/5.2 count=2 duration=9.0 cd=3.0/1.8000001/1.05 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=13.0/16.899998 dot=5.2/6.7599993 count=2 duration=9.900001 cd=2.79/1.674/0.9765 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=16.0/20.8 dot=6.4/8.32 count=3 duration=10.8 cd=2.5946999/1.55682/0.90814495 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=19.0/24.7 dot=7.6000004/9.88 count=3 duration=11.7 cd=2.413071/1.4478426/0.8445748 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=22.0/28.599998 dot=8.8/11.44 count=4 duration=12.599999 cd=2.2441561/1.3464937/0.78545463 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=25.0/32.5 dot=10.0/13.0 count=4 duration=13.5 cd=2.0870652/1.2522392/0.7304728 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=28.000002/36.4 dot=11.200001/14.56 count=5 duration=14.400001 cd=1.9409707/1.1645825/0.6793397 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=31.000002/40.300003 dot=12.400001/16.12 count=5 duration=15.3 cd=1.8051027/1.0830617/0.6317859 radius=0.0/0.0/0.0
+frost_shock spell=8056 kind=Strike damage=16.0 dot=0.0 cooldown=3.0 range=20.0 radius=0.0 count=1 duration=0.0 effect=Slow(0.5, 4.0) mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=16.0/20.8 dot=0.0/0.0 count=1 duration=0.0 cd=3.0/1.8000001/1.05 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=20.8/27.039997 dot=0.0/0.0 count=1 duration=0.0 cd=2.79/1.674/0.9765 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=25.6/33.28 dot=0.0/0.0 count=2 duration=0.0 cd=2.5946999/1.55682/0.90814495 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=30.400002/39.52 dot=0.0/0.0 count=2 duration=0.0 cd=2.413071/1.4478426/0.8445748 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=35.2/45.76 dot=0.0/0.0 count=3 duration=0.0 cd=2.2441561/1.3464937/0.78545463 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=40.0/52.0 dot=0.0/0.0 count=3 duration=0.0 cd=2.0870652/1.2522392/0.7304728 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=44.800003/58.24 dot=0.0/0.0 count=4 duration=0.0 cd=1.9409707/1.1645825/0.6793397 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=49.600002/64.48 dot=0.0/0.0 count=4 duration=0.0 cd=1.8051027/1.0830617/0.6317859 radius=0.0/0.0/0.0
+searing_totem spell=3599 kind=Totem damage=9.0 dot=0.0 cooldown=14.0 range=20.0 radius=0.0 count=1 duration=14.0 effect=None mark=0 totem=(4589, 3606) overhead=false
+  L1 mult=1.0 dmg=9.0/11.7 dot=0.0/0.0 count=1 duration=14.0 cd=14.0/8.400001/4.9 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=11.7/15.209998 dot=0.0/0.0 count=1 duration=15.400001 cd=13.02/7.8120008/4.557 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=14.400001/18.72 dot=0.0/0.0 count=2 duration=16.800001 cd=12.1086/7.26516/4.23801 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=17.1/22.23 dot=0.0/0.0 count=2 duration=18.199999 cd=11.260998/6.756599/3.9413493 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=19.800001/25.74 dot=0.0/0.0 count=3 duration=19.6 cd=10.472729/6.2836375/3.665455 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=22.5/29.25 dot=0.0/0.0 count=3 duration=21.0 cd=9.739637/5.8437824/3.408873 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=25.2/32.760002 dot=0.0/0.0 count=4 duration=22.4 cd=9.057863/5.434718/3.170252 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=27.900002/36.27 dot=0.0/0.0 count=4 duration=23.800001 cd=8.423813/5.054288/2.9483345 radius=0.0/0.0/0.0
+magma_totem spell=8190 kind=Totem damage=8.0 dot=0.0 cooldown=16.0 range=20.0 radius=7.0 count=1 duration=14.0 effect=None mark=0 totem=(4683, 8349) overhead=false
+  L1 mult=1.0 dmg=8.0/10.4 dot=0.0/0.0 count=1 duration=14.0 cd=16.0/9.6/5.6 radius=7.0/10.5/15.75
+  L2 mult=1.3 dmg=10.4/13.519999 dot=0.0/0.0 count=1 duration=15.400001 cd=14.88/8.928/5.208 radius=7.5600004/11.34/17.01
+  L3 mult=1.6 dmg=12.8/16.64 dot=0.0/0.0 count=2 duration=16.800001 cd=13.8384/8.3030405/4.84344 radius=8.12/12.18/18.27
+  L4 mult=1.9000001 dmg=15.200001/19.76 dot=0.0/0.0 count=2 duration=18.199999 cd=12.869712/7.7218275/4.5043993 radius=8.68/13.02/19.53
+  L5 mult=2.2 dmg=17.6/22.88 dot=0.0/0.0 count=3 duration=19.6 cd=11.968833/7.1813/4.1890917 radius=9.24/13.86/20.789999
+  L6 mult=2.5 dmg=20.0/26.0 dot=0.0/0.0 count=3 duration=21.0 cd=11.131014/6.6786084/3.8958547 radius=9.8/14.700001/22.050001
+  L7 mult=2.8000002 dmg=22.400002/29.12 dot=0.0/0.0 count=4 duration=22.4 cd=10.351844/6.211107/3.6231453 radius=10.360001/15.540001/23.310001
+  L8 mult=3.1000001 dmg=24.800001/32.24 dot=0.0/0.0 count=4 duration=23.800001 cd=9.627214/5.776329/3.369525 radius=10.92/16.380001/24.57
+lightning_shield spell=324 kind=Orbit damage=12.0 dot=0.0 cooldown=0.9 range=20.0 radius=4.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=12.0/15.599999 dot=0.0/0.0 count=1 duration=0.0 cd=0.9/0.54/0.315 radius=4.0/6.0/9.0
+  L2 mult=1.3 dmg=15.599999/20.279999 dot=0.0/0.0 count=1 duration=0.0 cd=0.837/0.5022/0.29295 radius=4.32/6.4800005/9.72
+  L3 mult=1.6 dmg=19.2/24.96 dot=0.0/0.0 count=2 duration=0.0 cd=0.77840996/0.467046/0.27244347 radius=4.64/6.96/10.44
+  L4 mult=1.9000001 dmg=22.800001/29.64 dot=0.0/0.0 count=2 duration=0.0 cd=0.7239213/0.4343528/0.25337246 radius=4.96/7.44/11.16
+  L5 mult=2.2 dmg=26.400002/34.32 dot=0.0/0.0 count=3 duration=0.0 cd=0.67324686/0.40394813/0.2356364 radius=5.2799997/7.9199996/11.879999
+  L6 mult=2.5 dmg=30.0/39.0 dot=0.0/0.0 count=3 duration=0.0 cd=0.6261195/0.3756717/0.21914183 radius=5.6/8.4/12.599999
+  L7 mult=2.8000002 dmg=33.600002/43.68 dot=0.0/0.0 count=4 duration=0.0 cd=0.5822912/0.3493747/0.20380192 radius=5.92/8.88/13.32
+  L8 mult=3.1000001 dmg=37.2/48.36 dot=0.0/0.0 count=4 duration=0.0 cd=0.5415308/0.32491848/0.2 radius=6.24/9.36/14.039999
+hammer_of_wrath spell=24275 kind=Bolt damage=16.0 dot=0.0 cooldown=1.5 range=24.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=16.0/20.8 dot=0.0/0.0 count=1 duration=0.0 cd=1.5/0.90000004/0.525 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=20.8/27.039997 dot=0.0/0.0 count=1 duration=0.0 cd=1.395/0.837/0.48825 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=25.6/33.28 dot=0.0/0.0 count=2 duration=0.0 cd=1.2973499/0.77841/0.45407248 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=30.400002/39.52 dot=0.0/0.0 count=2 duration=0.0 cd=1.2065355/0.7239213/0.4222874 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=35.2/45.76 dot=0.0/0.0 count=3 duration=0.0 cd=1.1220781/0.67324686/0.39272732 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=40.0/52.0 dot=0.0/0.0 count=3 duration=0.0 cd=1.0435326/0.6261196/0.3652364 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=44.800003/58.24 dot=0.0/0.0 count=4 duration=0.0 cd=0.9704853/0.58229125/0.33966985 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=49.600002/64.48 dot=0.0/0.0 count=4 duration=0.0 cd=0.90255135/0.54153085/0.31589296 radius=0.0/0.0/0.0
+consecration spell=26573 kind=GroundSelf damage=7.0 dot=0.0 cooldown=9.0 range=20.0 radius=7.0 count=1 duration=8.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=7.0/9.099999 dot=0.0/0.0 count=1 duration=8.0 cd=9.0/5.4/3.1499999 radius=7.0/10.5/15.75
+  L2 mult=1.3 dmg=9.099999/11.829999 dot=0.0/0.0 count=1 duration=8.8 cd=8.37/5.0220003/2.9294999 radius=7.5600004/11.34/17.01
+  L3 mult=1.6 dmg=11.2/14.559999 dot=0.0/0.0 count=2 duration=9.6 cd=7.7841/4.67046/2.724435 radius=8.12/12.18/18.27
+  L4 mult=1.9000001 dmg=13.300001/17.29 dot=0.0/0.0 count=2 duration=10.4 cd=7.239213/4.343528/2.5337245 radius=8.68/13.02/19.53
+  L5 mult=2.2 dmg=15.400001/20.019999 dot=0.0/0.0 count=3 duration=11.2 cd=6.7324686/4.039481/2.356364 radius=9.24/13.86/20.789999
+  L6 mult=2.5 dmg=17.5/22.75 dot=0.0/0.0 count=3 duration=12.0 cd=6.261195/3.7567172/2.1914182 radius=9.8/14.700001/22.050001
+  L7 mult=2.8000002 dmg=19.600002/25.480001 dot=0.0/0.0 count=4 duration=12.8 cd=5.822912/3.4937475/2.0380192 radius=10.360001/15.540001/23.310001
+  L8 mult=3.1000001 dmg=21.7/28.210001 dot=0.0/0.0 count=4 duration=13.6 cd=5.415308/3.2491848/1.8953577 radius=10.92/16.380001/24.57
+holy_shock spell=25912 kind=Strike damage=24.0 dot=0.0 cooldown=2.5 range=20.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=24.0/31.199999 dot=0.0/0.0 count=1 duration=0.0 cd=2.5/1.5/0.875 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=31.199999/40.559998 dot=0.0/0.0 count=1 duration=0.0 cd=2.325/1.3950001/0.81375 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=38.4/49.92 dot=0.0/0.0 count=2 duration=0.0 cd=2.16225/1.29735/0.7567875 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=45.600002/59.28 dot=0.0/0.0 count=2 duration=0.0 cd=2.0108924/1.2065355/0.7038123 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=52.800003/68.64 dot=0.0/0.0 count=3 duration=0.0 cd=1.8701302/1.1220782/0.65454555 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=60.0/78.0 dot=0.0/0.0 count=3 duration=0.0 cd=1.7392209/1.0435326/0.6087273 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=67.200005/87.36 dot=0.0/0.0 count=4 duration=0.0 cd=1.6174756/0.9704854/0.56611645 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=74.4/96.72 dot=0.0/0.0 count=4 duration=0.0 cd=1.5042522/0.90255135/0.52648824 radius=0.0/0.0/0.0
+exorcism spell=879 kind=Strike damage=36.0 dot=0.0 cooldown=5.0 range=22.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=36.0/46.8 dot=0.0/0.0 count=1 duration=0.0 cd=5.0/3.0/1.75 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=46.8/60.839993 dot=0.0/0.0 count=1 duration=0.0 cd=4.65/2.7900002/1.6275 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=57.600002/74.88 dot=0.0/0.0 count=2 duration=0.0 cd=4.3245/2.5947/1.513575 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=68.4/88.92 dot=0.0/0.0 count=2 duration=0.0 cd=4.021785/2.413071/1.4076246 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=79.200005/102.96 dot=0.0/0.0 count=3 duration=0.0 cd=3.7402604/2.2441564/1.3090911 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=90.0/117.0 dot=0.0/0.0 count=3 duration=0.0 cd=3.4784417/2.0870652/1.2174546 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=100.8/131.04001 dot=0.0/0.0 count=4 duration=0.0 cd=3.2349513/1.9409708/1.1322329 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=111.600006/145.08 dot=0.0/0.0 count=4 duration=0.0 cd=3.0085044/1.8051027/1.0529765 radius=0.0/0.0/0.0
+holy_wrath spell=2812 kind=Nova damage=14.0 dot=0.0 cooldown=5.0 range=20.0 radius=11.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=14.0/18.199999 dot=0.0/0.0 count=1 duration=0.0 cd=5.0/3.0/1.75 radius=11.0/16.5/24.75
+  L2 mult=1.3 dmg=18.199999/23.659998 dot=0.0/0.0 count=1 duration=0.0 cd=4.65/2.7900002/1.6275 radius=11.88/17.82/26.73
+  L3 mult=1.6 dmg=22.4/29.119999 dot=0.0/0.0 count=2 duration=0.0 cd=4.3245/2.5947/1.513575 radius=12.759999/19.14/28.71
+  L4 mult=1.9000001 dmg=26.600002/34.58 dot=0.0/0.0 count=2 duration=0.0 cd=4.021785/2.413071/1.4076246 radius=13.64/20.460001/30.69
+  L5 mult=2.2 dmg=30.800001/40.039997 dot=0.0/0.0 count=3 duration=0.0 cd=3.7402604/2.2441564/1.3090911 radius=14.5199995/21.779999/32.67
+  L6 mult=2.5 dmg=35.0/45.5 dot=0.0/0.0 count=3 duration=0.0 cd=3.4784417/2.0870652/1.2174546 radius=15.4/23.099998/34.649998
+  L7 mult=2.8000002 dmg=39.200005/50.960003 dot=0.0/0.0 count=4 duration=0.0 cd=3.2349513/1.9409708/1.1322329 radius=16.28/24.420002/36.63
+  L8 mult=3.1000001 dmg=43.4/56.420002 dot=0.0/0.0 count=4 duration=0.0 cd=3.0085044/1.8051027/1.0529765 radius=17.16/25.74/38.61
+hammer_of_justice spell=853 kind=Strike damage=8.0 dot=0.0 cooldown=6.0 range=12.0 radius=0.0 count=2 duration=0.0 effect=Stun(3.0) mark=853 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=8.0/10.4 dot=0.0/0.0 count=2 duration=0.0 cd=6.0/3.6000001/2.1 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=10.4/13.519999 dot=0.0/0.0 count=2 duration=0.0 cd=5.58/3.348/1.953 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=12.8/16.64 dot=0.0/0.0 count=3 duration=0.0 cd=5.1893997/3.11364/1.8162899 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=15.200001/19.76 dot=0.0/0.0 count=3 duration=0.0 cd=4.826142/2.8956852/1.6891496 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=17.6/22.88 dot=0.0/0.0 count=4 duration=0.0 cd=4.4883122/2.6929874/1.5709093 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=20.0/26.0 dot=0.0/0.0 count=4 duration=0.0 cd=4.1741304/2.5044785/1.4609456 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=22.400002/29.12 dot=0.0/0.0 count=5 duration=0.0 cd=3.8819413/2.329165/1.3586794 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=24.800001/32.24 dot=0.0/0.0 count=5 duration=0.0 cd=3.6102054/2.1661234/1.2635719 radius=0.0/0.0/0.0
+divine_shield spell=642 kind=Immune damage=0.0 dot=0.0 cooldown=28.0 range=20.0 radius=0.0 count=1 duration=4.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=0.0/0.0 dot=0.0/0.0 count=1 duration=4.0 cd=28.0/16.800001/9.8 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=0.0/0.0 dot=0.0/0.0 count=1 duration=4.4 cd=26.04/15.6240015/9.114 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=0.0/0.0 dot=0.0/0.0 count=2 duration=4.8 cd=24.2172/14.53032/8.47602 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=0.0/0.0 dot=0.0/0.0 count=2 duration=5.2 cd=22.521996/13.513198/7.8826985 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=0.0/0.0 dot=0.0/0.0 count=3 duration=5.6 cd=20.945457/12.567275/7.33091 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=0.0/0.0 dot=0.0/0.0 count=3 duration=6.0 cd=19.479275/11.687565/6.817746 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=0.0/0.0 dot=0.0/0.0 count=4 duration=6.4 cd=18.115726/10.869436/6.340504 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=0.0/0.0 dot=0.0/0.0 count=4 duration=6.8 cd=16.847626/10.108576/5.896669 radius=0.0/0.0/0.0
+judgement spell=20271 kind=Strike damage=26.0 dot=0.0 cooldown=4.0 range=14.0 radius=0.0 count=2 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=26.0/33.8 dot=0.0/0.0 count=2 duration=0.0 cd=4.0/2.4/1.4 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=33.8/43.939995 dot=0.0/0.0 count=2 duration=0.0 cd=3.72/2.232/1.302 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=41.600002/54.079998 dot=0.0/0.0 count=3 duration=0.0 cd=3.4596/2.0757601/1.21086 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=49.4/64.22 dot=0.0/0.0 count=3 duration=0.0 cd=3.217428/1.9304569/1.1260998 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=57.2/74.36 dot=0.0/0.0 count=4 duration=0.0 cd=2.9922082/1.795325/1.0472729 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=65.0/84.5 dot=0.0/0.0 count=4 duration=0.0 cd=2.7827535/1.6696521/0.9739637 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=72.8/94.64 dot=0.0/0.0 count=5 duration=0.0 cd=2.587961/1.5527767/0.90578634 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=80.600006/104.78001 dot=0.0/0.0 count=5 duration=0.0 cd=2.4068036/1.4440823/0.84238124 radius=0.0/0.0/0.0
+wrath spell=5176 kind=Bolt damage=13.0 dot=0.0 cooldown=1.2 range=24.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=13.0/16.9 dot=0.0/0.0 count=1 duration=0.0 cd=1.2/0.72/0.42000002 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=16.9/21.969997 dot=0.0/0.0 count=1 duration=0.0 cd=1.116/0.66960007/0.39060003 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=20.800001/27.039999 dot=0.0/0.0 count=2 duration=0.0 cd=1.0378801/0.62272805/0.363258 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=24.7/32.11 dot=0.0/0.0 count=2 duration=0.0 cd=0.96522844/0.5791371/0.33782995 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=28.6/37.18 dot=0.0/0.0 count=3 duration=0.0 cd=0.8976625/0.5385975/0.31418186 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=32.5/42.25 dot=0.0/0.0 count=3 duration=0.0 cd=0.83482605/0.5008957/0.29218912 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=36.4/47.32 dot=0.0/0.0 count=4 duration=0.0 cd=0.77638835/0.46583304/0.2717359 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=40.300003/52.390003 dot=0.0/0.0 count=4 duration=0.0 cd=0.72204113/0.4332247/0.2527144 radius=0.0/0.0/0.0
+moonfire spell=8921 kind=Strike damage=10.0 dot=3.0 cooldown=2.0 range=22.0 radius=0.0 count=2 duration=9.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=10.0/13.0 dot=3.0/3.8999999 count=2 duration=9.0 cd=2.0/1.2/0.7 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=13.0/16.899998 dot=3.8999999/5.0699997 count=2 duration=9.900001 cd=1.86/1.116/0.651 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=16.0/20.8 dot=4.8/6.24 count=3 duration=10.8 cd=1.7298/1.0378801/0.60543 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=19.0/24.7 dot=5.7000003/7.41 count=3 duration=11.7 cd=1.608714/0.96522844/0.5630499 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=22.0/28.599998 dot=6.6000004/8.58 count=4 duration=12.599999 cd=1.4961041/0.8976625/0.52363646 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=25.0/32.5 dot=7.5/9.75 count=4 duration=13.5 cd=1.3913767/0.83482605/0.48698184 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=28.000002/36.4 dot=8.400001/10.92 count=5 duration=14.400001 cd=1.2939805/0.77638835/0.45289317 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=31.000002/40.300003 dot=9.3/12.09 count=5 duration=15.3 cd=1.2034018/0.72204113/0.42119062 radius=0.0/0.0/0.0
+starfire spell=2912 kind=Strike damage=40.0 dot=0.0 cooldown=4.0 range=24.0 radius=0.0 count=1 duration=0.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=40.0/52.0 dot=0.0/0.0 count=1 duration=0.0 cd=4.0/2.4/1.4 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=52.0/67.59999 dot=0.0/0.0 count=1 duration=0.0 cd=3.72/2.232/1.302 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=64.0/83.2 dot=0.0/0.0 count=2 duration=0.0 cd=3.4596/2.0757601/1.21086 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=76.0/98.8 dot=0.0/0.0 count=2 duration=0.0 cd=3.217428/1.9304569/1.1260998 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=88.0/114.399994 dot=0.0/0.0 count=3 duration=0.0 cd=2.9922082/1.795325/1.0472729 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=100.0/130.0 dot=0.0/0.0 count=3 duration=0.0 cd=2.7827535/1.6696521/0.9739637 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=112.00001/145.6 dot=0.0/0.0 count=4 duration=0.0 cd=2.587961/1.5527767/0.90578634 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=124.00001/161.20001 dot=0.0/0.0 count=4 duration=0.0 cd=2.4068036/1.4440823/0.84238124 radius=0.0/0.0/0.0
+hurricane spell=16914 kind=Ground damage=7.0 dot=0.0 cooldown=10.0 range=20.0 radius=8.0 count=1 duration=7.0 effect=Slow(0.6, 1.5) mark=0 totem=(0, 0) overhead=true
+  L1 mult=1.0 dmg=7.0/9.099999 dot=0.0/0.0 count=1 duration=7.0 cd=10.0/6.0/3.5 radius=8.0/12.0/18.0
+  L2 mult=1.3 dmg=9.099999/11.829999 dot=0.0/0.0 count=1 duration=7.7000003 cd=9.3/5.5800004/3.255 radius=8.64/12.960001/19.44
+  L3 mult=1.6 dmg=11.2/14.559999 dot=0.0/0.0 count=2 duration=8.400001 cd=8.649/5.1894/3.02715 radius=9.28/13.92/20.88
+  L4 mult=1.9000001 dmg=13.300001/17.29 dot=0.0/0.0 count=2 duration=9.099999 cd=8.04357/4.826142/2.8152492 radius=9.92/14.88/22.32
+  L5 mult=2.2 dmg=15.400001/20.019999 dot=0.0/0.0 count=3 duration=9.8 cd=7.4805207/4.4883127/2.6181822 radius=10.559999/15.839999/23.759998
+  L6 mult=2.5 dmg=17.5/22.75 dot=0.0/0.0 count=3 duration=10.5 cd=6.9568834/4.1741304/2.434909 radius=11.2/16.8/25.199999
+  L7 mult=2.8000002 dmg=19.600002/25.480001 dot=0.0/0.0 count=4 duration=11.2 cd=6.4699025/3.8819416/2.2644658 radius=11.84/17.76/26.64
+  L8 mult=3.1000001 dmg=21.7/28.210001 dot=0.0/0.0 count=4 duration=11.900001 cd=6.017009/3.6102054/2.105953 radius=12.48/18.72/28.079998
+insect_swarm spell=5570 kind=Dot damage=0.0 dot=4.0 cooldown=3.0 range=20.0 radius=0.0 count=3 duration=10.0 effect=None mark=5570 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=0.0/0.0 dot=4.0/5.2 count=3 duration=10.0 cd=3.0/1.8000001/1.05 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=0.0/0.0 dot=5.2/6.7599993 count=3 duration=11.0 cd=2.79/1.674/0.9765 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=0.0/0.0 dot=6.4/8.32 count=4 duration=12.0 cd=2.5946999/1.55682/0.90814495 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=0.0/0.0 dot=7.6000004/9.88 count=4 duration=13.0 cd=2.413071/1.4478426/0.8445748 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=0.0/0.0 dot=8.8/11.44 count=5 duration=14.0 cd=2.2441561/1.3464937/0.78545463 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=0.0/0.0 dot=10.0/13.0 count=5 duration=15.0 cd=2.0870652/1.2522392/0.7304728 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=0.0/0.0 dot=11.200001/14.56 count=6 duration=16.0 cd=1.9409707/1.1645825/0.6793397 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=0.0/0.0 dot=12.400001/16.12 count=6 duration=17.0 cd=1.8051027/1.0830617/0.6317859 radius=0.0/0.0/0.0
+entangling_roots spell=339 kind=Dot damage=0.0 dot=2.0 cooldown=6.0 range=16.0 radius=0.0 count=4 duration=5.0 effect=Root(4.0) mark=339 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=0.0/0.0 dot=2.0/2.6 count=4 duration=5.0 cd=6.0/3.6000001/2.1 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=0.0/0.0 dot=2.6/3.3799996 count=4 duration=5.5 cd=5.58/3.348/1.953 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=0.0/0.0 dot=3.2/4.16 count=5 duration=6.0 cd=5.1893997/3.11364/1.8162899 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=0.0/0.0 dot=3.8000002/4.94 count=5 duration=6.5 cd=4.826142/2.8956852/1.6891496 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=0.0/0.0 dot=4.4/5.72 count=6 duration=7.0 cd=4.4883122/2.6929874/1.5709093 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=0.0/0.0 dot=5.0/6.5 count=6 duration=7.5 cd=4.1741304/2.5044785/1.4609456 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=0.0/0.0 dot=5.6000004/7.28 count=7 duration=8.0 cd=3.8819413/2.329165/1.3586794 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=0.0/0.0 dot=6.2000003/8.06 count=7 duration=8.5 cd=3.6102054/2.1661234/1.2635719 radius=0.0/0.0/0.0
+thorns spell=467 kind=Thorns damage=8.0 dot=0.0 cooldown=15.0 range=20.0 radius=0.0 count=1 duration=15.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=8.0/10.4 dot=0.0/0.0 count=1 duration=15.0 cd=15.0/9.0/5.25 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=10.4/13.519999 dot=0.0/0.0 count=1 duration=16.5 cd=13.95/8.37/4.8824997 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=12.8/16.64 dot=0.0/0.0 count=2 duration=18.0 cd=12.9735/7.7841005/4.540725 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=15.200001/19.76 dot=0.0/0.0 count=2 duration=19.5 cd=12.065355/7.2392135/4.222874 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=17.6/22.88 dot=0.0/0.0 count=3 duration=21.0 cd=11.220781/6.732469/3.9272735 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=20.0/26.0 dot=0.0/0.0 count=3 duration=22.5 cd=10.435326/6.2611957/3.652364 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=22.400002/29.12 dot=0.0/0.0 count=4 duration=24.0 cd=9.704854/5.8229127/3.396699 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=24.800001/32.24 dot=0.0/0.0 count=4 duration=25.5 cd=9.025514/5.4153085/3.1589298 radius=0.0/0.0/0.0
+rejuvenation spell=774 kind=Heal damage=30.0 dot=0.0 cooldown=15.0 range=20.0 radius=0.0 count=1 duration=10.0 effect=None mark=0 totem=(0, 0) overhead=false
+  L1 mult=1.0 dmg=30.0/39.0 dot=0.0/0.0 count=1 duration=10.0 cd=15.0/9.0/5.25 radius=0.0/0.0/0.0
+  L2 mult=1.3 dmg=39.0/50.699993 dot=0.0/0.0 count=1 duration=11.0 cd=13.95/8.37/4.8824997 radius=0.0/0.0/0.0
+  L3 mult=1.6 dmg=48.0/62.399998 dot=0.0/0.0 count=2 duration=12.0 cd=12.9735/7.7841005/4.540725 radius=0.0/0.0/0.0
+  L4 mult=1.9000001 dmg=57.000004/74.1 dot=0.0/0.0 count=2 duration=13.0 cd=12.065355/7.2392135/4.222874 radius=0.0/0.0/0.0
+  L5 mult=2.2 dmg=66.0/85.799995 dot=0.0/0.0 count=3 duration=14.0 cd=11.220781/6.732469/3.9272735 radius=0.0/0.0/0.0
+  L6 mult=2.5 dmg=75.0/97.5 dot=0.0/0.0 count=3 duration=15.0 cd=10.435326/6.2611957/3.652364 radius=0.0/0.0/0.0
+  L7 mult=2.8000002 dmg=84.00001/109.200005 dot=0.0/0.0 count=4 duration=16.0 cd=9.704854/5.8229127/3.396699 radius=0.0/0.0/0.0
+  L8 mult=3.1000001 dmg=93.00001/120.90001 dot=0.0/0.0 count=4 duration=17.0 cd=9.025514/5.4153085/3.1589298 radius=0.0/0.0/0.0

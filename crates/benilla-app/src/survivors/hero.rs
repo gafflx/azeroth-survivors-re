@@ -445,7 +445,7 @@ pub(super) fn hero_vitals(
         shown.push(774);
     }
     for owned in &run.abilities {
-        if owned.def.key == "lightning_shield" {
+        if owned.def.state_visual {
             shown.push(owned.def.spell);
         }
     }

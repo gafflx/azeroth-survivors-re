@@ -3,7 +3,8 @@
 //! gem away from the crowd and logs the run every ten seconds; `WOW_SURVIVORS_SHOTS=<dir>` also
 //! saves a screenshot every few seconds, which needs no window focus. A `:idle`, `:all` or `:late`
 //! suffix on the class name changes the run, as the fields below say. `WOW_SURVIVORS_MAP=<index or
-//! name>` picks the battleground.
+//! name>` picks the battleground. `WOW_SURVIVORS_FRAMES=<csv>` records every frame's wall time,
+//! for frame-time percentiles and the gems on the ground ([`FrameLog`]).
 
 use bevy::prelude::*;
 use bevy::render::view::screenshot::{save_to_disk, Screenshot};
@@ -35,6 +36,40 @@ pub(super) struct Auto {
     dir: Vec3,
     /// The screens already captured once: the menu, the first level-ups, the results.
     seen: Vec<String>,
+    frame_log: Option<FrameLog>,
+}
+
+/// One CSV row per frame: the real clock, the frame's wall time in ms (from
+/// [`bevy::platform::time::Instant`], so it stays the true cost even under `WOW_FIXED_DT`), the
+/// phase, whether the loading screen covers the run, the enemies alive, the run clock and the
+/// level. Rows are held in memory and appended to the file on the ten-second log tick, so the
+/// writing stays out of the frames it measures; `flushed` marks the one frame after each write.
+struct FrameLog {
+    path: std::path::PathBuf,
+    rows: Vec<String>,
+    last: Option<bevy::platform::time::Instant>,
+    flushed: bool,
+}
+
+impl FrameLog {
+    fn flush(&mut self) {
+        if self.rows.is_empty() {
+            return;
+        }
+        use std::io::Write;
+        match std::fs::OpenOptions::new()
+            .append(true)
+            .create(true)
+            .open(&self.path)
+        {
+            Ok(mut f) => {
+                let _ = f.write_all(self.rows.concat().as_bytes());
+            }
+            Err(e) => warn!("survivors auto: cannot write {}: {e}", self.path.display()),
+        }
+        self.rows.clear();
+        self.flushed = true;
+    }
 }
 
 impl Auto {
@@ -78,6 +113,19 @@ pub(super) fn from_env() -> Option<Auto> {
     if let Some(dir) = &shots {
         let _ = std::fs::create_dir_all(dir);
     }
+    let frame_log = std::env::var_os("WOW_SURVIVORS_FRAMES").map(|p| {
+        let path = std::path::PathBuf::from(p);
+        let header = "real_s,wall_ms,phase,loading,alive,run_s,level,flushed,gems,gem_bodies\n";
+        if let Err(e) = std::fs::write(&path, header) {
+            warn!("survivors auto: cannot write {}: {e}", path.display());
+        }
+        FrameLog {
+            path,
+            rows: Vec::with_capacity(4096),
+            last: None,
+            flushed: false,
+        }
+    });
     Some(Auto {
         class,
         map,
@@ -92,6 +140,7 @@ pub(super) fn from_env() -> Option<Auto> {
         log_t: 0.0,
         dir: Vec3::ZERO,
         seen: Vec::new(),
+        frame_log,
     })
 }
 
@@ -159,10 +208,36 @@ pub(super) fn drive(
     loading: Res<crate::loading_screen::LoadingScreen>,
     heroes: Query<(), With<Hero>>,
     enemies: Query<&Enemy>,
+    gems: Query<Has<avian3d::prelude::RigidBody>, With<Gem>>,
 ) {
     let dt = time.delta_secs();
     auto.wait += dt;
     auto.frames += 1;
+    if let Some(log) = &mut auto.frame_log {
+        let now = bevy::platform::time::Instant::now();
+        if let Some(last) = log.last {
+            let alive = enemies.iter().filter(|e| !e.dead).count();
+            // Gems on the ground, and how many carry a collision body (expected none).
+            let gem_n = gems.iter().count();
+            let gem_bodies = gems.iter().filter(|&b| b).count();
+            log.rows.push(format!(
+                "{:.3},{:.3},{:?},{},{alive},{:.2},{},{},{gem_n},{gem_bodies}\n",
+                time.elapsed_secs(),
+                (now - last).as_secs_f64() * 1000.0,
+                phase.get(),
+                u8::from(loading.covering()),
+                run.elapsed,
+                run.level,
+                u8::from(log.flushed),
+            ));
+            log.flushed = false;
+        }
+        log.last = Some(now);
+        // Before the first ten-second tick (the menu and the loading screen), write in batches.
+        if log.rows.len() >= 2048 {
+            log.flush();
+        }
+    }
     match phase.get() {
         Phase::Menu => {
             if selection.map != auto.map {
@@ -179,11 +254,14 @@ pub(super) fn drive(
                 auto.wait = 0.0;
             } else if auto.wait > 2.0 && auto.wait < 3.0 {
                 auto.capture_once(&mut commands, "menu".into());
-            } else if auto.wait > 3.0 && hud::start_run(&mut run, &mut selection) {
+            } else if auto.wait > 3.0
+                && hud::start_run(&mut run, &mut selection, &mut rng, super::run_seed())
+            {
                 info!(
-                    "survivors auto: run begins as {} at {}",
+                    "survivors auto: run begins as {} at {}, seed {}",
                     run.class.name,
-                    selection.map_def().name
+                    selection.map_def().name,
+                    run.seed
                 );
                 if auto.all {
                     for key in run.class.pool {
@@ -235,6 +313,9 @@ pub(super) fn drive(
     auto.log_t -= dt;
     if auto.log_t <= 0.0 && *phase.get() != Phase::Menu {
         auto.log_t = 10.0;
+        if let Some(log) = &mut auto.frame_log {
+            log.flush();
+        }
         let fps = auto.frames as f32 / 10.0;
         auto.frames = 0;
         let alive = enemies.iter().filter(|e| !e.dead).count();

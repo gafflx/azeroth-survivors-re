@@ -3,8 +3,9 @@
 # native `cargo check` here. This is where it is caught before it reaches `main`.
 #
 # The wasm target is checked; browser/host tests and targeted client-carry tests
-# catch behavior regressions after upstream merges. These need no game data. The
-# full workspace test suite needs a 1.12.1 patch chain and is not run here.
+# catch behavior regressions after upstream merges; survivors mode gets its own
+# format, strict-clippy and unit-test gate. These need no game data. The full
+# workspace test suite needs a 1.12.1 patch chain and is not run here.
 name: check
 on:
   pull_request:
@@ -72,3 +73,28 @@ jobs:
         run: |
           cargo test -p benilla-world --lib rig_anim::compose --no-default-features
           cargo test -p benilla-world --lib web_budget --no-default-features
+  # The game mode itself: formatting and clippy scoped to its own files (the workspace still has
+  # upstream fmt and clippy findings this gate must not inherit; see scripts/survivors-lint.sh),
+  # and its unit tests, which need no game data.
+  survivors:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      CARGO_PROFILE_DEV_DEBUG: 0
+      CARGO_PROFILE_TEST_DEBUG: 0
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          key: survivors
+      - name: native Bevy dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libasound2-dev libudev-dev libwayland-dev libxkbcommon-dev
+      - name: rustfmt, survivors files
+        run: rustfmt --edition 2021 --check crates/benilla-app/src/survivors/mod.rs crates/warcraft-survivors/src/main.rs
+      - name: strict clippy, survivors scope
+        run: bash scripts/survivors-lint.sh
+      - name: survivors unit tests
+        run: cargo test -p benilla-app --lib survivors

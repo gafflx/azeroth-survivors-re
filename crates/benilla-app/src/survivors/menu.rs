@@ -527,6 +527,8 @@ pub(super) fn menu_clicks(
     mut selection: ResMut<Selection>,
     mut run: ResMut<Run>,
     mut rng: ResMut<Rng>,
+    // Randomize rolls its own dice, so it never moves the run's sequence.
+    mut menu_rng: Local<Rng>,
     mut next: ResMut<NextState<Phase>>,
 ) {
     if *phase.get() != Phase::Menu {
@@ -556,7 +558,7 @@ pub(super) fn menu_clicks(
             }
         }
         MenuAction::Enter => {
-            if start_run(&mut run, &mut selection) {
+            if start_run(&mut run, &mut selection, &mut rng, super::run_seed()) {
                 next.set(Phase::Playing);
             }
         }
@@ -567,7 +569,7 @@ pub(super) fn menu_clicks(
                 .flat_map(|(c, looks)| (0..looks.len()).map(move |l| (c, l)))
                 .collect();
             if !picks.is_empty() {
-                let (c, l) = picks[rng.index(picks.len())];
+                let (c, l) = picks[menu_rng.index(picks.len())];
                 set(&mut selection, &all, c, l);
             }
         }

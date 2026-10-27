@@ -1,0 +1,666 @@
+# new: Warrior
+845|cleave|New spell|Some((0, 8))|Rare|Strikes the 3 closest enemies for 14 damage..
+78|heroic strike|New spell|Some((0, 8))|Rare|Strikes the closest enemy for 28 damage..
+1680|whirlwind|New spell|Some((0, 8))|Rare|Deals 16 damage to every enemy within 7 yd of you..
+6343|thunder clap|New spell|Some((0, 8))|Uncommon|Deals 10 damage to every enemy within 8 yd of you, slowing them by 50% for 3 sec..
+12292|sweeping strikes|New spell|Some((0, 8))|Epic|Every 0.6 sec, deals 6 damage to every enemy within 5.5 yd of you..
+1160|demoralizing shout|New spell|Some((0, 8))|Uncommon|Deals 4 damage to every enemy within 11 yd of you, cutting their damage by 50% for 5 sec..
+5308|execute|New spell|Some((0, 8))|Epic|Hits the 2 nearest enemies for 40 damage, killing them outright below 30% health..
+12294|mortal strike|New spell|Some((0, 8))|Uncommon|Strikes the closest enemy for 48 damage..
+20230|retaliation|New spell|Some((0, 8))|Rare|When enemies close in, deals 14 damage to every attacker for 8 sec..
+# new: Paladin
+24275|hammer of wrath|New spell|Some((0, 8))|Rare|Hits the nearest enemy for 16 damage..
+26573|consecration|New spell|Some((0, 8))|Epic|Covers a 7 yd area around you for 8 sec, dealing 7 damage every second..
+25912|holy shock|New spell|Some((0, 8))|Uncommon|Hits the nearest enemy for 24 damage..
+879|exorcism|New spell|Some((0, 8))|Uncommon|Hits the toughest enemy in range for 36 damage..
+2812|holy wrath|New spell|Some((0, 8))|Epic|Deals 14 damage to every enemy within 11 yd of you..
+853|hammer of justice|New spell|Some((0, 8))|Uncommon|Hits the 2 nearest enemies for 8 damage, stunning them for 3 sec..
+642|divine shield|New spell|Some((0, 8))|Rare|When an enemy closes in, makes you immune to all damage for 4 sec..
+20271|judgement|New spell|Some((0, 8))|Rare|Hits the 2 nearest enemies for 26 damage..
+# new: Hunter
+3044|arcane shot|New spell|Some((0, 8))|Rare|Hits the nearest enemy for 13 damage..
+2643|multi shot|New spell|Some((0, 8))|Epic|Hits the 3 nearest enemies for 10 damage..
+1978|serpent sting|New spell|Some((0, 8))|Uncommon|Hits the 2 nearest enemies for 2 damage, then 4 damage every second for 9 sec..
+1510|volley|New spell|Some((0, 8))|Epic|Covers a 7 yd area on the thickest pack for 5 sec, dealing 8 damage every second..
+13812|explosive trap|New spell|Some((0, 8))|Uncommon|Strikes a 5 yd area on the thickest pack for 22 damage, then 4 damage every second for 5 sec..
+5116|concussive shot|New spell|Some((0, 8))|Uncommon|Hits the nearest enemy for 8 damage, slowing them by 50% for 4 sec..
+19434|aimed shot|New spell|Some((0, 8))|Rare|Hits the toughest enemy in range for 48 damage..
+# new: Rogue
+1752|sinister strike|New spell|Some((0, 8))|Epic|Strikes the closest enemy for 15 damage..
+2098|eviscerate|New spell|Some((0, 8))|Rare|Strikes the closest enemy for 42 damage..
+13877|blade flurry|New spell|Some((0, 8))|Rare|Deals 11 damage to every enemy within 6 yd of you..
+1943|rupture|New spell|Some((0, 8))|Epic|Afflicts 3 enemies in range with 5 damage every second for 6 sec..
+1776|gouge|New spell|Some((0, 8))|Uncommon|Strikes the 2 closest enemies for 8 damage, stunning them for 2 sec..
+408|kidney shot|New spell|Some((0, 8))|Uncommon|Strikes the closest enemy for 12 damage, stunning them for 3.5 sec..
+# new: Priest
+585|smite|New spell|Some((0, 8))|Rare|Hits the nearest enemy for 14 damage..
+589|shadow word pain|New spell|Some((0, 8))|Epic|Afflicts 3 enemies in range with 4 damage every second for 9 sec..
+14914|holy fire|New spell|Some((0, 8))|Uncommon|Hits the nearest enemy for 22 damage, then 3 damage every second for 6 sec..
+8092|mind blast|New spell|Some((0, 8))|Rare|Hits the nearest enemy for 32 damage..
+15237|holy nova|New spell|Some((0, 8))|Epic|Deals 11 damage to every enemy within 9 yd of you, healing you for 10% of the damage..
+8122|psychic scream|New spell|Some((0, 8))|Uncommon|Deals 2 damage to every enemy within 8 yd of you, sending them fleeing for 3.5 sec..
+17|power word shield|New spell|Some((0, 8))|Rare|Absorbs the next 30 damage you take within 10 sec..
+# new: Shaman
+403|lightning bolt|New spell|Some((0, 8))|Rare|Hits the nearest enemy for 15 damage..
+421|chain lightning|New spell|Some((0, 8))|Epic|Strikes the nearest enemy for 18 damage, then jumps to 3 more within 9 yd of each other, 15% weaker with every jump..
+8042|earth shock|New spell|Some((0, 8))|Rare|Hits the nearest enemy for 22 damage..
+8050|flame shock|New spell|Some((0, 8))|Uncommon|Hits the 2 nearest enemies for 10 damage, then 4 damage every second for 9 sec..
+8056|frost shock|New spell|Some((0, 8))|Uncommon|Hits the nearest enemy for 16 damage, slowing them by 50% for 4 sec..
+3599|searing totem|New spell|Some((0, 8))|Rare|Drops a totem for 14 sec that hits the nearest enemy within 20 yd for 9 damage every second..
+8190|magma totem|New spell|Some((0, 8))|Rare|Drops a totem for 14 sec that burns every enemy within 7 yd for 8 damage every 2 sec..
+324|lightning shield|New spell|Some((0, 8))|Epic|Every 0.9 sec, zaps an enemy within 4 yd of you for 12 damage..
+# new: Mage
+116|frostbolt|New spell|Some((0, 8))|Uncommon|Hits the nearest enemy for 12 damage, slowing them by 50% for 2.5 sec..
+133|fireball|New spell|Some((0, 8))|Rare|Hits the nearest enemy for 20 damage, and everything within 3.5 yd of the hit..
+7268|arcane missiles|New spell|Some((0, 8))|Uncommon|Hits the 3 nearest enemies for 6 damage..
+122|frost nova|New spell|Some((0, 8))|Uncommon|Deals 8 damage to every enemy within 9 yd of you, freezing them in place for 2.5 sec..
+1449|arcane explosion|New spell|Some((0, 8))|Rare|Deals 10 damage to every enemy within 7 yd of you..
+10|blizzard|New spell|Some((0, 8))|Epic|Covers a 7 yd area on the thickest pack for 6 sec, dealing 7 damage every second, slowing them by 40% for 1.5 sec..
+2120|flamestrike|New spell|Some((0, 8))|Epic|Covers a 5 yd area on the thickest pack for 4 sec, dealing 14 damage every second..
+2136|fire blast|New spell|Some((0, 8))|Uncommon|Hits the nearest enemy for 26 damage..
+120|cone of cold|New spell|Some((0, 8))|Epic|Deals 14 damage to every enemy in a 11 yd cone toward the closest, slowing them by 50% for 3 sec..
+11113|blast wave|New spell|Some((0, 8))|Rare|Deals 18 damage to every enemy within 8 yd of you, slowing them by 40% for 2 sec..
+11366|pyroblast|New spell|Some((0, 8))|Rare|Hits the toughest enemy in range for 70 damage, then 6 damage every second for 6 sec..
+# new: Warlock
+686|shadow bolt|New spell|Some((0, 8))|Rare|Hits the nearest enemy for 15 damage..
+172|corruption|New spell|Some((0, 8))|Epic|Afflicts 3 enemies in range with 4 damage every second for 10 sec..
+980|curse of agony|New spell|Some((0, 8))|Epic|Afflicts 4 enemies in range with 3.5 damage every second for 12 sec..
+348|immolate|New spell|Some((0, 8))|Uncommon|Hits the 2 nearest enemies for 12 damage, then 4 damage every second for 9 sec..
+5740|rain of fire|New spell|Some((0, 8))|Rare|Covers a 7 yd area on the thickest pack for 6 sec, dealing 8 damage every second..
+5857|hellfire|New spell|Some((0, 8))|Epic|Every 1 sec, deals 6 damage to every enemy within 7 yd of you..
+6789|death coil|New spell|Some((0, 8))|Uncommon|Hits the nearest enemy for 26 damage, healing you for 50% of the damage..
+5676|searing pain|New spell|Some((0, 8))|Uncommon|Hits the nearest enemy for 18 damage..
+17877|shadowburn|New spell|Some((0, 8))|Uncommon|Hits the nearest enemy for 46 damage..
+# new: Druid
+5176|wrath|New spell|Some((0, 8))|Rare|Hits the nearest enemy for 13 damage..
+8921|moonfire|New spell|Some((0, 8))|Uncommon|Hits the 2 nearest enemies for 10 damage, then 3 damage every second for 9 sec..
+2912|starfire|New spell|Some((0, 8))|Uncommon|Hits the toughest enemy in range for 40 damage..
+16914|hurricane|New spell|Some((0, 8))|Epic|Covers a 8 yd area on the thickest pack for 7 sec, dealing 7 damage every second, slowing them by 40% for 1.5 sec..
+5570|insect swarm|New spell|Some((0, 8))|Epic|Afflicts 3 enemies in range with 4 damage every second for 10 sec..
+339|entangling roots|New spell|Some((0, 8))|Uncommon|Afflicts 4 enemies in range with 2 damage every second for 5 sec, freezing them in place for 4 sec..
+467|thorns|New spell|Some((0, 8))|Rare|When enemies close in, deals 8 damage to every attacker for 15 sec..
+774|rejuvenation|New spell|Some((0, 8))|Rare|Below 85% health, heals you for 30 over 10 sec..
+# upgrade: frostbolt
+116|frostbolt|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 12 » 15.6\nCooldown 1.3s » 1.2s
+116|frostbolt|Rank 2 » 3|Some((2, 8))|Epic|Damage 15.6 » 19.2\nCooldown 1.2s » 1.1s\nTargets 1 » 2
+116|frostbolt|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 19.2 » 22.8\nCooldown 1.1s » 1s
+116|frostbolt|Rank 4 » 5|Some((4, 8))|Epic|Damage 22.8 » 26.4\nCooldown 1s » 1s\nTargets 2 » 3
+116|frostbolt|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 26.4 » 30\nCooldown 1s » 0.9s
+116|frostbolt|Rank 6 » 7|Some((6, 8))|Epic|Damage 30 » 33.6\nCooldown 0.9s » 0.8s\nTargets 3 » 4
+116|frostbolt|Rank 7 » 8|Some((7, 8))|Legendary|Damage 33.6 » 37.2\nCooldown 0.8s » 0.8s
+# upgrade: fireball
+133|fireball|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 20 » 26\nCooldown 2.4s » 2.2s\nArea 3.5 » 3.8 yd
+133|fireball|Rank 2 » 3|Some((2, 8))|Epic|Damage 26 » 32\nCooldown 2.2s » 2.1s\nTargets 1 » 2\nArea 3.8 » 4.1 yd
+133|fireball|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 32 » 38\nCooldown 2.1s » 1.9s\nArea 4.1 » 4.3 yd
+133|fireball|Rank 4 » 5|Some((4, 8))|Epic|Damage 38 » 44\nCooldown 1.9s » 1.8s\nTargets 2 » 3\nArea 4.3 » 4.6 yd
+133|fireball|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 44 » 50\nCooldown 1.8s » 1.7s\nArea 4.6 » 4.9 yd
+133|fireball|Rank 6 » 7|Some((6, 8))|Epic|Damage 50 » 56\nCooldown 1.7s » 1.6s\nTargets 3 » 4\nArea 4.9 » 5.2 yd
+133|fireball|Rank 7 » 8|Some((7, 8))|Legendary|Damage 56 » 62\nCooldown 1.6s » 1.4s\nArea 5.2 » 5.5 yd
+# upgrade: arcane_missiles
+7268|arcane missiles|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 6 » 7.8\nCooldown 1.9s » 1.8s
+7268|arcane missiles|Rank 2 » 3|Some((2, 8))|Epic|Damage 7.8 » 9.6\nCooldown 1.8s » 1.6s\nTargets 3 » 4
+7268|arcane missiles|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 9.6 » 11.4\nCooldown 1.6s » 1.5s
+7268|arcane missiles|Rank 4 » 5|Some((4, 8))|Epic|Damage 11.4 » 13.2\nCooldown 1.5s » 1.4s\nTargets 4 » 5
+7268|arcane missiles|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 13.2 » 15\nCooldown 1.4s » 1.3s
+7268|arcane missiles|Rank 6 » 7|Some((6, 8))|Epic|Damage 15 » 16.8\nCooldown 1.3s » 1.2s\nTargets 5 » 6
+7268|arcane missiles|Rank 7 » 8|Some((7, 8))|Legendary|Damage 16.8 » 18.6\nCooldown 1.2s » 1.1s
+# upgrade: frost_nova
+122|frost nova|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 8 » 10.4\nCooldown 7s » 6.5s\nArea 9 » 9.7 yd
+122|frost nova|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 10.4 » 12.8\nCooldown 6.5s » 6.1s\nTargets 1 » 2\nArea 9.7 » 10.4 yd
+122|frost nova|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 12.8 » 15.2\nCooldown 6.1s » 5.6s\nArea 10.4 » 11.2 yd
+122|frost nova|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 15.2 » 17.6\nCooldown 5.6s » 5.2s\nTargets 2 » 3\nArea 11.2 » 11.9 yd
+122|frost nova|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 17.6 » 20\nCooldown 5.2s » 4.9s\nArea 11.9 » 12.6 yd
+122|frost nova|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 20 » 22.4\nCooldown 4.9s » 4.5s\nTargets 3 » 4\nArea 12.6 » 13.3 yd
+122|frost nova|Rank 7 » 8|Some((7, 8))|Legendary|Damage 22.4 » 24.8\nCooldown 4.5s » 4.2s\nArea 13.3 » 14 yd
+# upgrade: arcane_explosion
+1449|arcane explosion|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 10 » 13\nCooldown 2.8s » 2.6s\nArea 7 » 7.6 yd
+1449|arcane explosion|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 13 » 16\nCooldown 2.6s » 2.4s\nTargets 1 » 2\nArea 7.6 » 8.1 yd
+1449|arcane explosion|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 16 » 19\nCooldown 2.4s » 2.3s\nArea 8.1 » 8.7 yd
+1449|arcane explosion|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 19 » 22\nCooldown 2.3s » 2.1s\nTargets 2 » 3\nArea 8.7 » 9.2 yd
+1449|arcane explosion|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 22 » 25\nCooldown 2.1s » 1.9s\nArea 9.2 » 9.8 yd
+1449|arcane explosion|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 25 » 28\nCooldown 1.9s » 1.8s\nTargets 3 » 4\nArea 9.8 » 10.4 yd
+1449|arcane explosion|Rank 7 » 8|Some((7, 8))|Legendary|Damage 28 » 31\nCooldown 1.8s » 1.7s\nArea 10.4 » 10.9 yd
+# upgrade: blizzard
+10|blizzard|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 7 » 9.1\nCooldown 9s » 8.4s\nArea 7 » 7.6 yd\nLasts 6s » 6.6s
+10|blizzard|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 9.1 » 11.2\nCooldown 8.4s » 7.8s\nTargets 1 » 2\nArea 7.6 » 8.1 yd\nLasts 6.6s » 7.2s
+10|blizzard|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 11.2 » 13.3\nCooldown 7.8s » 7.2s\nArea 8.1 » 8.7 yd\nLasts 7.2s » 7.8s
+10|blizzard|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 13.3 » 15.4\nCooldown 7.2s » 6.7s\nTargets 2 » 3\nArea 8.7 » 9.2 yd\nLasts 7.8s » 8.4s
+10|blizzard|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 15.4 » 17.5\nCooldown 6.7s » 6.3s\nArea 9.2 » 9.8 yd\nLasts 8.4s » 9s
+10|blizzard|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 17.5 » 19.6\nCooldown 6.3s » 5.8s\nTargets 3 » 4\nArea 9.8 » 10.4 yd\nLasts 9s » 9.6s
+10|blizzard|Rank 7 » 8|Some((7, 8))|Legendary|Damage 19.6 » 21.7\nCooldown 5.8s » 5.4s\nArea 10.4 » 10.9 yd\nLasts 9.6s » 10.2s
+# upgrade: flamestrike
+2120|flamestrike|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 14 » 18.2\nCooldown 8s » 7.4s\nArea 5 » 5.4 yd\nLasts 4s » 4.4s
+2120|flamestrike|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 18.2 » 22.4\nCooldown 7.4s » 6.9s\nTargets 1 » 2\nArea 5.4 » 5.8 yd\nLasts 4.4s » 4.8s
+2120|flamestrike|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 22.4 » 26.6\nCooldown 6.9s » 6.4s\nArea 5.8 » 6.2 yd\nLasts 4.8s » 5.2s
+2120|flamestrike|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 26.6 » 30.8\nCooldown 6.4s » 6s\nTargets 2 » 3\nArea 6.2 » 6.6 yd\nLasts 5.2s » 5.6s
+2120|flamestrike|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 30.8 » 35\nCooldown 6s » 5.6s\nArea 6.6 » 7 yd\nLasts 5.6s » 6s
+2120|flamestrike|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 35 » 39.2\nCooldown 5.6s » 5.2s\nTargets 3 » 4\nArea 7 » 7.4 yd\nLasts 6s » 6.4s
+2120|flamestrike|Rank 7 » 8|Some((7, 8))|Legendary|Damage 39.2 » 43.4\nCooldown 5.2s » 4.8s\nArea 7.4 » 7.8 yd\nLasts 6.4s » 6.8s
+# upgrade: fire_blast
+2136|fire blast|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 26 » 33.8\nCooldown 3.5s » 3.3s
+2136|fire blast|Rank 2 » 3|Some((2, 8))|Epic|Damage 33.8 » 41.6\nCooldown 3.3s » 3s\nTargets 1 » 2
+2136|fire blast|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 41.6 » 49.4\nCooldown 3s » 2.8s
+2136|fire blast|Rank 4 » 5|Some((4, 8))|Epic|Damage 49.4 » 57.2\nCooldown 2.8s » 2.6s\nTargets 2 » 3
+2136|fire blast|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 57.2 » 65\nCooldown 2.6s » 2.4s
+2136|fire blast|Rank 6 » 7|Some((6, 8))|Epic|Damage 65 » 72.8\nCooldown 2.4s » 2.3s\nTargets 3 » 4
+2136|fire blast|Rank 7 » 8|Some((7, 8))|Legendary|Damage 72.8 » 80.6\nCooldown 2.3s » 2.1s
+# upgrade: cone_of_cold
+120|cone of cold|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 14 » 18.2\nCooldown 4.5s » 4.2s\nArea 11 » 11.9 yd
+120|cone of cold|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 18.2 » 22.4\nCooldown 4.2s » 3.9s\nTargets 1 » 2\nArea 11.9 » 12.8 yd
+120|cone of cold|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 22.4 » 26.6\nCooldown 3.9s » 3.6s\nArea 12.8 » 13.6 yd
+120|cone of cold|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 26.6 » 30.8\nCooldown 3.6s » 3.4s\nTargets 2 » 3\nArea 13.6 » 14.5 yd
+120|cone of cold|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 30.8 » 35\nCooldown 3.4s » 3.1s\nArea 14.5 » 15.4 yd
+120|cone of cold|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 35 » 39.2\nCooldown 3.1s » 2.9s\nTargets 3 » 4\nArea 15.4 » 16.3 yd
+120|cone of cold|Rank 7 » 8|Some((7, 8))|Legendary|Damage 39.2 » 43.4\nCooldown 2.9s » 2.7s\nArea 16.3 » 17.2 yd
+# upgrade: blast_wave
+11113|blast wave|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 18 » 23.4\nCooldown 6.5s » 6s\nArea 8 » 8.6 yd
+11113|blast wave|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 23.4 » 28.8\nCooldown 6s » 5.6s\nTargets 1 » 2\nArea 8.6 » 9.3 yd
+11113|blast wave|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 28.8 » 34.2\nCooldown 5.6s » 5.2s\nArea 9.3 » 9.9 yd
+11113|blast wave|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 34.2 » 39.6\nCooldown 5.2s » 4.9s\nTargets 2 » 3\nArea 9.9 » 10.6 yd
+11113|blast wave|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 39.6 » 45\nCooldown 4.9s » 4.5s\nArea 10.6 » 11.2 yd
+11113|blast wave|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 45 » 50.4\nCooldown 4.5s » 4.2s\nTargets 3 » 4\nArea 11.2 » 11.8 yd
+11113|blast wave|Rank 7 » 8|Some((7, 8))|Legendary|Damage 50.4 » 55.8\nCooldown 4.2s » 3.9s\nArea 11.8 » 12.5 yd
+# upgrade: pyroblast
+11366|pyroblast|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 70 » 91\nCooldown 6s » 5.6s\nLasts 6s » 6.6s
+11366|pyroblast|Rank 2 » 3|Some((2, 8))|Epic|Damage 91 » 112\nCooldown 5.6s » 5.2s\nTargets 1 » 2\nLasts 6.6s » 7.2s
+11366|pyroblast|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 112 » 133\nCooldown 5.2s » 4.8s\nLasts 7.2s » 7.8s
+11366|pyroblast|Rank 4 » 5|Some((4, 8))|Epic|Damage 133 » 154\nCooldown 4.8s » 4.5s\nTargets 2 » 3\nLasts 7.8s » 8.4s
+11366|pyroblast|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 154 » 175\nCooldown 4.5s » 4.2s\nLasts 8.4s » 9s
+11366|pyroblast|Rank 6 » 7|Some((6, 8))|Epic|Damage 175 » 196\nCooldown 4.2s » 3.9s\nTargets 3 » 4\nLasts 9s » 9.6s
+11366|pyroblast|Rank 7 » 8|Some((7, 8))|Legendary|Damage 196 » 217\nCooldown 3.9s » 3.6s\nLasts 9.6s » 10.2s
+# upgrade: cleave
+845|cleave|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 14 » 18.2\nCooldown 1.1s » 1s
+845|cleave|Rank 2 » 3|Some((2, 8))|Epic|Damage 18.2 » 22.4\nCooldown 1s » 1s\nTargets 3 » 4
+845|cleave|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 22.4 » 26.6\nCooldown 1s » 0.9s
+845|cleave|Rank 4 » 5|Some((4, 8))|Epic|Damage 26.6 » 30.8\nCooldown 0.9s » 0.8s\nTargets 4 » 5
+845|cleave|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 30.8 » 35\nCooldown 0.8s » 0.8s
+845|cleave|Rank 6 » 7|Some((6, 8))|Epic|Damage 35 » 39.2\nCooldown 0.8s » 0.7s\nTargets 5 » 6
+845|cleave|Rank 7 » 8|Some((7, 8))|Legendary|Damage 39.2 » 43.4\nCooldown 0.7s » 0.7s
+# upgrade: heroic_strike
+78|heroic strike|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 28 » 36.4\nCooldown 1.6s » 1.5s
+78|heroic strike|Rank 2 » 3|Some((2, 8))|Epic|Damage 36.4 » 44.8\nCooldown 1.5s » 1.4s\nTargets 1 » 2
+78|heroic strike|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 44.8 » 53.2\nCooldown 1.4s » 1.3s
+78|heroic strike|Rank 4 » 5|Some((4, 8))|Epic|Damage 53.2 » 61.6\nCooldown 1.3s » 1.2s\nTargets 2 » 3
+78|heroic strike|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 61.6 » 70\nCooldown 1.2s » 1.1s
+78|heroic strike|Rank 6 » 7|Some((6, 8))|Epic|Damage 70 » 78.4\nCooldown 1.1s » 1s\nTargets 3 » 4
+78|heroic strike|Rank 7 » 8|Some((7, 8))|Legendary|Damage 78.4 » 86.8\nCooldown 1s » 1s
+# upgrade: whirlwind
+1680|whirlwind|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 16 » 20.8\nCooldown 4s » 3.7s\nArea 7 » 7.6 yd
+1680|whirlwind|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 20.8 » 25.6\nCooldown 3.7s » 3.5s\nTargets 1 » 2\nArea 7.6 » 8.1 yd
+1680|whirlwind|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 25.6 » 30.4\nCooldown 3.5s » 3.2s\nArea 8.1 » 8.7 yd
+1680|whirlwind|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 30.4 » 35.2\nCooldown 3.2s » 3s\nTargets 2 » 3\nArea 8.7 » 9.2 yd
+1680|whirlwind|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 35.2 » 40\nCooldown 3s » 2.8s\nArea 9.2 » 9.8 yd
+1680|whirlwind|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 40 » 44.8\nCooldown 2.8s » 2.6s\nTargets 3 » 4\nArea 9.8 » 10.4 yd
+1680|whirlwind|Rank 7 » 8|Some((7, 8))|Legendary|Damage 44.8 » 49.6\nCooldown 2.6s » 2.4s\nArea 10.4 » 10.9 yd
+# upgrade: thunder_clap
+6343|thunder clap|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 10 » 13\nCooldown 5s » 4.7s\nArea 8 » 8.6 yd
+6343|thunder clap|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 13 » 16\nCooldown 4.7s » 4.3s\nTargets 1 » 2\nArea 8.6 » 9.3 yd
+6343|thunder clap|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 16 » 19\nCooldown 4.3s » 4s\nArea 9.3 » 9.9 yd
+6343|thunder clap|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 19 » 22\nCooldown 4s » 3.7s\nTargets 2 » 3\nArea 9.9 » 10.6 yd
+6343|thunder clap|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 22 » 25\nCooldown 3.7s » 3.5s\nArea 10.6 » 11.2 yd
+6343|thunder clap|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 25 » 28\nCooldown 3.5s » 3.2s\nTargets 3 » 4\nArea 11.2 » 11.8 yd
+6343|thunder clap|Rank 7 » 8|Some((7, 8))|Legendary|Damage 28 » 31\nCooldown 3.2s » 3s\nArea 11.8 » 12.5 yd
+# upgrade: sweeping_strikes
+12292|sweeping strikes|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 6 » 7.8\nCooldown 0.6s » 0.6s\nArea 5.5 » 5.9 yd
+12292|sweeping strikes|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 7.8 » 9.6\nCooldown 0.6s » 0.5s\nTargets 1 » 2\nArea 5.9 » 6.4 yd
+12292|sweeping strikes|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 9.6 » 11.4\nCooldown 0.5s » 0.5s\nArea 6.4 » 6.8 yd
+12292|sweeping strikes|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 11.4 » 13.2\nCooldown 0.5s » 0.4s\nTargets 2 » 3\nArea 6.8 » 7.3 yd
+12292|sweeping strikes|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 13.2 » 15\nCooldown 0.4s » 0.4s\nArea 7.3 » 7.7 yd
+12292|sweeping strikes|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 15 » 16.8\nCooldown 0.4s » 0.4s\nTargets 3 » 4\nArea 7.7 » 8.1 yd
+12292|sweeping strikes|Rank 7 » 8|Some((7, 8))|Legendary|Damage 16.8 » 18.6\nCooldown 0.4s » 0.4s\nArea 8.1 » 8.6 yd
+# upgrade: demoralizing_shout
+1160|demoralizing shout|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 4 » 5.2\nCooldown 8s » 7.4s\nArea 11 » 11.9 yd
+1160|demoralizing shout|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 5.2 » 6.4\nCooldown 7.4s » 6.9s\nTargets 1 » 2\nArea 11.9 » 12.8 yd
+1160|demoralizing shout|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 6.4 » 7.6\nCooldown 6.9s » 6.4s\nArea 12.8 » 13.6 yd
+1160|demoralizing shout|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 7.6 » 8.8\nCooldown 6.4s » 6s\nTargets 2 » 3\nArea 13.6 » 14.5 yd
+1160|demoralizing shout|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 8.8 » 10\nCooldown 6s » 5.6s\nArea 14.5 » 15.4 yd
+1160|demoralizing shout|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 10 » 11.2\nCooldown 5.6s » 5.2s\nTargets 3 » 4\nArea 15.4 » 16.3 yd
+1160|demoralizing shout|Rank 7 » 8|Some((7, 8))|Legendary|Damage 11.2 » 12.4\nCooldown 5.2s » 4.8s\nArea 16.3 » 17.2 yd
+# upgrade: execute
+5308|execute|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 40 » 52\nCooldown 2s » 1.9s
+5308|execute|Rank 2 » 3|Some((2, 8))|Epic|Damage 52 » 64\nCooldown 1.9s » 1.7s\nTargets 2 » 3
+5308|execute|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 64 » 76\nCooldown 1.7s » 1.6s
+5308|execute|Rank 4 » 5|Some((4, 8))|Epic|Damage 76 » 88\nCooldown 1.6s » 1.5s\nTargets 3 » 4
+5308|execute|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 88 » 100\nCooldown 1.5s » 1.4s
+5308|execute|Rank 6 » 7|Some((6, 8))|Epic|Damage 100 » 112\nCooldown 1.4s » 1.3s\nTargets 4 » 5
+5308|execute|Rank 7 » 8|Some((7, 8))|Legendary|Damage 112 » 124\nCooldown 1.3s » 1.2s
+# upgrade: mortal_strike
+12294|mortal strike|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 48 » 62.4\nCooldown 3s » 2.8s
+12294|mortal strike|Rank 2 » 3|Some((2, 8))|Epic|Damage 62.4 » 76.8\nCooldown 2.8s » 2.6s\nTargets 1 » 2
+12294|mortal strike|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 76.8 » 91.2\nCooldown 2.6s » 2.4s
+12294|mortal strike|Rank 4 » 5|Some((4, 8))|Epic|Damage 91.2 » 105.6\nCooldown 2.4s » 2.2s\nTargets 2 » 3
+12294|mortal strike|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 105.6 » 120\nCooldown 2.2s » 2.1s
+12294|mortal strike|Rank 6 » 7|Some((6, 8))|Epic|Damage 120 » 134.4\nCooldown 2.1s » 1.9s\nTargets 3 » 4
+12294|mortal strike|Rank 7 » 8|Some((7, 8))|Legendary|Damage 134.4 » 148.8\nCooldown 1.9s » 1.8s
+# upgrade: retaliation
+20230|retaliation|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 14 » 18.2\nCooldown 18s » 16.7s\nLasts 8s » 8.8s
+20230|retaliation|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 18.2 » 22.4\nCooldown 16.7s » 15.6s\nTargets 1 » 2\nLasts 8.8s » 9.6s
+20230|retaliation|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 22.4 » 26.6\nCooldown 15.6s » 14.5s\nLasts 9.6s » 10.4s
+20230|retaliation|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 26.6 » 30.8\nCooldown 14.5s » 13.5s\nTargets 2 » 3\nLasts 10.4s » 11.2s
+20230|retaliation|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 30.8 » 35\nCooldown 13.5s » 12.5s\nLasts 11.2s » 12s
+20230|retaliation|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 35 » 39.2\nCooldown 12.5s » 11.6s\nTargets 3 » 4\nLasts 12s » 12.8s
+20230|retaliation|Rank 7 » 8|Some((7, 8))|Legendary|Damage 39.2 » 43.4\nCooldown 11.6s » 10.8s\nLasts 12.8s » 13.6s
+# upgrade: sinister_strike
+1752|sinister strike|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 15 » 19.5\nCooldown 0.9s » 0.8s
+1752|sinister strike|Rank 2 » 3|Some((2, 8))|Epic|Damage 19.5 » 24\nCooldown 0.8s » 0.7s\nTargets 1 » 2
+1752|sinister strike|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 24 » 28.5\nCooldown 0.7s » 0.7s
+1752|sinister strike|Rank 4 » 5|Some((4, 8))|Epic|Damage 28.5 » 33\nCooldown 0.7s » 0.6s\nTargets 2 » 3
+1752|sinister strike|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 33 » 37.5\nCooldown 0.6s » 0.6s
+1752|sinister strike|Rank 6 » 7|Some((6, 8))|Epic|Damage 37.5 » 42\nCooldown 0.6s » 0.5s\nTargets 3 » 4
+1752|sinister strike|Rank 7 » 8|Some((7, 8))|Legendary|Damage 42 » 46.5\nCooldown 0.5s » 0.5s
+# upgrade: eviscerate
+2098|eviscerate|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 42 » 54.6\nCooldown 2.8s » 2.6s
+2098|eviscerate|Rank 2 » 3|Some((2, 8))|Epic|Damage 54.6 » 67.2\nCooldown 2.6s » 2.4s\nTargets 1 » 2
+2098|eviscerate|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 67.2 » 79.8\nCooldown 2.4s » 2.3s
+2098|eviscerate|Rank 4 » 5|Some((4, 8))|Epic|Damage 79.8 » 92.4\nCooldown 2.3s » 2.1s\nTargets 2 » 3
+2098|eviscerate|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 92.4 » 105\nCooldown 2.1s » 1.9s
+2098|eviscerate|Rank 6 » 7|Some((6, 8))|Epic|Damage 105 » 117.6\nCooldown 1.9s » 1.8s\nTargets 3 » 4
+2098|eviscerate|Rank 7 » 8|Some((7, 8))|Legendary|Damage 117.6 » 130.2\nCooldown 1.8s » 1.7s
+# upgrade: blade_flurry
+13877|blade flurry|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 11 » 14.3\nCooldown 3s » 2.8s\nArea 6 » 6.5 yd
+13877|blade flurry|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 14.3 » 17.6\nCooldown 2.8s » 2.6s\nTargets 1 » 2\nArea 6.5 » 7 yd
+13877|blade flurry|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 17.6 » 20.9\nCooldown 2.6s » 2.4s\nArea 7 » 7.4 yd
+13877|blade flurry|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 20.9 » 24.2\nCooldown 2.4s » 2.2s\nTargets 2 » 3\nArea 7.4 » 7.9 yd
+13877|blade flurry|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 24.2 » 27.5\nCooldown 2.2s » 2.1s\nArea 7.9 » 8.4 yd
+13877|blade flurry|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 27.5 » 30.8\nCooldown 2.1s » 1.9s\nTargets 3 » 4\nArea 8.4 » 8.9 yd
+13877|blade flurry|Rank 7 » 8|Some((7, 8))|Legendary|Damage 30.8 » 34.1\nCooldown 1.9s » 1.8s\nArea 8.9 » 9.4 yd
+# upgrade: rupture
+1943|rupture|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 5 » 6.5\nCooldown 3.5s » 3.3s\nLasts 6s » 6.6s
+1943|rupture|Rank 2 » 3|Some((2, 8))|Epic|Damage 6.5 » 8\nCooldown 3.3s » 3s\nTargets 3 » 4\nLasts 6.6s » 7.2s
+1943|rupture|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 8 » 9.5\nCooldown 3s » 2.8s\nLasts 7.2s » 7.8s
+1943|rupture|Rank 4 » 5|Some((4, 8))|Epic|Damage 9.5 » 11\nCooldown 2.8s » 2.6s\nTargets 4 » 5\nLasts 7.8s » 8.4s
+1943|rupture|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 11 » 12.5\nCooldown 2.6s » 2.4s\nLasts 8.4s » 9s
+1943|rupture|Rank 6 » 7|Some((6, 8))|Epic|Damage 12.5 » 14\nCooldown 2.4s » 2.3s\nTargets 5 » 6\nLasts 9s » 9.6s
+1943|rupture|Rank 7 » 8|Some((7, 8))|Legendary|Damage 14 » 15.5\nCooldown 2.3s » 2.1s\nLasts 9.6s » 10.2s
+# upgrade: gouge
+1776|gouge|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 8 » 10.4\nCooldown 4s » 3.7s
+1776|gouge|Rank 2 » 3|Some((2, 8))|Epic|Damage 10.4 » 12.8\nCooldown 3.7s » 3.5s\nTargets 2 » 3
+1776|gouge|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 12.8 » 15.2\nCooldown 3.5s » 3.2s
+1776|gouge|Rank 4 » 5|Some((4, 8))|Epic|Damage 15.2 » 17.6\nCooldown 3.2s » 3s\nTargets 3 » 4
+1776|gouge|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 17.6 » 20\nCooldown 3s » 2.8s
+1776|gouge|Rank 6 » 7|Some((6, 8))|Epic|Damage 20 » 22.4\nCooldown 2.8s » 2.6s\nTargets 4 » 5
+1776|gouge|Rank 7 » 8|Some((7, 8))|Legendary|Damage 22.4 » 24.8\nCooldown 2.6s » 2.4s
+# upgrade: kidney_shot
+408|kidney shot|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 12 » 15.6\nCooldown 6s » 5.6s
+408|kidney shot|Rank 2 » 3|Some((2, 8))|Epic|Damage 15.6 » 19.2\nCooldown 5.6s » 5.2s\nTargets 1 » 2
+408|kidney shot|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 19.2 » 22.8\nCooldown 5.2s » 4.8s
+408|kidney shot|Rank 4 » 5|Some((4, 8))|Epic|Damage 22.8 » 26.4\nCooldown 4.8s » 4.5s\nTargets 2 » 3
+408|kidney shot|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 26.4 » 30\nCooldown 4.5s » 4.2s
+408|kidney shot|Rank 6 » 7|Some((6, 8))|Epic|Damage 30 » 33.6\nCooldown 4.2s » 3.9s\nTargets 3 » 4
+408|kidney shot|Rank 7 » 8|Some((7, 8))|Legendary|Damage 33.6 » 37.2\nCooldown 3.9s » 3.6s
+# upgrade: smite
+585|smite|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 14 » 18.2\nCooldown 1.2s » 1.1s
+585|smite|Rank 2 » 3|Some((2, 8))|Epic|Damage 18.2 » 22.4\nCooldown 1.1s » 1s\nTargets 1 » 2
+585|smite|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 22.4 » 26.6\nCooldown 1s » 1s
+585|smite|Rank 4 » 5|Some((4, 8))|Epic|Damage 26.6 » 30.8\nCooldown 1s » 0.9s\nTargets 2 » 3
+585|smite|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 30.8 » 35\nCooldown 0.9s » 0.8s
+585|smite|Rank 6 » 7|Some((6, 8))|Epic|Damage 35 » 39.2\nCooldown 0.8s » 0.8s\nTargets 3 » 4
+585|smite|Rank 7 » 8|Some((7, 8))|Legendary|Damage 39.2 » 43.4\nCooldown 0.8s » 0.7s
+# upgrade: shadow_word_pain
+589|shadow word pain|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 4 » 5.2\nCooldown 3s » 2.8s\nLasts 9s » 9.9s
+589|shadow word pain|Rank 2 » 3|Some((2, 8))|Epic|Damage 5.2 » 6.4\nCooldown 2.8s » 2.6s\nTargets 3 » 4\nLasts 9.9s » 10.8s
+589|shadow word pain|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 6.4 » 7.6\nCooldown 2.6s » 2.4s\nLasts 10.8s » 11.7s
+589|shadow word pain|Rank 4 » 5|Some((4, 8))|Epic|Damage 7.6 » 8.8\nCooldown 2.4s » 2.2s\nTargets 4 » 5\nLasts 11.7s » 12.6s
+589|shadow word pain|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 8.8 » 10\nCooldown 2.2s » 2.1s\nLasts 12.6s » 13.5s
+589|shadow word pain|Rank 6 » 7|Some((6, 8))|Epic|Damage 10 » 11.2\nCooldown 2.1s » 1.9s\nTargets 5 » 6\nLasts 13.5s » 14.4s
+589|shadow word pain|Rank 7 » 8|Some((7, 8))|Legendary|Damage 11.2 » 12.4\nCooldown 1.9s » 1.8s\nLasts 14.4s » 15.3s
+# upgrade: holy_fire
+14914|holy fire|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 22 » 28.6\nCooldown 3.5s » 3.3s\nLasts 6s » 6.6s
+14914|holy fire|Rank 2 » 3|Some((2, 8))|Epic|Damage 28.6 » 35.2\nCooldown 3.3s » 3s\nTargets 1 » 2\nLasts 6.6s » 7.2s
+14914|holy fire|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 35.2 » 41.8\nCooldown 3s » 2.8s\nLasts 7.2s » 7.8s
+14914|holy fire|Rank 4 » 5|Some((4, 8))|Epic|Damage 41.8 » 48.4\nCooldown 2.8s » 2.6s\nTargets 2 » 3\nLasts 7.8s » 8.4s
+14914|holy fire|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 48.4 » 55\nCooldown 2.6s » 2.4s\nLasts 8.4s » 9s
+14914|holy fire|Rank 6 » 7|Some((6, 8))|Epic|Damage 55 » 61.6\nCooldown 2.4s » 2.3s\nTargets 3 » 4\nLasts 9s » 9.6s
+14914|holy fire|Rank 7 » 8|Some((7, 8))|Legendary|Damage 61.6 » 68.2\nCooldown 2.3s » 2.1s\nLasts 9.6s » 10.2s
+# upgrade: mind_blast
+8092|mind blast|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 32 » 41.6\nCooldown 3.5s » 3.3s
+8092|mind blast|Rank 2 » 3|Some((2, 8))|Epic|Damage 41.6 » 51.2\nCooldown 3.3s » 3s\nTargets 1 » 2
+8092|mind blast|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 51.2 » 60.8\nCooldown 3s » 2.8s
+8092|mind blast|Rank 4 » 5|Some((4, 8))|Epic|Damage 60.8 » 70.4\nCooldown 2.8s » 2.6s\nTargets 2 » 3
+8092|mind blast|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 70.4 » 80\nCooldown 2.6s » 2.4s
+8092|mind blast|Rank 6 » 7|Some((6, 8))|Epic|Damage 80 » 89.6\nCooldown 2.4s » 2.3s\nTargets 3 » 4
+8092|mind blast|Rank 7 » 8|Some((7, 8))|Legendary|Damage 89.6 » 99.2\nCooldown 2.3s » 2.1s
+# upgrade: holy_nova
+15237|holy nova|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 11 » 14.3\nCooldown 3.2s » 3s\nArea 9 » 9.7 yd
+15237|holy nova|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 14.3 » 17.6\nCooldown 3s » 2.8s\nTargets 1 » 2\nArea 9.7 » 10.4 yd
+15237|holy nova|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 17.6 » 20.9\nCooldown 2.8s » 2.6s\nArea 10.4 » 11.2 yd
+15237|holy nova|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 20.9 » 24.2\nCooldown 2.6s » 2.4s\nTargets 2 » 3\nArea 11.2 » 11.9 yd
+15237|holy nova|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 24.2 » 27.5\nCooldown 2.4s » 2.2s\nArea 11.9 » 12.6 yd
+15237|holy nova|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 27.5 » 30.8\nCooldown 2.2s » 2.1s\nTargets 3 » 4\nArea 12.6 » 13.3 yd
+15237|holy nova|Rank 7 » 8|Some((7, 8))|Legendary|Damage 30.8 » 34.1\nCooldown 2.1s » 1.9s\nArea 13.3 » 14 yd
+# upgrade: psychic_scream
+8122|psychic scream|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 2 » 2.6\nCooldown 12s » 11.2s\nArea 8 » 8.6 yd
+8122|psychic scream|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 2.6 » 3.2\nCooldown 11.2s » 10.4s\nTargets 1 » 2\nArea 8.6 » 9.3 yd
+8122|psychic scream|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 3.2 » 3.8\nCooldown 10.4s » 9.7s\nArea 9.3 » 9.9 yd
+8122|psychic scream|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 3.8 » 4.4\nCooldown 9.7s » 9s\nTargets 2 » 3\nArea 9.9 » 10.6 yd
+8122|psychic scream|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 4.4 » 5\nCooldown 9s » 8.3s\nArea 10.6 » 11.2 yd
+8122|psychic scream|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 5 » 5.6\nCooldown 8.3s » 7.8s\nTargets 3 » 4\nArea 11.2 » 11.8 yd
+8122|psychic scream|Rank 7 » 8|Some((7, 8))|Legendary|Damage 5.6 » 6.2\nCooldown 7.8s » 7.2s\nArea 11.8 » 12.5 yd
+# upgrade: power_word_shield
+17|power word shield|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 30 » 39\nCooldown 14s » 13s\nLasts 10s » 11s
+17|power word shield|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 39 » 48\nCooldown 13s » 12.1s\nTargets 1 » 2\nLasts 11s » 12s
+17|power word shield|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 48 » 57\nCooldown 12.1s » 11.3s\nLasts 12s » 13s
+17|power word shield|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 57 » 66\nCooldown 11.3s » 10.5s\nTargets 2 » 3\nLasts 13s » 14s
+17|power word shield|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 66 » 75\nCooldown 10.5s » 9.7s\nLasts 14s » 15s
+17|power word shield|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 75 » 84\nCooldown 9.7s » 9.1s\nTargets 3 » 4\nLasts 15s » 16s
+17|power word shield|Rank 7 » 8|Some((7, 8))|Legendary|Damage 84 » 93\nCooldown 9.1s » 8.4s\nLasts 16s » 17s
+# upgrade: shadow_bolt
+686|shadow bolt|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 15 » 19.5\nCooldown 1.4s » 1.3s
+686|shadow bolt|Rank 2 » 3|Some((2, 8))|Epic|Damage 19.5 » 24\nCooldown 1.3s » 1.2s\nTargets 1 » 2
+686|shadow bolt|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 24 » 28.5\nCooldown 1.2s » 1.1s
+686|shadow bolt|Rank 4 » 5|Some((4, 8))|Epic|Damage 28.5 » 33\nCooldown 1.1s » 1s\nTargets 2 » 3
+686|shadow bolt|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 33 » 37.5\nCooldown 1s » 1s
+686|shadow bolt|Rank 6 » 7|Some((6, 8))|Epic|Damage 37.5 » 42\nCooldown 1s » 0.9s\nTargets 3 » 4
+686|shadow bolt|Rank 7 » 8|Some((7, 8))|Legendary|Damage 42 » 46.5\nCooldown 0.9s » 0.8s
+# upgrade: corruption
+172|corruption|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 4 » 5.2\nCooldown 3s » 2.8s\nLasts 10s » 11s
+172|corruption|Rank 2 » 3|Some((2, 8))|Epic|Damage 5.2 » 6.4\nCooldown 2.8s » 2.6s\nTargets 3 » 4\nLasts 11s » 12s
+172|corruption|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 6.4 » 7.6\nCooldown 2.6s » 2.4s\nLasts 12s » 13s
+172|corruption|Rank 4 » 5|Some((4, 8))|Epic|Damage 7.6 » 8.8\nCooldown 2.4s » 2.2s\nTargets 4 » 5\nLasts 13s » 14s
+172|corruption|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 8.8 » 10\nCooldown 2.2s » 2.1s\nLasts 14s » 15s
+172|corruption|Rank 6 » 7|Some((6, 8))|Epic|Damage 10 » 11.2\nCooldown 2.1s » 1.9s\nTargets 5 » 6\nLasts 15s » 16s
+172|corruption|Rank 7 » 8|Some((7, 8))|Legendary|Damage 11.2 » 12.4\nCooldown 1.9s » 1.8s\nLasts 16s » 17s
+# upgrade: curse_of_agony
+980|curse of agony|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 3.5 » 4.5\nCooldown 2.5s » 2.3s\nLasts 12s » 13.2s
+980|curse of agony|Rank 2 » 3|Some((2, 8))|Epic|Damage 4.5 » 5.6\nCooldown 2.3s » 2.2s\nTargets 4 » 5\nLasts 13.2s » 14.4s
+980|curse of agony|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 5.6 » 6.7\nCooldown 2.2s » 2s\nLasts 14.4s » 15.6s
+980|curse of agony|Rank 4 » 5|Some((4, 8))|Epic|Damage 6.7 » 7.7\nCooldown 2s » 1.9s\nTargets 5 » 6\nLasts 15.6s » 16.8s
+980|curse of agony|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 7.7 » 8.8\nCooldown 1.9s » 1.7s\nLasts 16.8s » 18s
+980|curse of agony|Rank 6 » 7|Some((6, 8))|Epic|Damage 8.8 » 9.8\nCooldown 1.7s » 1.6s\nTargets 6 » 7\nLasts 18s » 19.2s
+980|curse of agony|Rank 7 » 8|Some((7, 8))|Legendary|Damage 9.8 » 10.9\nCooldown 1.6s » 1.5s\nLasts 19.2s » 20.4s
+# upgrade: immolate
+348|immolate|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 12 » 15.6\nCooldown 2.4s » 2.2s\nLasts 9s » 9.9s
+348|immolate|Rank 2 » 3|Some((2, 8))|Epic|Damage 15.6 » 19.2\nCooldown 2.2s » 2.1s\nTargets 2 » 3\nLasts 9.9s » 10.8s
+348|immolate|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 19.2 » 22.8\nCooldown 2.1s » 1.9s\nLasts 10.8s » 11.7s
+348|immolate|Rank 4 » 5|Some((4, 8))|Epic|Damage 22.8 » 26.4\nCooldown 1.9s » 1.8s\nTargets 3 » 4\nLasts 11.7s » 12.6s
+348|immolate|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 26.4 » 30\nCooldown 1.8s » 1.7s\nLasts 12.6s » 13.5s
+348|immolate|Rank 6 » 7|Some((6, 8))|Epic|Damage 30 » 33.6\nCooldown 1.7s » 1.6s\nTargets 4 » 5\nLasts 13.5s » 14.4s
+348|immolate|Rank 7 » 8|Some((7, 8))|Legendary|Damage 33.6 » 37.2\nCooldown 1.6s » 1.4s\nLasts 14.4s » 15.3s
+# upgrade: rain_of_fire
+5740|rain of fire|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 8 » 10.4\nCooldown 9s » 8.4s\nArea 7 » 7.6 yd\nLasts 6s » 6.6s
+5740|rain of fire|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 10.4 » 12.8\nCooldown 8.4s » 7.8s\nTargets 1 » 2\nArea 7.6 » 8.1 yd\nLasts 6.6s » 7.2s
+5740|rain of fire|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 12.8 » 15.2\nCooldown 7.8s » 7.2s\nArea 8.1 » 8.7 yd\nLasts 7.2s » 7.8s
+5740|rain of fire|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 15.2 » 17.6\nCooldown 7.2s » 6.7s\nTargets 2 » 3\nArea 8.7 » 9.2 yd\nLasts 7.8s » 8.4s
+5740|rain of fire|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 17.6 » 20\nCooldown 6.7s » 6.3s\nArea 9.2 » 9.8 yd\nLasts 8.4s » 9s
+5740|rain of fire|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 20 » 22.4\nCooldown 6.3s » 5.8s\nTargets 3 » 4\nArea 9.8 » 10.4 yd\nLasts 9s » 9.6s
+5740|rain of fire|Rank 7 » 8|Some((7, 8))|Legendary|Damage 22.4 » 24.8\nCooldown 5.8s » 5.4s\nArea 10.4 » 10.9 yd\nLasts 9.6s » 10.2s
+# upgrade: hellfire
+5857|hellfire|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 6 » 7.8\nCooldown 1s » 0.9s\nArea 7 » 7.6 yd
+5857|hellfire|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 7.8 » 9.6\nCooldown 0.9s » 0.9s\nTargets 1 » 2\nArea 7.6 » 8.1 yd
+5857|hellfire|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 9.6 » 11.4\nCooldown 0.9s » 0.8s\nArea 8.1 » 8.7 yd
+5857|hellfire|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 11.4 » 13.2\nCooldown 0.8s » 0.7s\nTargets 2 » 3\nArea 8.7 » 9.2 yd
+5857|hellfire|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 13.2 » 15\nCooldown 0.7s » 0.7s\nArea 9.2 » 9.8 yd
+5857|hellfire|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 15 » 16.8\nCooldown 0.7s » 0.6s\nTargets 3 » 4\nArea 9.8 » 10.4 yd
+5857|hellfire|Rank 7 » 8|Some((7, 8))|Legendary|Damage 16.8 » 18.6\nCooldown 0.6s » 0.6s\nArea 10.4 » 10.9 yd
+# upgrade: death_coil
+6789|death coil|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 26 » 33.8\nCooldown 5s » 4.7s
+6789|death coil|Rank 2 » 3|Some((2, 8))|Epic|Damage 33.8 » 41.6\nCooldown 4.7s » 4.3s\nTargets 1 » 2
+6789|death coil|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 41.6 » 49.4\nCooldown 4.3s » 4s
+6789|death coil|Rank 4 » 5|Some((4, 8))|Epic|Damage 49.4 » 57.2\nCooldown 4s » 3.7s\nTargets 2 » 3
+6789|death coil|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 57.2 » 65\nCooldown 3.7s » 3.5s
+6789|death coil|Rank 6 » 7|Some((6, 8))|Epic|Damage 65 » 72.8\nCooldown 3.5s » 3.2s\nTargets 3 » 4
+6789|death coil|Rank 7 » 8|Some((7, 8))|Legendary|Damage 72.8 » 80.6\nCooldown 3.2s » 3s
+# upgrade: searing_pain
+5676|searing pain|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 18 » 23.4\nCooldown 1.8s » 1.7s
+5676|searing pain|Rank 2 » 3|Some((2, 8))|Epic|Damage 23.4 » 28.8\nCooldown 1.7s » 1.6s\nTargets 1 » 2
+5676|searing pain|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 28.8 » 34.2\nCooldown 1.6s » 1.4s
+5676|searing pain|Rank 4 » 5|Some((4, 8))|Epic|Damage 34.2 » 39.6\nCooldown 1.4s » 1.3s\nTargets 2 » 3
+5676|searing pain|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 39.6 » 45\nCooldown 1.3s » 1.3s
+5676|searing pain|Rank 6 » 7|Some((6, 8))|Epic|Damage 45 » 50.4\nCooldown 1.3s » 1.2s\nTargets 3 » 4
+5676|searing pain|Rank 7 » 8|Some((7, 8))|Legendary|Damage 50.4 » 55.8\nCooldown 1.2s » 1.1s
+# upgrade: shadowburn
+17877|shadowburn|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 46 » 59.8\nCooldown 5s » 4.7s
+17877|shadowburn|Rank 2 » 3|Some((2, 8))|Epic|Damage 59.8 » 73.6\nCooldown 4.7s » 4.3s\nTargets 1 » 2
+17877|shadowburn|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 73.6 » 87.4\nCooldown 4.3s » 4s
+17877|shadowburn|Rank 4 » 5|Some((4, 8))|Epic|Damage 87.4 » 101.2\nCooldown 4s » 3.7s\nTargets 2 » 3
+17877|shadowburn|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 101.2 » 115\nCooldown 3.7s » 3.5s
+17877|shadowburn|Rank 6 » 7|Some((6, 8))|Epic|Damage 115 » 128.8\nCooldown 3.5s » 3.2s\nTargets 3 » 4
+17877|shadowburn|Rank 7 » 8|Some((7, 8))|Legendary|Damage 128.8 » 142.6\nCooldown 3.2s » 3s
+# upgrade: arcane_shot
+3044|arcane shot|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 13 » 16.9\nCooldown 1s » 0.9s
+3044|arcane shot|Rank 2 » 3|Some((2, 8))|Epic|Damage 16.9 » 20.8\nCooldown 0.9s » 0.9s\nTargets 1 » 2
+3044|arcane shot|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 20.8 » 24.7\nCooldown 0.9s » 0.8s
+3044|arcane shot|Rank 4 » 5|Some((4, 8))|Epic|Damage 24.7 » 28.6\nCooldown 0.8s » 0.7s\nTargets 2 » 3
+3044|arcane shot|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 28.6 » 32.5\nCooldown 0.7s » 0.7s
+3044|arcane shot|Rank 6 » 7|Some((6, 8))|Epic|Damage 32.5 » 36.4\nCooldown 0.7s » 0.6s\nTargets 3 » 4
+3044|arcane shot|Rank 7 » 8|Some((7, 8))|Legendary|Damage 36.4 » 40.3\nCooldown 0.6s » 0.6s
+# upgrade: multi_shot
+2643|multi shot|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 10 » 13\nCooldown 2s » 1.9s
+2643|multi shot|Rank 2 » 3|Some((2, 8))|Epic|Damage 13 » 16\nCooldown 1.9s » 1.7s\nTargets 3 » 4
+2643|multi shot|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 16 » 19\nCooldown 1.7s » 1.6s
+2643|multi shot|Rank 4 » 5|Some((4, 8))|Epic|Damage 19 » 22\nCooldown 1.6s » 1.5s\nTargets 4 » 5
+2643|multi shot|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 22 » 25\nCooldown 1.5s » 1.4s
+2643|multi shot|Rank 6 » 7|Some((6, 8))|Epic|Damage 25 » 28\nCooldown 1.4s » 1.3s\nTargets 5 » 6
+2643|multi shot|Rank 7 » 8|Some((7, 8))|Legendary|Damage 28 » 31\nCooldown 1.3s » 1.2s
+# upgrade: serpent_sting
+1978|serpent sting|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 2 » 2.6\nCooldown 2.6s » 2.4s\nLasts 9s » 9.9s
+1978|serpent sting|Rank 2 » 3|Some((2, 8))|Epic|Damage 2.6 » 3.2\nCooldown 2.4s » 2.2s\nTargets 2 » 3\nLasts 9.9s » 10.8s
+1978|serpent sting|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 3.2 » 3.8\nCooldown 2.2s » 2.1s\nLasts 10.8s » 11.7s
+1978|serpent sting|Rank 4 » 5|Some((4, 8))|Epic|Damage 3.8 » 4.4\nCooldown 2.1s » 1.9s\nTargets 3 » 4\nLasts 11.7s » 12.6s
+1978|serpent sting|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 4.4 » 5\nCooldown 1.9s » 1.8s\nLasts 12.6s » 13.5s
+1978|serpent sting|Rank 6 » 7|Some((6, 8))|Epic|Damage 5 » 5.6\nCooldown 1.8s » 1.7s\nTargets 4 » 5\nLasts 13.5s » 14.4s
+1978|serpent sting|Rank 7 » 8|Some((7, 8))|Legendary|Damage 5.6 » 6.2\nCooldown 1.7s » 1.6s\nLasts 14.4s » 15.3s
+# upgrade: volley
+1510|volley|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 8 » 10.4\nCooldown 9s » 8.4s\nArea 7 » 7.6 yd\nLasts 5s » 5.5s
+1510|volley|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 10.4 » 12.8\nCooldown 8.4s » 7.8s\nTargets 1 » 2\nArea 7.6 » 8.1 yd\nLasts 5.5s » 6s
+1510|volley|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 12.8 » 15.2\nCooldown 7.8s » 7.2s\nArea 8.1 » 8.7 yd\nLasts 6s » 6.5s
+1510|volley|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 15.2 » 17.6\nCooldown 7.2s » 6.7s\nTargets 2 » 3\nArea 8.7 » 9.2 yd\nLasts 6.5s » 7s
+1510|volley|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 17.6 » 20\nCooldown 6.7s » 6.3s\nArea 9.2 » 9.8 yd\nLasts 7s » 7.5s
+1510|volley|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 20 » 22.4\nCooldown 6.3s » 5.8s\nTargets 3 » 4\nArea 9.8 » 10.4 yd\nLasts 7.5s » 8s
+1510|volley|Rank 7 » 8|Some((7, 8))|Legendary|Damage 22.4 » 24.8\nCooldown 5.8s » 5.4s\nArea 10.4 » 10.9 yd\nLasts 8s » 8.5s
+# upgrade: explosive_trap
+13812|explosive trap|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 22 » 28.6\nCooldown 8s » 7.4s\nArea 5 » 5.4 yd
+13812|explosive trap|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 28.6 » 35.2\nCooldown 7.4s » 6.9s\nTargets 1 » 2\nArea 5.4 » 5.8 yd
+13812|explosive trap|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 35.2 » 41.8\nCooldown 6.9s » 6.4s\nArea 5.8 » 6.2 yd
+13812|explosive trap|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 41.8 » 48.4\nCooldown 6.4s » 6s\nTargets 2 » 3\nArea 6.2 » 6.6 yd
+13812|explosive trap|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 48.4 » 55\nCooldown 6s » 5.6s\nArea 6.6 » 7 yd
+13812|explosive trap|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 55 » 61.6\nCooldown 5.6s » 5.2s\nTargets 3 » 4\nArea 7 » 7.4 yd
+13812|explosive trap|Rank 7 » 8|Some((7, 8))|Legendary|Damage 61.6 » 68.2\nCooldown 5.2s » 4.8s\nArea 7.4 » 7.8 yd
+# upgrade: concussive_shot
+5116|concussive shot|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 8 » 10.4\nCooldown 3s » 2.8s
+5116|concussive shot|Rank 2 » 3|Some((2, 8))|Epic|Damage 10.4 » 12.8\nCooldown 2.8s » 2.6s\nTargets 1 » 2
+5116|concussive shot|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 12.8 » 15.2\nCooldown 2.6s » 2.4s
+5116|concussive shot|Rank 4 » 5|Some((4, 8))|Epic|Damage 15.2 » 17.6\nCooldown 2.4s » 2.2s\nTargets 2 » 3
+5116|concussive shot|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 17.6 » 20\nCooldown 2.2s » 2.1s
+5116|concussive shot|Rank 6 » 7|Some((6, 8))|Epic|Damage 20 » 22.4\nCooldown 2.1s » 1.9s\nTargets 3 » 4
+5116|concussive shot|Rank 7 » 8|Some((7, 8))|Legendary|Damage 22.4 » 24.8\nCooldown 1.9s » 1.8s
+# upgrade: aimed_shot
+19434|aimed shot|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 48 » 62.4\nCooldown 4s » 3.7s
+19434|aimed shot|Rank 2 » 3|Some((2, 8))|Epic|Damage 62.4 » 76.8\nCooldown 3.7s » 3.5s\nTargets 1 » 2
+19434|aimed shot|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 76.8 » 91.2\nCooldown 3.5s » 3.2s
+19434|aimed shot|Rank 4 » 5|Some((4, 8))|Epic|Damage 91.2 » 105.6\nCooldown 3.2s » 3s\nTargets 2 » 3
+19434|aimed shot|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 105.6 » 120\nCooldown 3s » 2.8s
+19434|aimed shot|Rank 6 » 7|Some((6, 8))|Epic|Damage 120 » 134.4\nCooldown 2.8s » 2.6s\nTargets 3 » 4
+19434|aimed shot|Rank 7 » 8|Some((7, 8))|Legendary|Damage 134.4 » 148.8\nCooldown 2.6s » 2.4s
+# upgrade: lightning_bolt
+403|lightning bolt|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 15 » 19.5\nCooldown 1.3s » 1.2s
+403|lightning bolt|Rank 2 » 3|Some((2, 8))|Epic|Damage 19.5 » 24\nCooldown 1.2s » 1.1s\nTargets 1 » 2
+403|lightning bolt|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 24 » 28.5\nCooldown 1.1s » 1s
+403|lightning bolt|Rank 4 » 5|Some((4, 8))|Epic|Damage 28.5 » 33\nCooldown 1s » 1s\nTargets 2 » 3
+403|lightning bolt|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 33 » 37.5\nCooldown 1s » 0.9s
+403|lightning bolt|Rank 6 » 7|Some((6, 8))|Epic|Damage 37.5 » 42\nCooldown 0.9s » 0.8s\nTargets 3 » 4
+403|lightning bolt|Rank 7 » 8|Some((7, 8))|Legendary|Damage 42 » 46.5\nCooldown 0.8s » 0.8s
+# upgrade: chain_lightning
+421|chain lightning|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 18 » 23.4\nCooldown 3s » 2.8s\nArea 9 » 9.7 yd
+421|chain lightning|Rank 2 » 3|Some((2, 8))|Epic|Damage 23.4 » 28.8\nCooldown 2.8s » 2.6s\nTargets 3 » 4\nArea 9.7 » 10.4 yd
+421|chain lightning|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 28.8 » 34.2\nCooldown 2.6s » 2.4s\nArea 10.4 » 11.2 yd
+421|chain lightning|Rank 4 » 5|Some((4, 8))|Epic|Damage 34.2 » 39.6\nCooldown 2.4s » 2.2s\nTargets 4 » 5\nArea 11.2 » 11.9 yd
+421|chain lightning|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 39.6 » 45\nCooldown 2.2s » 2.1s\nArea 11.9 » 12.6 yd
+421|chain lightning|Rank 6 » 7|Some((6, 8))|Epic|Damage 45 » 50.4\nCooldown 2.1s » 1.9s\nTargets 5 » 6\nArea 12.6 » 13.3 yd
+421|chain lightning|Rank 7 » 8|Some((7, 8))|Legendary|Damage 50.4 » 55.8\nCooldown 1.9s » 1.8s\nArea 13.3 » 14 yd
+# upgrade: earth_shock
+8042|earth shock|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 22 » 28.6\nCooldown 2.5s » 2.3s
+8042|earth shock|Rank 2 » 3|Some((2, 8))|Epic|Damage 28.6 » 35.2\nCooldown 2.3s » 2.2s\nTargets 1 » 2
+8042|earth shock|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 35.2 » 41.8\nCooldown 2.2s » 2s
+8042|earth shock|Rank 4 » 5|Some((4, 8))|Epic|Damage 41.8 » 48.4\nCooldown 2s » 1.9s\nTargets 2 » 3
+8042|earth shock|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 48.4 » 55\nCooldown 1.9s » 1.7s
+8042|earth shock|Rank 6 » 7|Some((6, 8))|Epic|Damage 55 » 61.6\nCooldown 1.7s » 1.6s\nTargets 3 » 4
+8042|earth shock|Rank 7 » 8|Some((7, 8))|Legendary|Damage 61.6 » 68.2\nCooldown 1.6s » 1.5s
+# upgrade: flame_shock
+8050|flame shock|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 10 » 13\nCooldown 3s » 2.8s\nLasts 9s » 9.9s
+8050|flame shock|Rank 2 » 3|Some((2, 8))|Epic|Damage 13 » 16\nCooldown 2.8s » 2.6s\nTargets 2 » 3\nLasts 9.9s » 10.8s
+8050|flame shock|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 16 » 19\nCooldown 2.6s » 2.4s\nLasts 10.8s » 11.7s
+8050|flame shock|Rank 4 » 5|Some((4, 8))|Epic|Damage 19 » 22\nCooldown 2.4s » 2.2s\nTargets 3 » 4\nLasts 11.7s » 12.6s
+8050|flame shock|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 22 » 25\nCooldown 2.2s » 2.1s\nLasts 12.6s » 13.5s
+8050|flame shock|Rank 6 » 7|Some((6, 8))|Epic|Damage 25 » 28\nCooldown 2.1s » 1.9s\nTargets 4 » 5\nLasts 13.5s » 14.4s
+8050|flame shock|Rank 7 » 8|Some((7, 8))|Legendary|Damage 28 » 31\nCooldown 1.9s » 1.8s\nLasts 14.4s » 15.3s
+# upgrade: frost_shock
+8056|frost shock|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 16 » 20.8\nCooldown 3s » 2.8s
+8056|frost shock|Rank 2 » 3|Some((2, 8))|Epic|Damage 20.8 » 25.6\nCooldown 2.8s » 2.6s\nTargets 1 » 2
+8056|frost shock|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 25.6 » 30.4\nCooldown 2.6s » 2.4s
+8056|frost shock|Rank 4 » 5|Some((4, 8))|Epic|Damage 30.4 » 35.2\nCooldown 2.4s » 2.2s\nTargets 2 » 3
+8056|frost shock|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 35.2 » 40\nCooldown 2.2s » 2.1s
+8056|frost shock|Rank 6 » 7|Some((6, 8))|Epic|Damage 40 » 44.8\nCooldown 2.1s » 1.9s\nTargets 3 » 4
+8056|frost shock|Rank 7 » 8|Some((7, 8))|Legendary|Damage 44.8 » 49.6\nCooldown 1.9s » 1.8s
+# upgrade: searing_totem
+3599|searing totem|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 9 » 11.7\nCooldown 14s » 13s\nLasts 14s » 15.4s
+3599|searing totem|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 11.7 » 14.4\nCooldown 13s » 12.1s\nTargets 1 » 2\nLasts 15.4s » 16.8s
+3599|searing totem|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 14.4 » 17.1\nCooldown 12.1s » 11.3s\nLasts 16.8s » 18.2s
+3599|searing totem|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 17.1 » 19.8\nCooldown 11.3s » 10.5s\nTargets 2 » 3\nLasts 18.2s » 19.6s
+3599|searing totem|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 19.8 » 22.5\nCooldown 10.5s » 9.7s\nLasts 19.6s » 21s
+3599|searing totem|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 22.5 » 25.2\nCooldown 9.7s » 9.1s\nTargets 3 » 4\nLasts 21s » 22.4s
+3599|searing totem|Rank 7 » 8|Some((7, 8))|Legendary|Damage 25.2 » 27.9\nCooldown 9.1s » 8.4s\nLasts 22.4s » 23.8s
+# upgrade: magma_totem
+8190|magma totem|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 8 » 10.4\nCooldown 16s » 14.9s\nArea 7 » 7.6 yd\nLasts 14s » 15.4s
+8190|magma totem|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 10.4 » 12.8\nCooldown 14.9s » 13.8s\nTargets 1 » 2\nArea 7.6 » 8.1 yd\nLasts 15.4s » 16.8s
+8190|magma totem|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 12.8 » 15.2\nCooldown 13.8s » 12.9s\nArea 8.1 » 8.7 yd\nLasts 16.8s » 18.2s
+8190|magma totem|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 15.2 » 17.6\nCooldown 12.9s » 12s\nTargets 2 » 3\nArea 8.7 » 9.2 yd\nLasts 18.2s » 19.6s
+8190|magma totem|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 17.6 » 20\nCooldown 12s » 11.1s\nArea 9.2 » 9.8 yd\nLasts 19.6s » 21s
+8190|magma totem|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 20 » 22.4\nCooldown 11.1s » 10.4s\nTargets 3 » 4\nArea 9.8 » 10.4 yd\nLasts 21s » 22.4s
+8190|magma totem|Rank 7 » 8|Some((7, 8))|Legendary|Damage 22.4 » 24.8\nCooldown 10.4s » 9.6s\nArea 10.4 » 10.9 yd\nLasts 22.4s » 23.8s
+# upgrade: lightning_shield
+324|lightning shield|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 12 » 15.6\nCooldown 0.9s » 0.8s\nArea 4 » 4.3 yd
+324|lightning shield|Rank 2 » 3|Some((2, 8))|Epic|Damage 15.6 » 19.2\nCooldown 0.8s » 0.8s\nTargets 1 » 2\nArea 4.3 » 4.6 yd
+324|lightning shield|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 19.2 » 22.8\nCooldown 0.8s » 0.7s\nArea 4.6 » 5 yd
+324|lightning shield|Rank 4 » 5|Some((4, 8))|Epic|Damage 22.8 » 26.4\nCooldown 0.7s » 0.7s\nTargets 2 » 3\nArea 5 » 5.3 yd
+324|lightning shield|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 26.4 » 30\nCooldown 0.7s » 0.6s\nArea 5.3 » 5.6 yd
+324|lightning shield|Rank 6 » 7|Some((6, 8))|Epic|Damage 30 » 33.6\nCooldown 0.6s » 0.6s\nTargets 3 » 4\nArea 5.6 » 5.9 yd
+324|lightning shield|Rank 7 » 8|Some((7, 8))|Legendary|Damage 33.6 » 37.2\nCooldown 0.6s » 0.5s\nArea 5.9 » 6.2 yd
+# upgrade: hammer_of_wrath
+24275|hammer of wrath|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 16 » 20.8\nCooldown 1.5s » 1.4s
+24275|hammer of wrath|Rank 2 » 3|Some((2, 8))|Epic|Damage 20.8 » 25.6\nCooldown 1.4s » 1.3s\nTargets 1 » 2
+24275|hammer of wrath|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 25.6 » 30.4\nCooldown 1.3s » 1.2s
+24275|hammer of wrath|Rank 4 » 5|Some((4, 8))|Epic|Damage 30.4 » 35.2\nCooldown 1.2s » 1.1s\nTargets 2 » 3
+24275|hammer of wrath|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 35.2 » 40\nCooldown 1.1s » 1s
+24275|hammer of wrath|Rank 6 » 7|Some((6, 8))|Epic|Damage 40 » 44.8\nCooldown 1s » 1s\nTargets 3 » 4
+24275|hammer of wrath|Rank 7 » 8|Some((7, 8))|Legendary|Damage 44.8 » 49.6\nCooldown 1s » 0.9s
+# upgrade: consecration
+26573|consecration|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 7 » 9.1\nCooldown 9s » 8.4s\nArea 7 » 7.6 yd\nLasts 8s » 8.8s
+26573|consecration|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 9.1 » 11.2\nCooldown 8.4s » 7.8s\nTargets 1 » 2\nArea 7.6 » 8.1 yd\nLasts 8.8s » 9.6s
+26573|consecration|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 11.2 » 13.3\nCooldown 7.8s » 7.2s\nArea 8.1 » 8.7 yd\nLasts 9.6s » 10.4s
+26573|consecration|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 13.3 » 15.4\nCooldown 7.2s » 6.7s\nTargets 2 » 3\nArea 8.7 » 9.2 yd\nLasts 10.4s » 11.2s
+26573|consecration|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 15.4 » 17.5\nCooldown 6.7s » 6.3s\nArea 9.2 » 9.8 yd\nLasts 11.2s » 12s
+26573|consecration|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 17.5 » 19.6\nCooldown 6.3s » 5.8s\nTargets 3 » 4\nArea 9.8 » 10.4 yd\nLasts 12s » 12.8s
+26573|consecration|Rank 7 » 8|Some((7, 8))|Legendary|Damage 19.6 » 21.7\nCooldown 5.8s » 5.4s\nArea 10.4 » 10.9 yd\nLasts 12.8s » 13.6s
+# upgrade: holy_shock
+25912|holy shock|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 24 » 31.2\nCooldown 2.5s » 2.3s
+25912|holy shock|Rank 2 » 3|Some((2, 8))|Epic|Damage 31.2 » 38.4\nCooldown 2.3s » 2.2s\nTargets 1 » 2
+25912|holy shock|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 38.4 » 45.6\nCooldown 2.2s » 2s
+25912|holy shock|Rank 4 » 5|Some((4, 8))|Epic|Damage 45.6 » 52.8\nCooldown 2s » 1.9s\nTargets 2 » 3
+25912|holy shock|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 52.8 » 60\nCooldown 1.9s » 1.7s
+25912|holy shock|Rank 6 » 7|Some((6, 8))|Epic|Damage 60 » 67.2\nCooldown 1.7s » 1.6s\nTargets 3 » 4
+25912|holy shock|Rank 7 » 8|Some((7, 8))|Legendary|Damage 67.2 » 74.4\nCooldown 1.6s » 1.5s
+# upgrade: exorcism
+879|exorcism|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 36 » 46.8\nCooldown 5s » 4.7s
+879|exorcism|Rank 2 » 3|Some((2, 8))|Epic|Damage 46.8 » 57.6\nCooldown 4.7s » 4.3s\nTargets 1 » 2
+879|exorcism|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 57.6 » 68.4\nCooldown 4.3s » 4s
+879|exorcism|Rank 4 » 5|Some((4, 8))|Epic|Damage 68.4 » 79.2\nCooldown 4s » 3.7s\nTargets 2 » 3
+879|exorcism|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 79.2 » 90\nCooldown 3.7s » 3.5s
+879|exorcism|Rank 6 » 7|Some((6, 8))|Epic|Damage 90 » 100.8\nCooldown 3.5s » 3.2s\nTargets 3 » 4
+879|exorcism|Rank 7 » 8|Some((7, 8))|Legendary|Damage 100.8 » 111.6\nCooldown 3.2s » 3s
+# upgrade: holy_wrath
+2812|holy wrath|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 14 » 18.2\nCooldown 5s » 4.7s\nArea 11 » 11.9 yd
+2812|holy wrath|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 18.2 » 22.4\nCooldown 4.7s » 4.3s\nTargets 1 » 2\nArea 11.9 » 12.8 yd
+2812|holy wrath|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 22.4 » 26.6\nCooldown 4.3s » 4s\nArea 12.8 » 13.6 yd
+2812|holy wrath|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 26.6 » 30.8\nCooldown 4s » 3.7s\nTargets 2 » 3\nArea 13.6 » 14.5 yd
+2812|holy wrath|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 30.8 » 35\nCooldown 3.7s » 3.5s\nArea 14.5 » 15.4 yd
+2812|holy wrath|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 35 » 39.2\nCooldown 3.5s » 3.2s\nTargets 3 » 4\nArea 15.4 » 16.3 yd
+2812|holy wrath|Rank 7 » 8|Some((7, 8))|Legendary|Damage 39.2 » 43.4\nCooldown 3.2s » 3s\nArea 16.3 » 17.2 yd
+# upgrade: hammer_of_justice
+853|hammer of justice|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 8 » 10.4\nCooldown 6s » 5.6s
+853|hammer of justice|Rank 2 » 3|Some((2, 8))|Epic|Damage 10.4 » 12.8\nCooldown 5.6s » 5.2s\nTargets 2 » 3
+853|hammer of justice|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 12.8 » 15.2\nCooldown 5.2s » 4.8s
+853|hammer of justice|Rank 4 » 5|Some((4, 8))|Epic|Damage 15.2 » 17.6\nCooldown 4.8s » 4.5s\nTargets 3 » 4
+853|hammer of justice|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 17.6 » 20\nCooldown 4.5s » 4.2s
+853|hammer of justice|Rank 6 » 7|Some((6, 8))|Epic|Damage 20 » 22.4\nCooldown 4.2s » 3.9s\nTargets 4 » 5
+853|hammer of justice|Rank 7 » 8|Some((7, 8))|Legendary|Damage 22.4 » 24.8\nCooldown 3.9s » 3.6s
+# upgrade: divine_shield
+642|divine shield|Rank 1 » 2|Some((1, 8))|Uncommon|Cooldown 28s » 26s\nLasts 4s » 4.4s
+642|divine shield|Rank 2 » 3|Some((2, 8))|Uncommon|Cooldown 26s » 24.2s\nTargets 1 » 2\nLasts 4.4s » 4.8s
+642|divine shield|Rank 3 » 4|Some((3, 8))|Uncommon|Cooldown 24.2s » 22.5s\nLasts 4.8s » 5.2s
+642|divine shield|Rank 4 » 5|Some((4, 8))|Uncommon|Cooldown 22.5s » 20.9s\nTargets 2 » 3\nLasts 5.2s » 5.6s
+642|divine shield|Rank 5 » 6|Some((5, 8))|Uncommon|Cooldown 20.9s » 19.5s\nLasts 5.6s » 6s
+642|divine shield|Rank 6 » 7|Some((6, 8))|Uncommon|Cooldown 19.5s » 18.1s\nTargets 3 » 4\nLasts 6s » 6.4s
+642|divine shield|Rank 7 » 8|Some((7, 8))|Legendary|Cooldown 18.1s » 16.8s\nLasts 6.4s » 6.8s
+# upgrade: judgement
+20271|judgement|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 26 » 33.8\nCooldown 4s » 3.7s
+20271|judgement|Rank 2 » 3|Some((2, 8))|Epic|Damage 33.8 » 41.6\nCooldown 3.7s » 3.5s\nTargets 2 » 3
+20271|judgement|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 41.6 » 49.4\nCooldown 3.5s » 3.2s
+20271|judgement|Rank 4 » 5|Some((4, 8))|Epic|Damage 49.4 » 57.2\nCooldown 3.2s » 3s\nTargets 3 » 4
+20271|judgement|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 57.2 » 65\nCooldown 3s » 2.8s
+20271|judgement|Rank 6 » 7|Some((6, 8))|Epic|Damage 65 » 72.8\nCooldown 2.8s » 2.6s\nTargets 4 » 5
+20271|judgement|Rank 7 » 8|Some((7, 8))|Legendary|Damage 72.8 » 80.6\nCooldown 2.6s » 2.4s
+# upgrade: wrath
+5176|wrath|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 13 » 16.9\nCooldown 1.2s » 1.1s
+5176|wrath|Rank 2 » 3|Some((2, 8))|Epic|Damage 16.9 » 20.8\nCooldown 1.1s » 1s\nTargets 1 » 2
+5176|wrath|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 20.8 » 24.7\nCooldown 1s » 1s
+5176|wrath|Rank 4 » 5|Some((4, 8))|Epic|Damage 24.7 » 28.6\nCooldown 1s » 0.9s\nTargets 2 » 3
+5176|wrath|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 28.6 » 32.5\nCooldown 0.9s » 0.8s
+5176|wrath|Rank 6 » 7|Some((6, 8))|Epic|Damage 32.5 » 36.4\nCooldown 0.8s » 0.8s\nTargets 3 » 4
+5176|wrath|Rank 7 » 8|Some((7, 8))|Legendary|Damage 36.4 » 40.3\nCooldown 0.8s » 0.7s
+# upgrade: moonfire
+8921|moonfire|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 10 » 13\nCooldown 2s » 1.9s\nLasts 9s » 9.9s
+8921|moonfire|Rank 2 » 3|Some((2, 8))|Epic|Damage 13 » 16\nCooldown 1.9s » 1.7s\nTargets 2 » 3\nLasts 9.9s » 10.8s
+8921|moonfire|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 16 » 19\nCooldown 1.7s » 1.6s\nLasts 10.8s » 11.7s
+8921|moonfire|Rank 4 » 5|Some((4, 8))|Epic|Damage 19 » 22\nCooldown 1.6s » 1.5s\nTargets 3 » 4\nLasts 11.7s » 12.6s
+8921|moonfire|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 22 » 25\nCooldown 1.5s » 1.4s\nLasts 12.6s » 13.5s
+8921|moonfire|Rank 6 » 7|Some((6, 8))|Epic|Damage 25 » 28\nCooldown 1.4s » 1.3s\nTargets 4 » 5\nLasts 13.5s » 14.4s
+8921|moonfire|Rank 7 » 8|Some((7, 8))|Legendary|Damage 28 » 31\nCooldown 1.3s » 1.2s\nLasts 14.4s » 15.3s
+# upgrade: starfire
+2912|starfire|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 40 » 52\nCooldown 4s » 3.7s
+2912|starfire|Rank 2 » 3|Some((2, 8))|Epic|Damage 52 » 64\nCooldown 3.7s » 3.5s\nTargets 1 » 2
+2912|starfire|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 64 » 76\nCooldown 3.5s » 3.2s
+2912|starfire|Rank 4 » 5|Some((4, 8))|Epic|Damage 76 » 88\nCooldown 3.2s » 3s\nTargets 2 » 3
+2912|starfire|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 88 » 100\nCooldown 3s » 2.8s
+2912|starfire|Rank 6 » 7|Some((6, 8))|Epic|Damage 100 » 112\nCooldown 2.8s » 2.6s\nTargets 3 » 4
+2912|starfire|Rank 7 » 8|Some((7, 8))|Legendary|Damage 112 » 124\nCooldown 2.6s » 2.4s
+# upgrade: hurricane
+16914|hurricane|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 7 » 9.1\nCooldown 10s » 9.3s\nArea 8 » 8.6 yd\nLasts 7s » 7.7s
+16914|hurricane|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 9.1 » 11.2\nCooldown 9.3s » 8.6s\nTargets 1 » 2\nArea 8.6 » 9.3 yd\nLasts 7.7s » 8.4s
+16914|hurricane|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 11.2 » 13.3\nCooldown 8.6s » 8s\nArea 9.3 » 9.9 yd\nLasts 8.4s » 9.1s
+16914|hurricane|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 13.3 » 15.4\nCooldown 8s » 7.5s\nTargets 2 » 3\nArea 9.9 » 10.6 yd\nLasts 9.1s » 9.8s
+16914|hurricane|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 15.4 » 17.5\nCooldown 7.5s » 7s\nArea 10.6 » 11.2 yd\nLasts 9.8s » 10.5s
+16914|hurricane|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 17.5 » 19.6\nCooldown 7s » 6.5s\nTargets 3 » 4\nArea 11.2 » 11.8 yd\nLasts 10.5s » 11.2s
+16914|hurricane|Rank 7 » 8|Some((7, 8))|Legendary|Damage 19.6 » 21.7\nCooldown 6.5s » 6s\nArea 11.8 » 12.5 yd\nLasts 11.2s » 11.9s
+# upgrade: insect_swarm
+5570|insect swarm|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 4 » 5.2\nCooldown 3s » 2.8s\nLasts 10s » 11s
+5570|insect swarm|Rank 2 » 3|Some((2, 8))|Epic|Damage 5.2 » 6.4\nCooldown 2.8s » 2.6s\nTargets 3 » 4\nLasts 11s » 12s
+5570|insect swarm|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 6.4 » 7.6\nCooldown 2.6s » 2.4s\nLasts 12s » 13s
+5570|insect swarm|Rank 4 » 5|Some((4, 8))|Epic|Damage 7.6 » 8.8\nCooldown 2.4s » 2.2s\nTargets 4 » 5\nLasts 13s » 14s
+5570|insect swarm|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 8.8 » 10\nCooldown 2.2s » 2.1s\nLasts 14s » 15s
+5570|insect swarm|Rank 6 » 7|Some((6, 8))|Epic|Damage 10 » 11.2\nCooldown 2.1s » 1.9s\nTargets 5 » 6\nLasts 15s » 16s
+5570|insect swarm|Rank 7 » 8|Some((7, 8))|Legendary|Damage 11.2 » 12.4\nCooldown 1.9s » 1.8s\nLasts 16s » 17s
+# upgrade: entangling_roots
+339|entangling roots|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 2 » 2.6\nCooldown 6s » 5.6s\nLasts 5s » 5.5s
+339|entangling roots|Rank 2 » 3|Some((2, 8))|Epic|Damage 2.6 » 3.2\nCooldown 5.6s » 5.2s\nTargets 4 » 5\nLasts 5.5s » 6s
+339|entangling roots|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 3.2 » 3.8\nCooldown 5.2s » 4.8s\nLasts 6s » 6.5s
+339|entangling roots|Rank 4 » 5|Some((4, 8))|Epic|Damage 3.8 » 4.4\nCooldown 4.8s » 4.5s\nTargets 5 » 6\nLasts 6.5s » 7s
+339|entangling roots|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 4.4 » 5\nCooldown 4.5s » 4.2s\nLasts 7s » 7.5s
+339|entangling roots|Rank 6 » 7|Some((6, 8))|Epic|Damage 5 » 5.6\nCooldown 4.2s » 3.9s\nTargets 6 » 7\nLasts 7.5s » 8s
+339|entangling roots|Rank 7 » 8|Some((7, 8))|Legendary|Damage 5.6 » 6.2\nCooldown 3.9s » 3.6s\nLasts 8s » 8.5s
+# upgrade: thorns
+467|thorns|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 8 » 10.4\nCooldown 15s » 13.9s\nLasts 15s » 16.5s
+467|thorns|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 10.4 » 12.8\nCooldown 13.9s » 13s\nTargets 1 » 2\nLasts 16.5s » 18s
+467|thorns|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 12.8 » 15.2\nCooldown 13s » 12.1s\nLasts 18s » 19.5s
+467|thorns|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 15.2 » 17.6\nCooldown 12.1s » 11.2s\nTargets 2 » 3\nLasts 19.5s » 21s
+467|thorns|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 17.6 » 20\nCooldown 11.2s » 10.4s\nLasts 21s » 22.5s
+467|thorns|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 20 » 22.4\nCooldown 10.4s » 9.7s\nTargets 3 » 4\nLasts 22.5s » 24s
+467|thorns|Rank 7 » 8|Some((7, 8))|Legendary|Damage 22.4 » 24.8\nCooldown 9.7s » 9s\nLasts 24s » 25.5s
+# upgrade: rejuvenation
+774|rejuvenation|Rank 1 » 2|Some((1, 8))|Uncommon|Damage 30 » 39\nCooldown 15s » 13.9s\nLasts 10s » 11s
+774|rejuvenation|Rank 2 » 3|Some((2, 8))|Uncommon|Damage 39 » 48\nCooldown 13.9s » 13s\nTargets 1 » 2\nLasts 11s » 12s
+774|rejuvenation|Rank 3 » 4|Some((3, 8))|Uncommon|Damage 48 » 57\nCooldown 13s » 12.1s\nLasts 12s » 13s
+774|rejuvenation|Rank 4 » 5|Some((4, 8))|Uncommon|Damage 57 » 66\nCooldown 12.1s » 11.2s\nTargets 2 » 3\nLasts 13s » 14s
+774|rejuvenation|Rank 5 » 6|Some((5, 8))|Uncommon|Damage 66 » 75\nCooldown 11.2s » 10.4s\nLasts 14s » 15s
+774|rejuvenation|Rank 6 » 7|Some((6, 8))|Uncommon|Damage 75 » 84\nCooldown 10.4s » 9.7s\nTargets 3 » 4\nLasts 15s » 16s
+774|rejuvenation|Rank 7 » 8|Some((7, 8))|Legendary|Damage 84 » 93\nCooldown 9.7s » 9s\nLasts 16s » 17s

@@ -8,7 +8,7 @@ use bevy::ui::RelativeCursorPosition;
 
 use super::data::{self, Kind};
 use super::hud::{self, Choice, HudFont, Offer, SpellIcon};
-use super::{Phase, Rng, Run};
+use super::{Owned, Phase, Rng, Run};
 
 /// WoW's item-quality colours (`ITEM_QUALITY_COLORS`).
 pub(super) const COMMON: Color = Color::srgb(1.0, 1.0, 1.0);
@@ -111,7 +111,14 @@ pub(super) fn rarity(choice: Choice, run: &Run) -> Rarity {
         Choice::Upgrade(k) => {
             let o = &run.abilities[k];
             let next = o.level + 1;
-            let targets = [3, 5, 7].contains(&next)
+            let gains = Owned {
+                def: o.def,
+                level: next,
+                cd: 0.0,
+            }
+            .count()
+                > o.count();
+            let targets = gains
                 && matches!(
                     o.def.kind,
                     Kind::Bolt | Kind::Strike | Kind::Melee | Kind::Dot | Kind::Chain | Kind::Orbit
